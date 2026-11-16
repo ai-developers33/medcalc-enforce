@@ -2,24 +2,36 @@
 
 The release contains 124 official cases and 48 distractor cases evaluated with five models, for 620 official and 240 distractor workflows. The 64-case out-of-vocabulary transfer suite is a separate evaluation. The published software and data are archived at [Zenodo](https://doi.org/10.5281/zenodo.24293301).
 
-## Verify the release and reproduce Experiment 8
+## Run all checks locally
 
-Use Python 3.12. From a terminal with Git installed, run the following commands. After the clone, both Python commands work offline on a CPU with the standard library.
+Use Python 3.12 and a CPU. From a terminal, clone the repository and run the reviewer script. The checkout contains all inputs for an offline run.
 
 ```sh
 git clone https://github.com/ai-developers33/medcalc-enforce.git
 cd medcalc-enforce
-python3 -B verify_release.py
-python3 -B replay_experiment8.py --check
+python3 reproduce_all.py
 ```
 
-1. The release verifier should print `Verified 294 checksums.` and the test runner should report `Ran 75 tests` followed by `OK`. The verifier's closing message still quotes the older count of 70.
-2. The Experiment 8 replay joins each model's saved calls to the 48 locked distractor inputs by case ID. It reads the recorded unit/domain decisions, reruns the reviewed and discourse-aware policies, and prints the five-row table. The `--check` option compares every Experiment 8 summary field and the rendered table with the archived results. The published reporting precision rounds some adjusted probabilities to zero.
-3. If you downloaded the v0.6.0 ZIP from GitHub or Zenodo, open the directory containing `verify_release.py`. To run the second command there, save this supplemental script beside the verifier. [Experiment 8 replay script](replay_experiment8.py)
+To test the published ZIP itself, run `python3 reproduce_all.py --download-release-zip`. This downloads the [v0.6.0 release ZIP](https://github.com/ai-developers33/medcalc-enforce/releases/download/v0.6.0/MedCalc_Enforce_Experiments_v0_6.3.zip) and checks its SHA-256 before extraction. Both commands run in a temporary directory and finish with `All four MedCalc-Enforce v0.6.0 reproduction checks passed.` on success.
+
+| Check | Expected result |
+|---|---|
+| Release verification | 294 file checksums pass. The test runner reports `Ran 75 tests` and `OK`. The archived verifier's closing line still says 70. |
+| Experiment 8 | All five model summaries and the published 240-workflow table match the replay from the saved calls. |
+| Reviewer analyses | The regenerated 64-case transfer dataset and the reviewer-results JSON both match the release byte-for-byte. |
+| Experiments 1–7 | Experiments 1–6 match the published results, including the 620 official workflows and 324 SQLite WAL trials. The scalability benchmark runs the published workloads and records new timings. |
+
+## Run the notebook in Colab
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-developers33/medcalc-enforce/blob/main/MedCalc_Enforce_v0_6_Colab_Live_Reproduction.ipynb)
+
+1. Click **Open in Colab**, then **Runtime → Run all**. Cell 2 downloads the GitHub release ZIP and verifies its SHA-256 and 294 file checksums. The default run scores the 620 official and 240 distractor workflows from the archived traces on a CPU.
+2. To run fresh inference, select **Runtime → Change runtime type → T4 GPU**, set **`FORCE_FRESH_GPU_INFERENCE = True`** in cell 2, and choose **Runtime → Run all**. With the checkpoint field empty, the notebook runs all 48 distractor cases on each of the five models using the recorded `llama.cpp` build `b12428`. It reuses the 620 archived official workflows. Fresh model outputs and timings can vary.
+3. Cell 4 scores all 860 workflows, shows the Experiment 8 table and verifies the regenerated ZIP. The saved Tesla T4 output streams document the original run from the 248-file baseline through its 290-file intermediate package. The published v0.6.0 release includes the later reviewer analyses.
 
 ## Regenerate the official-cohort and reviewer analyses
 
-From the Git clone, use a separate directory for the generated reports. The following shell commands extract the tagged inputs and omit the four output files that the scripts will create.
+To keep the generated reports for inspection, use a separate directory. The following commands extract the tagged inputs and omit the four output files that the scripts will create.
 
 ```sh
 run_dir=$(mktemp -d)
@@ -33,18 +45,7 @@ git archive v0.6.0 | tar --exclude='results/v0_5_bdcc' --exclude='data/oov_disco
 
 | Command | Where to look in the run directory |
 |---|---|
-| `run_bdcc_v05_suite.py` | `results/v0_5_bdcc/summary.json` and `BDCC_STRENGTHENED_RESULTS.md` in the same directory. These cover Experiments 1–7, including the 620 official workflows. Latency and throughput depend on the machine. Use the separate command above for Experiment 8. |
+| `run_bdcc_v05_suite.py` | `results/v0_5_bdcc/summary.json` and `BDCC_STRENGTHENED_RESULTS.md` in the same directory. These cover Experiments 1–7, including the 620 official workflows. Latency and throughput depend on the machine. |
 | `run_reviewer_fixes_v06.py` | `data/oov_discourse_transfer_64.jsonl` and `results/v0_5_bdcc/reviewer_fixes_v06.json`. Compare their SHA-256 digests with the corresponding entries in the release's `SHA256SUMS.txt`. |
 
-If you ran the CPU SQLite latency benchmarks in the Git checkout, `git checkout -- results/v0_5_bdcc/` restores the archived Markdown and JSON reports, including the reference timings.
-
-## Repeat the historical GPU run in Colab
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-developers33/medcalc-enforce/blob/main/MedCalc_Enforce_v0_6_Colab_Live_Reproduction.ipynb)
-
-Open the notebook to inspect the saved Tesla T4 outputs. The last code cell contains the five-model distractor scoring procedure. To rerun the notebook, follow these steps.
-
-1. Obtain the original **`MedCalc_Enforce_Experiments_v0_5.zip`** baseline from the authors. The notebook expects a `medcalc_enforce_pilot/` directory inside the ZIP. The public v0.6.0 release asset contains the completed study and cannot serve as that historical baseline.
-2. Start a fresh Colab session. Choose **Runtime → Change runtime type → T4 GPU**, then **Runtime → Run all**. At the upload prompt in the second code cell, select the v0.5 ZIP. The recorded baseline passed 248 checksum checks.
-3. The remaining cells reuse completed official traces, generate the additional model runs, and score the 240 distractor workflows. The notebook downloads a compatible CUDA build of `llama.cpp`. Its saved run used build `b12428`; a new session can select a different build.
-4. The notebook's saved output reports **290 checksums** for its intermediate ZIP. The final GitHub and Zenodo release includes the subsequent reviewer analysis and verifies **294 files**. Use the released archive for the exact version cited in the paper.
+For the Experiment 8 table by itself, run `python3 replay_experiment8.py --check` from the clone. It checks the rounded probabilities and all other summary fields against the published JSON and Markdown.
