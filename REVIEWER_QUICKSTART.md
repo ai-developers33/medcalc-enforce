@@ -36,9 +36,13 @@ git archive v0.6.0 | tar --exclude='results/v0_5_bdcc' --exclude='data/oov_disco
 | `run_bdcc_v05_suite.py` | `results/v0_5_bdcc/summary.json` and `BDCC_STRENGTHENED_RESULTS.md` in the same directory. These cover Experiments 1–7, including the 620 official workflows. Latency and throughput depend on the machine. Use the separate command above for Experiment 8. |
 | `run_reviewer_fixes_v06.py` | `data/oov_discourse_transfer_64.jsonl` and `results/v0_5_bdcc/reviewer_fixes_v06.json`. Compare their SHA-256 digests with the corresponding entries in the release's `SHA256SUMS.txt`. |
 
+If you ran the CPU SQLite latency benchmarks in the Git checkout, `git checkout -- results/v0_5_bdcc/` restores the archived Markdown and JSON reports, including the reference timings.
+
 ## Repeat the historical GPU run in Colab
 
-Open the notebook from the top. Its last code cell contains the five-model distractor scoring procedure. Google Drive controls viewing access. [Open the authors' Colab notebook](https://colab.research.google.com/drive/17q_lYUUniM5AlJTR7IR_pQkxGTLcpR6J)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai-developers33/medcalc-enforce/blob/main/MedCalc_Enforce_v0_6_Colab_Live_Reproduction.ipynb)
+
+Open the notebook to inspect the saved Tesla T4 outputs. The last code cell contains the five-model distractor scoring procedure. To rerun the notebook, follow these steps.
 
 1. Obtain the original **`MedCalc_Enforce_Experiments_v0_5.zip`** baseline from the authors. The notebook expects a `medcalc_enforce_pilot/` directory inside the ZIP. The public v0.6.0 release asset contains the completed study and cannot serve as that historical baseline.
 2. Start a fresh Colab session. Choose **Runtime → Change runtime type → T4 GPU**, then **Runtime → Run all**. At the upload prompt in the second code cell, select the v0.5 ZIP. The recorded baseline passed 248 checksum checks.
