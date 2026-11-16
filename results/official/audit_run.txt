@@ -1,0 +1,64 @@
+{
+  "model": "qwen2.5_1.5b_q4km",
+  "locked_utc": "2026-11-13T23:16:16Z",
+  "requests_verified": 88,
+  "complete_unique_cases": 44,
+  "tool_selected_matches": 44,
+  "finish_reasons": {
+    "stop": 85,
+    "length": 3
+  },
+  "paired_transitions_L2_to_repair": {
+    "matched to matched": 29,
+    "matched to blocked_or_failed": 2,
+    "blocked_or_failed to matched": 1,
+    "nonmatching_released to matched": 5,
+    "matched to nonmatching_released": 2,
+    "nonmatching_released to nonmatching_released": 1,
+    "blocked_or_failed to blocked_or_failed": 3,
+    "nonmatching_released to blocked_or_failed": 1
+  },
+  "source_repair_failure_reasons": {
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sbp": 1,
+    "ValueError: Generation did not finish: length": 3,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:ast": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:weight": 1
+  },
+  "all_logged_proposals_and_decisions_reproduced": true,
+  "all_reported_outcome_counts_reproduced": true,
+  "unique_source_keys_and_normalized_notes": 44
+}
+{
+  "model": "smollm2_1.7b_q4km",
+  "locked_utc": "2026-11-13T23:16:16Z",
+  "requests_verified": 88,
+  "complete_unique_cases": 44,
+  "tool_selected_matches": 30,
+  "finish_reasons": {
+    "stop": 88
+  },
+  "paired_transitions_L2_to_repair": {
+    "matched to matched": 18,
+    "nonmatching_released to matched": 5,
+    "blocked_or_failed to blocked_or_failed": 1,
+    "matched to blocked_or_failed": 3,
+    "blocked_or_failed to matched": 1,
+    "matched to nonmatching_released": 1,
+    "nonmatching_released to blocked_or_failed": 13,
+    "nonmatching_released to nonmatching_released": 2
+  },
+  "source_repair_failure_reasons": {
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:creatinine": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sbp": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:age": 5,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:ast": 2,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bun": 2,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sodium": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:chloride": 3,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bicarbonate": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:weight": 1
+  },
+  "all_logged_proposals_and_decisions_reproduced": true,
+  "all_reported_outcome_counts_reproduced": true,
+  "unique_source_keys_and_normalized_notes": 44
+}

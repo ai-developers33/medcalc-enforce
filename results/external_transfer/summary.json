@@ -1,0 +1,197 @@
+{
+  "pinned_external_sha256": "d452c96dac4af0ba8fd66cf24491f8f7e890ebf4fd53b31f84d096d1bb70bf08",
+  "total_rows": 1048,
+  "mapped_calculator_ids": [
+    "3",
+    "5",
+    "6",
+    "7",
+    "11",
+    "19",
+    "26",
+    "30",
+    "39",
+    "60"
+  ],
+  "mapping_and_formula_policy": {
+    "3": [
+      "CKD-EPI GFR (2021)",
+      "CKD-EPI 2021 creatinine-only, normalized to 1.73 m\u00b2"
+    ],
+    "5": [
+      "Mean Arterial Pressure",
+      "(SBP + 2 DBP)/3, mmHg"
+    ],
+    "6": [
+      "Body Mass Index",
+      "weight in kg divided by squared height in m"
+    ],
+    "7": [
+      "Calcium Correction",
+      "total calcium in mg/dL, albumin in g/dL, coefficient 0.8 and reference albumin 4"
+    ],
+    "11": [
+      "QTc (Bazett)",
+      "Bazett correction, frozen output ms; these benchmark queries explicitly request seconds"
+    ],
+    "19": [
+      "FIB-4",
+      "age times AST divided by platelets times square root of ALT"
+    ],
+    "26": [
+      "Sodium Correction",
+      "Hillier 2.4 coefficient, mEq/L"
+    ],
+    "30": [
+      "Serum Osmolality",
+      "2 Na + BUN/2.8 + glucose/18 after unit normalization"
+    ],
+    "39": [
+      "Anion Gap",
+      "sodium minus chloride and bicarbonate, potassium excluded"
+    ],
+    "60": [
+      "BSA",
+      "Mosteller square-root formula, m\u00b2"
+    ]
+  },
+  "outside_supported_calculator_ids": 848,
+  "mapped_rows": {
+    "rows": 200,
+    "matched_tool_metadata": 200,
+    "query_resolved_to_listed_calculator": 200,
+    "explicit_admission_request": 180,
+    "formula_unit_mismatch": 20,
+    "full_official_test_shared_source": 200,
+    "full_official_test_shared_text": 197,
+    "training_one_shot_overlap": 74,
+    "locked_official_cohort_overlap": 126,
+    "eligible": 0
+  },
+  "by_calculator": {
+    "3": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 19,
+      "training_one_shot_overlap": 3,
+      "locked_official_cohort_overlap": 17,
+      "eligible": 0
+    },
+    "5": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 4,
+      "locked_official_cohort_overlap": 16,
+      "eligible": 0
+    },
+    "6": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 10,
+      "locked_official_cohort_overlap": 10,
+      "eligible": 0
+    },
+    "7": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 6,
+      "locked_official_cohort_overlap": 14,
+      "eligible": 0
+    },
+    "11": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 0,
+      "formula_unit_mismatch": 20,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 0,
+      "locked_official_cohort_overlap": 20,
+      "eligible": 0
+    },
+    "19": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 3,
+      "locked_official_cohort_overlap": 17,
+      "eligible": 0
+    },
+    "26": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 19,
+      "training_one_shot_overlap": 8,
+      "locked_official_cohort_overlap": 12,
+      "eligible": 0
+    },
+    "30": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 16,
+      "locked_official_cohort_overlap": 4,
+      "eligible": 0
+    },
+    "39": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 19,
+      "training_one_shot_overlap": 20,
+      "locked_official_cohort_overlap": 0,
+      "eligible": 0
+    },
+    "60": {
+      "rows": 20,
+      "matched_tool_metadata": 20,
+      "query_resolved_to_listed_calculator": 20,
+      "explicit_admission_request": 20,
+      "formula_unit_mismatch": 0,
+      "full_official_test_shared_source": 20,
+      "full_official_test_shared_text": 20,
+      "training_one_shot_overlap": 4,
+      "locked_official_cohort_overlap": 16,
+      "eligible": 0
+    }
+  },
+  "performance_scored_cases": 0,
+  "model_calls": 0,
+  "eligibility_policy": "Map IDs and metadata tool names, require compatible output units, exclude rows matching a source key or normalized note in train/one-shot or either locked official cohort. Query intent resolution is descriptive and does not filter cases.",
+  "design": "Eligibility-only audit; the frozen ten calculator specifications are shown, formula choice within generic prompts can be ambiguous, and source independence is evaluated before proposing numerical scoring."
+}

@@ -1,0 +1,253 @@
+{
+  "phase": "development",
+  "cases": 50,
+  "unique_groups": 50,
+  "new_llm_calls": 0,
+  "new_calls_by_role": {},
+  "selected_correct_tool": 50,
+  "wall_seconds": 0.13417853201826802,
+  "methods": {
+    "L2_unit_domain": {
+      "matched": 42,
+      "strict_0_1pct_matched": 42,
+      "nonmatching_released": 6,
+      "blocked_or_failed": 2,
+      "released": 48,
+      "agreement": 0.84,
+      "agreement_wilson95": [
+        0.7148578393696501,
+        0.916625793219666
+      ],
+      "matching_fraction_of_released": 0.875,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "5": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "6": {
+          "n": 5,
+          "matched": 4,
+          "released": 5
+        },
+        "7": {
+          "n": 5,
+          "matched": 3,
+          "released": 4
+        },
+        "11": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "19": {
+          "n": 5,
+          "matched": 1,
+          "released": 5
+        },
+        "26": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "30": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "39": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "60": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        }
+      },
+      "block_reasons": {
+        "UNIT_OR_VALUE:sbp": 1,
+        "ValueError: Generation did not finish: length": 1
+      }
+    },
+    "L3_literal_span": {
+      "matched": 18,
+      "strict_0_1pct_matched": 18,
+      "nonmatching_released": 2,
+      "blocked_or_failed": 30,
+      "released": 20,
+      "agreement": 0.36,
+      "agreement_wilson95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ],
+      "matching_fraction_of_released": 0.9,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 0,
+          "released": 0
+        },
+        "5": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "6": {
+          "n": 5,
+          "matched": 3,
+          "released": 4
+        },
+        "7": {
+          "n": 5,
+          "matched": 0,
+          "released": 1
+        },
+        "11": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "19": {
+          "n": 5,
+          "matched": 0,
+          "released": 0
+        },
+        "26": {
+          "n": 5,
+          "matched": 3,
+          "released": 3
+        },
+        "30": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "39": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "60": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        }
+      },
+      "block_reasons": {
+        "QUOTE_NOT_EXACT:sex": 5,
+        "UNIT_OR_VALUE:sbp": 1,
+        "QUOTE_NOT_EXACT:height": 4,
+        "QUOTE_NOT_EXACT:albumin": 3,
+        "ValueError: Generation did not finish: length": 1,
+        "QUOTE_NOT_EXACT:heart_rate": 3,
+        "QUOTE_NOT_EXACT:age": 5,
+        "QUOTE_NOT_EXACT:sodium": 7,
+        "VALUE_NOT_IN_QUOTE:sodium": 1
+      }
+    },
+    "source_bound": {
+      "matched": 48,
+      "strict_0_1pct_matched": 48,
+      "nonmatching_released": 1,
+      "blocked_or_failed": 1,
+      "released": 49,
+      "agreement": 0.96,
+      "agreement_wilson95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ],
+      "matching_fraction_of_released": 0.9795918367346939,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "5": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "6": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "7": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "11": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "19": {
+          "n": 5,
+          "matched": 4,
+          "released": 5
+        },
+        "26": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "30": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "39": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "60": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        }
+      },
+      "block_reasons": {
+        "ValueError: BASELINE_EXTRACTION_FAILED": 1
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "from": "L2_unit_domain",
+      "to": "source_bound",
+      "gained_matching_answers": 6,
+      "lost_matching_answers": 0,
+      "agreement_delta": 0.12,
+      "stratified_bootstrap95": [
+        0.04,
+        0.2
+      ],
+      "paired_exact_mcnemar_p": 0.03125,
+      "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+    },
+    {
+      "from": "L3_literal_span",
+      "to": "source_bound",
+      "gained_matching_answers": 30,
+      "lost_matching_answers": 0,
+      "agreement_delta": 0.6,
+      "stratified_bootstrap95": [
+        0.48,
+        0.72
+      ],
+      "paired_exact_mcnemar_p": 1.862645149230957e-09,
+      "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+    }
+  ],
+  "paid_api_cost_usd": 0
+}

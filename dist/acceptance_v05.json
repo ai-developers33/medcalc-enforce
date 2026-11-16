@@ -1,0 +1,122 @@
+{
+  "wheel": "medcalc_enforce_research-0.5.0-py3-none-any.whl",
+  "sha256": "9f6a9565a0251028135530f2581aeed1a07b47c6e1c23189be9600635eb47a64",
+  "installed_without_network_or_dependencies": true,
+  "smoke_tests_from_outside_source_tree": [
+    {
+      "request": {
+        "question": "Mean arterial pressure?",
+        "note": "Blood pressure 120/75 mmHg."
+      },
+      "decision": {
+        "released": true,
+        "result": 90.0,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 120.0,
+              "unit": "mmHg",
+              "evidence_id": "sbp:15:26"
+            },
+            "dbp": {
+              "value": 75.0,
+              "unit": "mmHg",
+              "evidence_id": "dbp:15:26"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 120.0,
+          "dbp": 75.0
+        },
+        "evidence": {
+          "sbp": {
+            "start": 15,
+            "end": 26,
+            "source": "120/75 mmHg"
+          },
+          "dbp": {
+            "start": 15,
+            "end": 26,
+            "source": "120/75 mmHg"
+          }
+        },
+        "note_sha256": "db9ba2ed8282596c41ec64178ff711f6badd00de961d64797e44e1c9525ba84d",
+        "canonical_result": 90.0,
+        "output_unit": "mmHg",
+        "route": "named_measurements",
+        "calculator_id": "5",
+        "proposal_status": "NO_PROPOSAL",
+        "requested_phase": null,
+        "policy": "v0.5_discourse"
+      }
+    },
+    {
+      "request": {
+        "question": "What was the patient's admission BMI?",
+        "note": "Discharge measurements are listed below. Height 180 cm. Weight 90 kg."
+      },
+      "decision": {
+        "released": false,
+        "reason": "OTHER_TIME:height",
+        "route": "named_measurements",
+        "calculator_id": "6",
+        "proposal_status": "NO_PROPOSAL",
+        "requested_phase": "admission",
+        "policy": "v0.5_discourse"
+      }
+    },
+    {
+      "request": {
+        "question": "Calculate Bazett QTc in seconds.",
+        "note": "Heart rate 60 bpm. QT interval 420 ms."
+      },
+      "decision": {
+        "released": true,
+        "result": 0.42,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 60.0,
+              "unit": "bpm",
+              "evidence_id": "heart_rate:11:17"
+            },
+            "qt": {
+              "value": 420.0,
+              "unit": "ms",
+              "evidence_id": "qt:31:37"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 60.0,
+          "qt": 420.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "start": 11,
+            "end": 17,
+            "source": "60 bpm"
+          },
+          "qt": {
+            "start": 31,
+            "end": 37,
+            "source": "420 ms"
+          }
+        },
+        "note_sha256": "423258e1a3320a8eef6ce8fbc4286b92745235cfa0291db742b0d54626e2ba1c",
+        "canonical_result": 420.0,
+        "output_unit": "s",
+        "route": "named_measurements",
+        "calculator_id": "11",
+        "proposal_status": "NO_PROPOSAL",
+        "requested_phase": null,
+        "policy": "v0.5_discourse"
+      }
+    }
+  ]
+}

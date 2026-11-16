@@ -1,0 +1,6760 @@
+[
+  {
+    "case_id": "train-392",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "41.36596",
+    "lower": "39.29766",
+    "upper": "43.43426",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-277",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "20.95102",
+    "lower": "19.90347",
+    "upper": "21.99857",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-345",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "3",
+    "reference": "140.84672",
+    "lower": "133.80438",
+    "upper": "147.88906",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-220",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "5.3704",
+    "lower": "5.10188",
+    "upper": "5.63892",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-587",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "36.92182",
+    "lower": "35.07573",
+    "upper": "38.76791",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2017",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "76.66667",
+    "lower": "72.83334",
+    "upper": "80.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1649",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "72.66667",
+    "lower": "69.03334",
+    "upper": "76.3",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1164",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "60.0",
+    "lower": "57.0",
+    "upper": "63.0",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1956",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "116.66667",
+    "lower": "110.83334",
+    "upper": "122.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1532",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "90.0",
+    "lower": "85.5",
+    "upper": "94.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2148",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "26.72993",
+    "lower": "25.39343",
+    "upper": "28.06643",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2397",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "19.72318",
+    "lower": "18.73702",
+    "upper": "20.70934",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2375",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "20.06095",
+    "lower": "19.0579",
+    "upper": "21.064",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2236",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "24.23823",
+    "lower": "23.02632",
+    "upper": "25.45014",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2370",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "19.94806",
+    "lower": "18.95066",
+    "upper": "20.94546",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2665",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "17.22512",
+    "lower": "16.36386",
+    "upper": "18.08638",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2554",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "6.98",
+    "lower": "6.631",
+    "upper": "7.329",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2545",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "9.02",
+    "lower": "8.569",
+    "upper": "9.471",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2680",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "16.46",
+    "lower": "15.637",
+    "upper": "17.283",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2595",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "6.2",
+    "lower": "5.89",
+    "upper": "6.51",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4081",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "716.884",
+    "lower": "681.0398",
+    "upper": "752.7282",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4079",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "466.05888",
+    "lower": "442.75594",
+    "upper": "489.36182",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4023",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "362.56794",
+    "lower": "344.43954",
+    "upper": "380.69634",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4067",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "301.84037",
+    "lower": "286.74835",
+    "upper": "316.93239",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4029",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "405.35293",
+    "lower": "385.08528",
+    "upper": "425.62058",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4327",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "2.81129",
+    "lower": "2.67073",
+    "upper": "2.95185",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4318",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1691.60545",
+    "lower": "1607.02518",
+    "upper": "1776.18572",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4307",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1.62724",
+    "lower": "1.54588",
+    "upper": "1.7086",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4305",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "0.86387",
+    "lower": "0.82068",
+    "upper": "0.90706",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4356",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1.31755",
+    "lower": "1.25167",
+    "upper": "1.38343",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5463",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "135.032",
+    "lower": "128.2804",
+    "upper": "141.7836",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5482",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "132.752",
+    "lower": "126.1144",
+    "upper": "139.3896",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5341",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "300.52512",
+    "lower": "285.49886",
+    "upper": "315.55138",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5398",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "195.448",
+    "lower": "185.6756",
+    "upper": "205.2204",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5381",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "130.76",
+    "lower": "124.222",
+    "upper": "137.298",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5675",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "292.38095",
+    "lower": "277.7619",
+    "upper": "307.0",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5620",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "298.88889",
+    "lower": "283.94445",
+    "upper": "313.83333",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5771",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "286.8254",
+    "lower": "272.48413",
+    "upper": "301.16667",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5718",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "289.43651",
+    "lower": "274.96468",
+    "upper": "303.90834",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5589",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "278.5362",
+    "lower": "264.60939",
+    "upper": "292.46301",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6296",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "14.0",
+    "lower": "13.3",
+    "upper": "14.7",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6167",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "9.0",
+    "lower": "8.55",
+    "upper": "9.45",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6165",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "6.0",
+    "lower": "5.7",
+    "upper": "6.3",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6304",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "-7.0",
+    "lower": "-7.35",
+    "upper": "-6.65",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6189",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "7.5",
+    "lower": "7.125",
+    "upper": "7.875",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7633",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "60",
+    "reference": "0.88097",
+    "lower": "0.83692",
+    "upper": "0.92502",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7332",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "60",
+    "reference": "1.6614",
+    "lower": "1.57833",
+    "upper": "1.74447",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7786",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "60",
+    "reference": "2.02574",
+    "lower": "1.92445",
+    "upper": "2.12703",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7744",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "60",
+    "reference": "0.21016",
+    "lower": "0.19965",
+    "upper": "0.22067",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7611",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "60",
+    "reference": "1.91435",
+    "lower": "1.81863",
+    "upper": "2.01007",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-392",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "41.36596",
+    "lower": "39.29766",
+    "upper": "43.43426",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 41.365956613491235,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 33,
+          "creatinine": 2.12
+        },
+        "gate_ms": 0.014752004062756896,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 41.365956613491235,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 33.0,
+          "creatinine": 2.12
+        },
+        "gate_ms": 0.17835899780038744,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.035502998798619956,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-277",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "20.95102",
+    "lower": "19.90347",
+    "upper": "21.99857",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.951021146395785,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 57,
+          "creatinine": 3.3
+        },
+        "gate_ms": 0.012128002708777785,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 20.951021146395785,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 57.0,
+          "creatinine": 3.3
+        },
+        "gate_ms": 0.029473994800355285,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.025298002583440393,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-345",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "140.84672",
+    "lower": "133.80438",
+    "upper": "147.88906",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 140.84672243543568,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 21,
+          "creatinine": 0.6
+        },
+        "gate_ms": 0.010436000593472272,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 140.84672243543568,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 21.0,
+          "creatinine": 0.6
+        },
+        "gate_ms": 0.025599001673981547,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.021792999177705497,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-220",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "5.3704",
+    "lower": "5.10188",
+    "upper": "5.63892",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 5.37040058665893,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 35,
+          "creatinine": 11.5
+        },
+        "gate_ms": 0.01023499498842284,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 5.37040058665893,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 35.0,
+          "creatinine": 11.5
+        },
+        "gate_ms": 0.026480003725737333,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.020269995729904622,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-587",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "36.92182",
+    "lower": "35.07573",
+    "upper": "38.76791",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 36.92181805901175,
+        "canonical_inputs": {
+          "sex": "Female",
+          "age": 59,
+          "creatinine": 1.6
+        },
+        "gate_ms": 0.010426003427710384,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 36.92181805901175,
+        "canonical_inputs": {
+          "sex": "Female",
+          "age": 59.0,
+          "creatinine": 1.6
+        },
+        "gate_ms": 0.025467998057138175,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.02081099955830723,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2017",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "76.66667",
+    "lower": "72.83334",
+    "upper": "80.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 76.66666666666667,
+        "canonical_inputs": {
+          "sbp": 110,
+          "dbp": 60
+        },
+        "gate_ms": 0.009014001989271492,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 76.66666666666667,
+        "canonical_inputs": {
+          "sbp": 110.0,
+          "dbp": 60.0
+        },
+        "gate_ms": 0.016894999134819955,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 76.66666666666667,
+        "canonical_inputs": {
+          "sbp": 110.0,
+          "dbp": 60.0
+        },
+        "gate_ms": 0.06468700303230435,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-1649",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "72.66667",
+    "lower": "69.03334",
+    "upper": "76.3",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 80.0,
+        "canonical_inputs": {
+          "sbp": 112,
+          "dbp": 64
+        },
+        "gate_ms": 0.009344003046862781,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:sbp",
+        "gate_ms": 0.024376997316721827,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:sbp",
+        "gate_ms": 0.006279005901888013,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1164",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "60.0",
+    "lower": "57.0",
+    "upper": "63.0",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 60.0,
+        "canonical_inputs": {
+          "sbp": 80,
+          "dbp": 50
+        },
+        "gate_ms": 0.010455994924996048,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 60.0,
+        "canonical_inputs": {
+          "sbp": 80.0,
+          "dbp": 50.0
+        },
+        "gate_ms": 0.01888900442281738,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 60.0,
+        "canonical_inputs": {
+          "sbp": 80.0,
+          "dbp": 50.0
+        },
+        "gate_ms": 0.03922900214092806,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-1956",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "116.66667",
+    "lower": "110.83334",
+    "upper": "122.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 116.66666666666667,
+        "canonical_inputs": {
+          "sbp": 150,
+          "dbp": 100
+        },
+        "gate_ms": 0.008402996172662824,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 116.66666666666667,
+        "canonical_inputs": {
+          "sbp": 150.0,
+          "dbp": 100.0
+        },
+        "gate_ms": 0.016034005966503173,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 116.66666666666667,
+        "canonical_inputs": {
+          "sbp": 150.0,
+          "dbp": 100.0
+        },
+        "gate_ms": 0.10030099656432867,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-1532",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "90.0",
+    "lower": "85.5",
+    "upper": "94.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 90.0,
+        "canonical_inputs": {
+          "sbp": 130,
+          "dbp": 70
+        },
+        "gate_ms": 0.010244999430142343,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 90.0,
+        "canonical_inputs": {
+          "sbp": 130.0,
+          "dbp": 70.0
+        },
+        "gate_ms": 0.016985002730507404,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 90.0,
+        "canonical_inputs": {
+          "sbp": 130.0,
+          "dbp": 70.0
+        },
+        "gate_ms": 0.03434199606999755,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2148",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "26.72993",
+    "lower": "25.39343",
+    "upper": "28.06643",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.002672992749507167,
+        "canonical_inputs": {
+          "height": 173,
+          "weight": 80
+        },
+        "gate_ms": 0.009623996447771788,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 26.729927495071667,
+        "canonical_inputs": {
+          "height": 1.73,
+          "weight": 80.0
+        },
+        "gate_ms": 0.01577399962116033,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.015462996088899672,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2397",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "19.72318",
+    "lower": "18.73702",
+    "upper": "20.70934",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001972318339100346,
+        "canonical_inputs": {
+          "height": 170,
+          "weight": 57
+        },
+        "gate_ms": 0.008903996786102653,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.001972318339100346,
+        "canonical_inputs": {
+          "height": 170.0,
+          "weight": 57.0
+        },
+        "gate_ms": 0.015944002370815724,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 0.001972318339100346,
+        "canonical_inputs": {
+          "height": 170.0,
+          "weight": 57.0
+        },
+        "gate_ms": 0.026399997295811772,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2375",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "20.06095",
+    "lower": "19.0579",
+    "upper": "21.064",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52
+        },
+        "gate_ms": 0.009975003194995224,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52.0
+        },
+        "gate_ms": 0.01673500082688406,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52.0
+        },
+        "gate_ms": 0.03413199738133699,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2236",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "24.23823",
+    "lower": "23.02632",
+    "upper": "25.45014",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.0024238227146814403,
+        "canonical_inputs": {
+          "height": 152,
+          "weight": 56
+        },
+        "gate_ms": 0.011037001968361437,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 24.238227146814403,
+        "canonical_inputs": {
+          "height": 1.52,
+          "weight": 56.0
+        },
+        "gate_ms": 0.01912900188472122,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 24.238227146814403,
+        "canonical_inputs": {
+          "height": 1.52,
+          "weight": 56.0
+        },
+        "gate_ms": 0.03490300150588155,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2370",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "19.94806",
+    "lower": "18.95066",
+    "upper": "20.94546",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001994805976890361,
+        "canonical_inputs": {
+          "height": 163.0,
+          "weight": 53.0
+        },
+        "gate_ms": 0.008453003829345107,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 19.948059768903608,
+        "canonical_inputs": {
+          "height": 1.6300000000000001,
+          "weight": 53.0
+        },
+        "gate_ms": 0.015243000234477222,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 19.948059768903608,
+        "canonical_inputs": {
+          "height": 1.6300000000000001,
+          "weight": 53.0
+        },
+        "gate_ms": 0.0314170029014349,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2665",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "17.22512",
+    "lower": "16.36386",
+    "upper": "18.08638",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 7.32,
+        "canonical_inputs": {
+          "albumin": 3.6,
+          "calcium": 7.0
+        },
+        "gate_ms": 0.009584000508766621,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 10.19712,
+        "canonical_inputs": {
+          "albumin": 0.0036000000000000003,
+          "calcium": 7.0
+        },
+        "gate_ms": 0.02817300264723599,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 10.19712,
+        "canonical_inputs": {
+          "albumin": 0.0036000000000000003,
+          "calcium": 7.0
+        },
+        "gate_ms": 0.030244998924899846,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2554",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "6.98",
+    "lower": "6.631",
+    "upper": "7.329",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6.98,
+        "canonical_inputs": {
+          "albumin": 4.0,
+          "calcium": 6.98
+        },
+        "gate_ms": 0.009305003914050758,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.98,
+        "canonical_inputs": {
+          "albumin": 4.0,
+          "calcium": 6.98
+        },
+        "gate_ms": 0.03082700277445838,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.022293999791145325,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2545",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "9.02",
+    "lower": "8.569",
+    "upper": "9.471",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 9.02,
+        "canonical_inputs": {
+          "albumin": 4.1,
+          "calcium": 9.1
+        },
+        "gate_ms": 0.008692994015291333,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 9.02,
+        "canonical_inputs": {
+          "albumin": 4.1,
+          "calcium": 9.1
+        },
+        "gate_ms": 0.02750099520199001,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.018797996744979173,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2680",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "7",
+    "reference": "16.46",
+    "lower": "15.637",
+    "upper": "17.283",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2595",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "6.2",
+    "lower": "5.89",
+    "upper": "6.51",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6.2,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 5.0
+        },
+        "gate_ms": 0.00906400236999616,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.2,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 5.0
+        },
+        "gate_ms": 0.028292997740209103,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.02082099672406912,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4081",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "716.884",
+    "lower": "681.0398",
+    "upper": "752.7282",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 716.8839980545436,
+        "canonical_inputs": {
+          "heart_rate": 160,
+          "qt": 439
+        },
+        "gate_ms": 0.010545001714490354,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 716.8839980545436,
+        "canonical_inputs": {
+          "heart_rate": 160.0,
+          "qt": 439.0
+        },
+        "gate_ms": 0.01636499655432999,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:heart_rate",
+        "gate_ms": 0.013390003005042672,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4079",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "466.05888",
+    "lower": "442.75594",
+    "upper": "489.36182",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 466.0598495186357,
+        "canonical_inputs": {
+          "heart_rate": 107,
+          "qt": 349
+        },
+        "gate_ms": 0.009875002433545887,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 466.0598495186357,
+        "canonical_inputs": {
+          "heart_rate": 107.0,
+          "qt": 349.0
+        },
+        "gate_ms": 0.016534999303985387,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:heart_rate",
+        "gate_ms": 0.013791002857033163,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4023",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "362.56794",
+    "lower": "344.43954",
+    "upper": "380.69634",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 362.56836137019275,
+        "canonical_inputs": {
+          "heart_rate": 109,
+          "qt": 269
+        },
+        "gate_ms": 0.010114999895449728,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 362.56836137019275,
+        "canonical_inputs": {
+          "heart_rate": 109.0,
+          "qt": 269.0
+        },
+        "gate_ms": 0.047891997382976115,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:heart_rate",
+        "gate_ms": 0.01456199970562011,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4067",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "301.84037",
+    "lower": "286.74835",
+    "upper": "316.93239",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 301.83996863680375,
+        "canonical_inputs": {
+          "heart_rate": 58,
+          "qt": 307
+        },
+        "gate_ms": 0.014641998859588057,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 301.83996863680375,
+        "canonical_inputs": {
+          "heart_rate": 58.0,
+          "qt": 307.0
+        },
+        "gate_ms": 0.028572998417075723,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 301.83996863680375,
+        "canonical_inputs": {
+          "heart_rate": 58.0,
+          "qt": 307.0
+        },
+        "gate_ms": 0.055773998610675335,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-4029",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "11",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "405.35293",
+    "lower": "385.08528",
+    "upper": "425.62058",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 405.35272705797024,
+        "canonical_inputs": {
+          "heart_rate": 74,
+          "qt": 365
+        },
+        "gate_ms": 0.009134004358202219,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 405.35272705797024,
+        "canonical_inputs": {
+          "heart_rate": 74.0,
+          "qt": 365.0
+        },
+        "gate_ms": 0.017297003068961203,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 405.35272705797024,
+        "canonical_inputs": {
+          "heart_rate": 74.0,
+          "qt": 365.0
+        },
+        "gate_ms": 0.027360998501535505,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-4327",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "2.81129",
+    "lower": "2.67073",
+    "upper": "2.95185",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.002811290322580645,
+        "canonical_inputs": {
+          "age": 63,
+          "ast": 83,
+          "alt": 144,
+          "platelets": 155000
+        },
+        "gate_ms": 0.009814997611101717,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.002811290322580645,
+        "canonical_inputs": {
+          "age": 63.0,
+          "ast": 83.0,
+          "alt": 144.0,
+          "platelets": 155000.0
+        },
+        "gate_ms": 0.020539999241009355,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.021142004698049277,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4318",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1691.60545",
+    "lower": "1607.02518",
+    "upper": "1776.18572",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 1.3208998428543066,
+        "canonical_inputs": {
+          "age": 42,
+          "ast": 83.4,
+          "alt": 155,
+          "platelets": 213
+        },
+        "gate_ms": 0.012428004993125796,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.3208998428543066,
+        "canonical_inputs": {
+          "age": 42.0,
+          "ast": 83.4,
+          "alt": 155.0,
+          "platelets": 213.0
+        },
+        "gate_ms": 0.023515000066254288,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.04257399996276945,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4307",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1.62724",
+    "lower": "1.54588",
+    "upper": "1.7086",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 1.6272376272376272,
+        "canonical_inputs": {
+          "age": 38,
+          "ast": 122,
+          "alt": 49,
+          "platelets": 407
+        },
+        "gate_ms": 0.012188000255264342,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.6272376272376272,
+        "canonical_inputs": {
+          "age": 38.0,
+          "ast": 122.0,
+          "alt": 49.0,
+          "platelets": 407.0
+        },
+        "gate_ms": 0.023786000383552164,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.10078200284624472,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4305",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "0.86387",
+    "lower": "0.82068",
+    "upper": "0.90706",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.0015154496900243617,
+        "canonical_inputs": {
+          "age": 60,
+          "ast": 16,
+          "alt": 11,
+          "platelets": 191000
+        },
+        "gate_ms": 0.009584997314959764,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.0015154496900243617,
+        "canonical_inputs": {
+          "age": 60.0,
+          "ast": 16.0,
+          "alt": 11.0,
+          "platelets": 191000.0
+        },
+        "gate_ms": 0.020911000319756567,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.020159997802693397,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4356",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1.31755",
+    "lower": "1.25167",
+    "upper": "1.38343",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001317545571374726,
+        "canonical_inputs": {
+          "age": 63,
+          "ast": 36,
+          "alt": 22,
+          "platelets": 367000
+        },
+        "gate_ms": 0.037486002838704735,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.001317545571374726,
+        "canonical_inputs": {
+          "age": 63.0,
+          "ast": 36.0,
+          "alt": 22.0,
+          "platelets": 367000.0
+        },
+        "gate_ms": 0.024237000616267323,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.043154999730177224,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5463",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "135.032",
+    "lower": "128.2804",
+    "upper": "141.7836",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 135.032,
+        "canonical_inputs": {
+          "sodium": 134,
+          "glucose": 143
+        },
+        "gate_ms": 0.010204996215179563,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 135.032,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "glucose": 143.0
+        },
+        "gate_ms": 0.20620199939003214,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 135.032,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "glucose": 143.0
+        },
+        "gate_ms": 0.037896999856457114,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-5482",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "132.752",
+    "lower": "126.1144",
+    "upper": "139.3896",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 132.752,
+        "canonical_inputs": {
+          "sodium": 134,
+          "glucose": 48
+        },
+        "gate_ms": 0.009144001523964107,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 132.752,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "glucose": 48.0
+        },
+        "gate_ms": 0.029062997782602906,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 132.752,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "glucose": 48.0
+        },
+        "gate_ms": 0.032018004276324064,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-5341",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "300.52512",
+    "lower": "285.49886",
+    "upper": "315.55138",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 124.92,
+        "canonical_inputs": {
+          "sodium": 117,
+          "glucose": 430
+        },
+        "gate_ms": 0.01034500019159168,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 300.52512,
+        "canonical_inputs": {
+          "sodium": 117.0,
+          "glucose": 7746.879999999999
+        },
+        "gate_ms": 0.033821001125033945,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02085100277327001,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5398",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "195.448",
+    "lower": "185.6756",
+    "upper": "205.2204",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 195.448,
+        "canonical_inputs": {
+          "sodium": 172,
+          "glucose": 1077
+        },
+        "gate_ms": 0.00971499684965238,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 195.448,
+        "canonical_inputs": {
+          "sodium": 172.0,
+          "glucose": 1077.0
+        },
+        "gate_ms": 0.029584000003524125,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 195.448,
+        "canonical_inputs": {
+          "sodium": 172.0,
+          "glucose": 1077.0
+        },
+        "gate_ms": 0.03733600169653073,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-5381",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "26",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "130.76",
+    "lower": "124.222",
+    "upper": "137.298",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 130.76,
+        "canonical_inputs": {
+          "sodium": 131,
+          "glucose": 90
+        },
+        "gate_ms": 0.009144001523964107,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 130.76,
+        "canonical_inputs": {
+          "sodium": 131.0,
+          "glucose": 90.0
+        },
+        "gate_ms": 0.029604998417198658,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.018437996914144605,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5675",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "292.38095",
+    "lower": "277.7619",
+    "upper": "307.0",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 292.3809523809524,
+        "canonical_inputs": {
+          "sodium": 139,
+          "bun": 23,
+          "glucose": 111
+        },
+        "gate_ms": 0.009534000128041953,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 292.3809523809524,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 23.0,
+          "glucose": 111.0
+        },
+        "gate_ms": 0.03426100010983646,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.0249579970841296,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5620",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "298.88889",
+    "lower": "283.94445",
+    "upper": "313.83333",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 298.8888888888889,
+        "canonical_inputs": {
+          "sodium": 144,
+          "bun": 14,
+          "glucose": 106
+        },
+        "gate_ms": 0.010556002962403,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 298.8888888888889,
+        "canonical_inputs": {
+          "sodium": 144.0,
+          "bun": 14.0,
+          "glucose": 106.0
+        },
+        "gate_ms": 0.03127699892502278,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.024225999368354678,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5771",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "286.8254",
+    "lower": "272.48413",
+    "upper": "301.16667",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 286.8253968253968,
+        "canonical_inputs": {
+          "sodium": 135,
+          "bun": 30,
+          "glucose": 110
+        },
+        "gate_ms": 0.010154995834454894,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 286.8253968253968,
+        "canonical_inputs": {
+          "sodium": 135.0,
+          "bun": 30.0,
+          "glucose": 110.0
+        },
+        "gate_ms": 0.03364100120961666,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 286.8253968253968,
+        "canonical_inputs": {
+          "sodium": 135.0,
+          "bun": 30.0,
+          "glucose": 110.0
+        },
+        "gate_ms": 0.03833699884125963,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-5718",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "289.43651",
+    "lower": "274.96468",
+    "upper": "303.90834",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 289.43650793650795,
+        "canonical_inputs": {
+          "sodium": 136,
+          "bun": 30,
+          "glucose": 121
+        },
+        "gate_ms": 0.009735005733091384,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 289.43650793650795,
+        "canonical_inputs": {
+          "sodium": 136.0,
+          "bun": 30.0,
+          "glucose": 121.0
+        },
+        "gate_ms": 0.03352999920025468,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 289.43650793650795,
+        "canonical_inputs": {
+          "sodium": 136.0,
+          "bun": 30.0,
+          "glucose": 121.0
+        },
+        "gate_ms": 0.03764699795283377,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-5589",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "278.5362",
+    "lower": "264.60939",
+    "upper": "292.46301",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 272.2748412698413,
+        "canonical_inputs": {
+          "sodium": 135.5,
+          "bun": 2.84,
+          "glucose": 4.69
+        },
+        "gate_ms": 0.01053600135492161,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 278.53619746031745,
+        "canonical_inputs": {
+          "sodium": 135.5,
+          "bun": 7.95768,
+          "glucose": 84.49504
+        },
+        "gate_ms": 0.03648499841801822,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.029022994567640126,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6296",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "14.0",
+    "lower": "13.3",
+    "upper": "14.7",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 14,
+        "canonical_inputs": {
+          "sodium": 139,
+          "chloride": 100,
+          "bicarbonate": 25
+        },
+        "gate_ms": 0.009413997759111226,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 14.0,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "chloride": 100.0,
+          "bicarbonate": 25.0
+        },
+        "gate_ms": 0.03331000334583223,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 14.0,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "chloride": 100.0,
+          "bicarbonate": 25.0
+        },
+        "gate_ms": 0.037677004002034664,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-6167",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "9.0",
+    "lower": "8.55",
+    "upper": "9.45",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 9,
+        "canonical_inputs": {
+          "sodium": 142,
+          "chloride": 120,
+          "bicarbonate": 13
+        },
+        "gate_ms": 0.010766001651063561,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 9.0,
+        "canonical_inputs": {
+          "sodium": 142.0,
+          "chloride": 120.0,
+          "bicarbonate": 13.0
+        },
+        "gate_ms": 0.03368100442457944,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.06166299863252789,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6165",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "6.0",
+    "lower": "5.7",
+    "upper": "6.3",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6,
+        "canonical_inputs": {
+          "sodium": 137,
+          "chloride": 101,
+          "bicarbonate": 30
+        },
+        "gate_ms": 0.010456002200953662,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.0,
+        "canonical_inputs": {
+          "sodium": 137.0,
+          "chloride": 101.0,
+          "bicarbonate": 30.0
+        },
+        "gate_ms": 0.033390002499800175,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:sodium",
+        "gate_ms": 0.03999000182375312,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6304",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "-7.0",
+    "lower": "-7.35",
+    "upper": "-6.65",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": -7,
+        "canonical_inputs": {
+          "sodium": 130,
+          "chloride": 92,
+          "bicarbonate": 45
+        },
+        "gate_ms": 0.010365998605266213,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": -7.0,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 92.0,
+          "bicarbonate": 45.0
+        },
+        "gate_ms": 0.034731994674075395,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02201300230808556,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6189",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "7.5",
+    "lower": "7.125",
+    "upper": "7.875",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 7.5,
+        "canonical_inputs": {
+          "sodium": 140,
+          "chloride": 107,
+          "bicarbonate": 25.5
+        },
+        "gate_ms": 0.010735995601862669,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 7.5,
+        "canonical_inputs": {
+          "sodium": 140.0,
+          "chloride": 107.0,
+          "bicarbonate": 25.5
+        },
+        "gate_ms": 0.03206799738109112,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 7.5,
+        "canonical_inputs": {
+          "sodium": 140.0,
+          "chloride": 107.0,
+          "bicarbonate": 25.5
+        },
+        "gate_ms": 0.04265499592293054,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-7633",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "0.88097",
+    "lower": "0.83692",
+    "upper": "0.92502",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 8.809716857601675,
+        "canonical_inputs": {
+          "height": 127,
+          "weight": 22
+        },
+        "gate_ms": 0.009383998985867947,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.8809716857601674,
+        "canonical_inputs": {
+          "height": 1.27,
+          "weight": 22.0
+        },
+        "gate_ms": 0.015753998013678938,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.015001998690422624,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7332",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "1.6614",
+    "lower": "1.57833",
+    "upper": "1.74447",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 16.6140001203804,
+        "canonical_inputs": {
+          "height": 183,
+          "weight": 54.3
+        },
+        "gate_ms": 0.1853299982030876,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.66140001203804,
+        "canonical_inputs": {
+          "height": 1.83,
+          "weight": 54.3
+        },
+        "gate_ms": 0.017555998056195676,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 1.66140001203804,
+        "canonical_inputs": {
+          "height": 1.83,
+          "weight": 54.3
+        },
+        "gate_ms": 0.033110001822933555,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-7786",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "2.02574",
+    "lower": "1.92445",
+    "upper": "2.12703",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.257371772051552,
+        "canonical_inputs": {
+          "height": 187,
+          "weight": 79
+        },
+        "gate_ms": 0.03616400499595329,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 2.0257371772051553,
+        "canonical_inputs": {
+          "height": 1.87,
+          "weight": 79.0
+        },
+        "gate_ms": 0.019589999283198267,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 2.0257371772051553,
+        "canonical_inputs": {
+          "height": 1.87,
+          "weight": 79.0
+        },
+        "gate_ms": 0.03627499972935766,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-7744",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "0.21016",
+    "lower": "0.19965",
+    "upper": "0.22067",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 66.4580067912563,
+        "canonical_inputs": {
+          "height": 50,
+          "weight": 3180
+        },
+        "gate_ms": 0.01006499951472506,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.21015867021530818,
+        "canonical_inputs": {
+          "height": 0.5,
+          "weight": 3.18
+        },
+        "gate_ms": 0.017316000594291836,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.017505997675471008,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7611",
+    "model_id": "qwen2.5_1.5b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "1.91435",
+    "lower": "1.81863",
+    "upper": "2.01007",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 19.1434642168606,
+        "canonical_inputs": {
+          "height": 167,
+          "weight": 79
+        },
+        "gate_ms": 0.009092997061088681,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.91434642168606,
+        "canonical_inputs": {
+          "height": 1.67,
+          "weight": 79.0
+        },
+        "gate_ms": 0.015632998838555068,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.01715599501039833,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-392",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "41.36596",
+    "lower": "39.29766",
+    "upper": "43.43426",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-277",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "20.95102",
+    "lower": "19.90347",
+    "upper": "21.99857",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-345",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "140.84672",
+    "lower": "133.80438",
+    "upper": "147.88906",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-220",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "3",
+    "reference": "5.3704",
+    "lower": "5.10188",
+    "upper": "5.63892",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-587",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "3",
+    "reference": "36.92182",
+    "lower": "35.07573",
+    "upper": "38.76791",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2017",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "76.66667",
+    "lower": "72.83334",
+    "upper": "80.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1649",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "72.66667",
+    "lower": "69.03334",
+    "upper": "76.3",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1164",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "60.0",
+    "lower": "57.0",
+    "upper": "63.0",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1956",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "ValueError: Duplicate key: field",
+    "expected_calculator_id": "5",
+    "reference": "116.66667",
+    "lower": "110.83334",
+    "upper": "122.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1532",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "5",
+    "reference": "90.0",
+    "lower": "85.5",
+    "upper": "94.5",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2148",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "26.72993",
+    "lower": "25.39343",
+    "upper": "28.06643",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2397",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "19.72318",
+    "lower": "18.73702",
+    "upper": "20.70934",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2375",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "20.06095",
+    "lower": "19.0579",
+    "upper": "21.064",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2236",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "ValueError: Duplicate key: unit",
+    "expected_calculator_id": "6",
+    "reference": "24.23823",
+    "lower": "23.02632",
+    "upper": "25.45014",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2370",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "6",
+    "reference": "19.94806",
+    "lower": "18.95066",
+    "upper": "20.94546",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2665",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "17.22512",
+    "lower": "16.36386",
+    "upper": "18.08638",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2554",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "6.98",
+    "lower": "6.631",
+    "upper": "7.329",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2545",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "7",
+    "reference": "9.02",
+    "lower": "8.569",
+    "upper": "9.471",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2680",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "7",
+    "reference": "16.46",
+    "lower": "15.637",
+    "upper": "17.283",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2595",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "7",
+    "reference": "6.2",
+    "lower": "5.89",
+    "upper": "6.51",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4081",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "716.884",
+    "lower": "681.0398",
+    "upper": "752.7282",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4079",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "466.05888",
+    "lower": "442.75594",
+    "upper": "489.36182",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4023",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "362.56794",
+    "lower": "344.43954",
+    "upper": "380.69634",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4067",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "301.84037",
+    "lower": "286.74835",
+    "upper": "316.93239",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4029",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "11",
+    "reference": "405.35293",
+    "lower": "385.08528",
+    "upper": "425.62058",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4327",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "2.81129",
+    "lower": "2.67073",
+    "upper": "2.95185",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4318",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1691.60545",
+    "lower": "1607.02518",
+    "upper": "1776.18572",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4307",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1.62724",
+    "lower": "1.54588",
+    "upper": "1.7086",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4305",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "0.86387",
+    "lower": "0.82068",
+    "upper": "0.90706",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4356",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "19",
+    "reference": "1.31755",
+    "lower": "1.25167",
+    "upper": "1.38343",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5463",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "135.032",
+    "lower": "128.2804",
+    "upper": "141.7836",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5482",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "26",
+    "reference": "132.752",
+    "lower": "126.1144",
+    "upper": "139.3896",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5341",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "300.52512",
+    "lower": "285.49886",
+    "upper": "315.55138",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5398",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "195.448",
+    "lower": "185.6756",
+    "upper": "205.2204",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5381",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "26",
+    "reference": "130.76",
+    "lower": "124.222",
+    "upper": "137.298",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5675",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "292.38095",
+    "lower": "277.7619",
+    "upper": "307.0",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5620",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "298.88889",
+    "lower": "283.94445",
+    "upper": "313.83333",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5771",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "30",
+    "reference": "286.8254",
+    "lower": "272.48413",
+    "upper": "301.16667",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5718",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "289.43651",
+    "lower": "274.96468",
+    "upper": "303.90834",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5589",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "30",
+    "reference": "278.5362",
+    "lower": "264.60939",
+    "upper": "292.46301",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6296",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "14.0",
+    "lower": "13.3",
+    "upper": "14.7",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6167",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": "Rejected: ARGUMENT_SET:",
+    "expected_calculator_id": "39",
+    "reference": "9.0",
+    "lower": "8.55",
+    "upper": "9.45",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6165",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "RemoteDisconnected: Remote end closed connection without response",
+    "expected_calculator_id": "39",
+    "reference": "6.0",
+    "lower": "5.7",
+    "upper": "6.3",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6304",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "39",
+    "reference": "-7.0",
+    "lower": "-7.35",
+    "upper": "-6.65",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6189",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "39",
+    "reference": "7.5",
+    "lower": "7.125",
+    "upper": "7.875",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7633",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "60",
+    "reference": "0.88097",
+    "lower": "0.83692",
+    "upper": "0.92502",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7332",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "60",
+    "reference": "1.6614",
+    "lower": "1.57833",
+    "upper": "1.74447",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7786",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "60",
+    "reference": "2.02574",
+    "lower": "1.92445",
+    "upper": "2.12703",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7744",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "60",
+    "reference": "0.21016",
+    "lower": "0.19965",
+    "upper": "0.22067",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7611",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": null,
+    "workflow_error": "URLError: <urlopen error [Errno 111] Connection refused>",
+    "expected_calculator_id": "60",
+    "reference": "1.91435",
+    "lower": "1.81863",
+    "upper": "2.01007",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-392",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "41.36596",
+    "lower": "39.29766",
+    "upper": "43.43426",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 41.365956613491235,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 33,
+          "creatinine": 2.12
+        },
+        "gate_ms": 0.010645999282132834,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 41.365956613491235,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 33.0,
+          "creatinine": 2.12
+        },
+        "gate_ms": 0.027080997824668884,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.04628899478120729,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-277",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "20.95102",
+    "lower": "19.90347",
+    "upper": "21.99857",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.951021146395785,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 57,
+          "creatinine": 3.3
+        },
+        "gate_ms": 0.01107600110117346,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 20.951021146395785,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 57.0,
+          "creatinine": 3.3
+        },
+        "gate_ms": 0.02918400423368439,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.022864995116833597,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-345",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "140.84672",
+    "lower": "133.80438",
+    "upper": "147.88906",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 140.84672243543568,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 21,
+          "creatinine": 0.6
+        },
+        "gate_ms": 0.011167001503054053,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 140.84672243543568,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 21.0,
+          "creatinine": 0.6
+        },
+        "gate_ms": 0.027731999580282718,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.020391002180986106,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-220",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "5.3704",
+    "lower": "5.10188",
+    "upper": "5.63892",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 5.37040058665893,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 35,
+          "creatinine": 11.5
+        },
+        "gate_ms": 0.011757998436223716,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 5.37040058665893,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 35.0,
+          "creatinine": 11.5
+        },
+        "gate_ms": 0.030126000638119876,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.022804000764153898,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-587",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "3",
+    "workflow_error": null,
+    "expected_calculator_id": "3",
+    "reference": "36.92182",
+    "lower": "35.07573",
+    "upper": "38.76791",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 2.3296092275894904,
+        "canonical_inputs": {
+          "sex": "Female",
+          "age": 59,
+          "creatinine": 16
+        },
+        "gate_ms": 0.01188799797091633,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 2.3296092275894904,
+        "canonical_inputs": {
+          "sex": "Female",
+          "age": 59.0,
+          "creatinine": 16.0
+        },
+        "gate_ms": 0.02921400300692767,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.02296500315424055,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2017",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "76.66667",
+    "lower": "72.83334",
+    "upper": "80.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 100.0,
+        "canonical_inputs": {
+          "sbp": 140,
+          "dbp": 80
+        },
+        "gate_ms": 0.009073999535758048,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 100.0,
+        "canonical_inputs": {
+          "sbp": 140.0,
+          "dbp": 80.0
+        },
+        "gate_ms": 0.015953999536577612,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.014751996786799282,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1649",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "72.66667",
+    "lower": "69.03334",
+    "upper": "76.3",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 73.33333333333333,
+        "canonical_inputs": {
+          "sbp": 100,
+          "dbp": 60
+        },
+        "gate_ms": 0.008752998837735504,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 73.33333333333333,
+        "canonical_inputs": {
+          "sbp": 100.0,
+          "dbp": 60.0
+        },
+        "gate_ms": 0.016034005966503173,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.014370998542290181,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1164",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "60.0",
+    "lower": "57.0",
+    "upper": "63.0",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 60.0,
+        "canonical_inputs": {
+          "sbp": 80,
+          "dbp": 50
+        },
+        "gate_ms": 0.008842995157465339,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 60.0,
+        "canonical_inputs": {
+          "sbp": 80.0,
+          "dbp": 50.0
+        },
+        "gate_ms": 0.04250399797456339,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.018137005099561065,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1956",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "116.66667",
+    "lower": "110.83334",
+    "upper": "122.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 116.66666666666667,
+        "canonical_inputs": {
+          "sbp": 150,
+          "dbp": 100
+        },
+        "gate_ms": 0.00883299799170345,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 116.66666666666667,
+        "canonical_inputs": {
+          "sbp": 150.0,
+          "dbp": 100.0
+        },
+        "gate_ms": 0.017065998690668494,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.01699600397842005,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-1532",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "5",
+    "workflow_error": null,
+    "expected_calculator_id": "5",
+    "reference": "90.0",
+    "lower": "85.5",
+    "upper": "94.5",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 90.0,
+        "canonical_inputs": {
+          "sbp": 130,
+          "dbp": 70
+        },
+        "gate_ms": 0.009444003808312118,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 90.0,
+        "canonical_inputs": {
+          "sbp": 130.0,
+          "dbp": 70.0
+        },
+        "gate_ms": 0.016325000615324825,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.018518003344070166,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2148",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "26.72993",
+    "lower": "25.39343",
+    "upper": "28.06643",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.002672992749507167,
+        "canonical_inputs": {
+          "height": 173,
+          "weight": 80
+        },
+        "gate_ms": 0.009134004358202219,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 26.729927495071667,
+        "canonical_inputs": {
+          "height": 1.73,
+          "weight": 80.0
+        },
+        "gate_ms": 0.01579400122864172,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 26.729927495071667,
+        "canonical_inputs": {
+          "height": 1.73,
+          "weight": 80.0
+        },
+        "gate_ms": 0.026811001589521766,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2397",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "19.72318",
+    "lower": "18.73702",
+    "upper": "20.70934",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 19.723183391003463,
+        "canonical_inputs": {
+          "height": 1.7,
+          "weight": 57
+        },
+        "gate_ms": 0.010135998309124261,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 19.723183391003463,
+        "canonical_inputs": {
+          "height": 1.7,
+          "weight": 57.0
+        },
+        "gate_ms": 0.017336002201773226,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.01641499693505466,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2375",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "20.06095",
+    "lower": "19.0579",
+    "upper": "21.064",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52
+        },
+        "gate_ms": 0.010857002052944154,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52.0
+        },
+        "gate_ms": 0.019078994228038937,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 20.060954438486167,
+        "canonical_inputs": {
+          "height": 1.61,
+          "weight": 52.0
+        },
+        "gate_ms": 0.03058600123040378,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2236",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "24.23823",
+    "lower": "23.02632",
+    "upper": "25.45014",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.0024238227146814403,
+        "canonical_inputs": {
+          "height": 152,
+          "weight": 56
+        },
+        "gate_ms": 0.010275995009578764,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 24.238227146814403,
+        "canonical_inputs": {
+          "height": 1.52,
+          "weight": 56.0
+        },
+        "gate_ms": 0.01604400313226506,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 24.238227146814403,
+        "canonical_inputs": {
+          "height": 1.52,
+          "weight": 56.0
+        },
+        "gate_ms": 0.03099699824815616,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-2370",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "6",
+    "workflow_error": null,
+    "expected_calculator_id": "6",
+    "reference": "19.94806",
+    "lower": "18.95066",
+    "upper": "20.94546",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001994805976890361,
+        "canonical_inputs": {
+          "height": 163,
+          "weight": 53
+        },
+        "gate_ms": 0.009153001883532852,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 19.948059768903608,
+        "canonical_inputs": {
+          "height": 1.6300000000000001,
+          "weight": 53.0
+        },
+        "gate_ms": 0.016375000996049494,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.01523299579275772,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2665",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "17.22512",
+    "lower": "16.36386",
+    "upper": "18.08638",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 7.32,
+        "canonical_inputs": {
+          "albumin": 3.6,
+          "calcium": 7.0
+        },
+        "gate_ms": 0.009174000297207385,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 10.19712,
+        "canonical_inputs": {
+          "albumin": 0.0036000000000000003,
+          "calcium": 7.0
+        },
+        "gate_ms": 0.03203799860784784,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:calcium",
+        "gate_ms": 0.03607400140026584,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2554",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "6.98",
+    "lower": "6.631",
+    "upper": "7.329",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6.98,
+        "canonical_inputs": {
+          "albumin": 4,
+          "calcium": 6.98
+        },
+        "gate_ms": 0.009233997843693942,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.98,
+        "canonical_inputs": {
+          "albumin": 4.0,
+          "calcium": 6.98
+        },
+        "gate_ms": 0.027821995900012553,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.019789993530139327,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2545",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "7",
+    "reference": "9.02",
+    "lower": "8.569",
+    "upper": "9.471",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2680",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": "ValueError: Generation did not finish: length",
+    "expected_calculator_id": "7",
+    "reference": "16.46",
+    "lower": "15.637",
+    "upper": "17.283",
+    "gates": {
+      "L1_schema_only": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-2595",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "7",
+    "workflow_error": null,
+    "expected_calculator_id": "7",
+    "reference": "6.2",
+    "lower": "5.89",
+    "upper": "6.51",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6.2,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 5.0
+        },
+        "gate_ms": 0.009054005204234272,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.2,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 5.0
+        },
+        "gate_ms": 0.03220899816369638,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 6.2,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 5.0
+        },
+        "gate_ms": 0.035684002796188,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-4081",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "716.884",
+    "lower": "681.0398",
+    "upper": "752.7282",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.0056937936136011915,
+        "canonical_inputs": {
+          "age": 30,
+          "ast": 12.3,
+          "alt": 10.5,
+          "platelets": 20000
+        },
+        "gate_ms": 0.011316995369270444,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.0056937936136011915,
+        "canonical_inputs": {
+          "age": 30.0,
+          "ast": 12.3,
+          "alt": 10.5,
+          "platelets": 20000.0
+        },
+        "gate_ms": 0.02459700044710189,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.020850995497312397,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4079",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "466.05888",
+    "lower": "442.75594",
+    "upper": "489.36182",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.0006324555320336759,
+        "canonical_inputs": {
+          "age": 30,
+          "ast": 10,
+          "alt": 10,
+          "platelets": 150000
+        },
+        "gate_ms": 0.010966999980155379,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.0006324555320336759,
+        "canonical_inputs": {
+          "age": 30.0,
+          "ast": 10.0,
+          "alt": 10.0,
+          "platelets": 150000.0
+        },
+        "gate_ms": 0.023705004423391074,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.020341001800261438,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4023",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "362.56794",
+    "lower": "344.43954",
+    "upper": "380.69634",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001704025734460517,
+        "canonical_inputs": {
+          "age": 35,
+          "ast": 40,
+          "alt": 30,
+          "platelets": 150000
+        },
+        "gate_ms": 0.012299002264626324,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.001704025734460517,
+        "canonical_inputs": {
+          "age": 35.0,
+          "ast": 40.0,
+          "alt": 30.0,
+          "platelets": 150000.0
+        },
+        "gate_ms": 0.02096199750667438,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.018829006876330823,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4067",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "301.84037",
+    "lower": "286.74835",
+    "upper": "316.93239",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 9.486832980505138e-08,
+        "canonical_inputs": {
+          "age": 30,
+          "ast": 10,
+          "alt": 10,
+          "platelets": 1000000000
+        },
+        "gate_ms": 0.015434001397807151,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 9.486832980505138e-08,
+        "canonical_inputs": {
+          "age": 30.0,
+          "ast": 10.0,
+          "alt": 10.0,
+          "platelets": 1000000000.0
+        },
+        "gate_ms": 0.07340100273722783,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.01751600211719051,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4029",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "11",
+    "reference": "405.35293",
+    "lower": "385.08528",
+    "upper": "425.62058",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001460593486680443,
+        "canonical_inputs": {
+          "age": 30,
+          "ast": 40,
+          "alt": 30,
+          "platelets": 150000
+        },
+        "gate_ms": 0.01142800465459004,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.001460593486680443,
+        "canonical_inputs": {
+          "age": 30.0,
+          "ast": 40.0,
+          "alt": 30.0,
+          "platelets": 150000.0
+        },
+        "gate_ms": 0.02424600097583607,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.021182000637054443,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4327",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "2.81129",
+    "lower": "2.67073",
+    "upper": "2.95185",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.002811290322580645,
+        "canonical_inputs": {
+          "age": 63,
+          "ast": 83,
+          "alt": 144,
+          "platelets": 155000
+        },
+        "gate_ms": 0.01095700281439349,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.002811290322580645,
+        "canonical_inputs": {
+          "age": 63.0,
+          "ast": 83.0,
+          "alt": 144.0,
+          "platelets": 155000.0
+        },
+        "gate_ms": 0.02090100315399468,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.016615005733910948,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4318",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1691.60545",
+    "lower": "1607.02518",
+    "upper": "1776.18572",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 1.691605453556174,
+        "canonical_inputs": {
+          "age": 42,
+          "ast": 117,
+          "alt": 186,
+          "platelets": 213
+        },
+        "gate_ms": 0.009413997759111226,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.691605453556174,
+        "canonical_inputs": {
+          "age": 42.0,
+          "ast": 117.0,
+          "alt": 186.0,
+          "platelets": 213.0
+        },
+        "gate_ms": 0.020441002561710775,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:ast",
+        "gate_ms": 0.039369995647575706,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4307",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1.62724",
+    "lower": "1.54588",
+    "upper": "1.7086",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 1.1764127764127763,
+        "canonical_inputs": {
+          "age": 38,
+          "ast": 126,
+          "alt": 100,
+          "platelets": 407
+        },
+        "gate_ms": 0.010415998985990882,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:alt",
+        "gate_ms": 0.026170004275627434,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:alt",
+        "gate_ms": 0.009955001587513834,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4305",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "0.86387",
+    "lower": "0.82068",
+    "upper": "0.90706",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.049059473016042895,
+        "canonical_inputs": {
+          "age": 60,
+          "ast": 16,
+          "alt": 11,
+          "platelets": 5900
+        },
+        "gate_ms": 0.010897005267906934,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.049059473016042895,
+        "canonical_inputs": {
+          "age": 60.0,
+          "ast": 16.0,
+          "alt": 11.0,
+          "platelets": 5900.0
+        },
+        "gate_ms": 0.021332998585421592,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:ast",
+        "gate_ms": 0.038988997403066605,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-4356",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "19",
+    "workflow_error": null,
+    "expected_calculator_id": "19",
+    "reference": "1.31755",
+    "lower": "1.25167",
+    "upper": "1.38343",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 0.001317545571374726,
+        "canonical_inputs": {
+          "age": 63,
+          "ast": 36,
+          "alt": 22,
+          "platelets": 367000
+        },
+        "gate_ms": 0.01468299888074398,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.001317545571374726,
+        "canonical_inputs": {
+          "age": 63.0,
+          "ast": 36.0,
+          "alt": 22.0,
+          "platelets": 367000.0
+        },
+        "gate_ms": 0.021601998014375567,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:ast",
+        "gate_ms": 0.03414099774090573,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5463",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "135.032",
+    "lower": "128.2804",
+    "upper": "141.7836",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 310.23015873015873,
+        "canonical_inputs": {
+          "sodium": 134,
+          "bun": 96,
+          "glucose": 143
+        },
+        "gate_ms": 0.011067000741604716,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 310.23015873015873,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "bun": 96.0,
+          "glucose": 143.0
+        },
+        "gate_ms": 0.03805699816439301,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:bun",
+        "gate_ms": 0.042744002712424845,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5482",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "132.752",
+    "lower": "126.1144",
+    "upper": "139.3896",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 311.05555555555554,
+        "canonical_inputs": {
+          "sodium": 134,
+          "bun": 105,
+          "glucose": 100
+        },
+        "gate_ms": 0.009455005056224763,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 311.05555555555554,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "bun": 105.0,
+          "glucose": 100.0
+        },
+        "gate_ms": 0.03293999907327816,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.022904001525603235,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5341",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "300.52512",
+    "lower": "285.49886",
+    "upper": "315.55138",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 264.3174603174603,
+        "canonical_inputs": {
+          "sodium": 117,
+          "bun": 18,
+          "glucose": 430
+        },
+        "gate_ms": 0.010124997061211616,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:sodium",
+        "gate_ms": 0.027221001801081002,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:sodium",
+        "gate_ms": 0.008031995093915612,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5398",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "195.448",
+    "lower": "185.6756",
+    "upper": "205.2204",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 788.4761904761905,
+        "canonical_inputs": {
+          "sodium": 172,
+          "bun": 1077,
+          "glucose": 1077
+        },
+        "gate_ms": 0.01199800317408517,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 788.4761904761905,
+        "canonical_inputs": {
+          "sodium": 172.0,
+          "bun": 1077.0,
+          "glucose": 1077.0
+        },
+        "gate_ms": 0.03954899875679985,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 788.4761904761905,
+        "canonical_inputs": {
+          "sodium": 172.0,
+          "bun": 1077.0,
+          "glucose": 1077.0
+        },
+        "gate_ms": 0.044327003706712276,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5381",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "30",
+    "workflow_error": null,
+    "expected_calculator_id": "26",
+    "reference": "130.76",
+    "lower": "124.222",
+    "upper": "137.298",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 282.0,
+        "canonical_inputs": {
+          "sodium": 131,
+          "bun": 42,
+          "glucose": 90
+        },
+        "gate_ms": 0.010424999345559627,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 282.0,
+        "canonical_inputs": {
+          "sodium": 131.0,
+          "bun": 42.0,
+          "glucose": 90.0
+        },
+        "gate_ms": 0.03322999691590667,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.022924999939277768,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5675",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "292.38095",
+    "lower": "277.7619",
+    "upper": "307.0",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 111.20000000000002,
+        "canonical_inputs": {
+          "sodium": 139,
+          "chloride": 4.7,
+          "bicarbonate": 23.1
+        },
+        "gate_ms": 0.009834999218583107,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 111.20000000000002,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "chloride": 4.7,
+          "bicarbonate": 23.1
+        },
+        "gate_ms": 0.0335709992214106,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02397600474068895,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5620",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "298.88889",
+    "lower": "283.94445",
+    "upper": "313.83333",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20,
+        "canonical_inputs": {
+          "sodium": 144,
+          "chloride": 79,
+          "bicarbonate": 45
+        },
+        "gate_ms": 0.009634997695684433,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:chloride",
+        "gate_ms": 0.03580399788916111,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "UNIT_OR_VALUE:chloride",
+        "gate_ms": 0.019990002328995615,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5771",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "286.8254",
+    "lower": "272.48413",
+    "upper": "301.16667",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 13,
+        "canonical_inputs": {
+          "sodium": 135,
+          "chloride": 100,
+          "bicarbonate": 22
+        },
+        "gate_ms": 0.009964998753275722,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 13.0,
+        "canonical_inputs": {
+          "sodium": 135.0,
+          "chloride": 100.0,
+          "bicarbonate": 22.0
+        },
+        "gate_ms": 0.03261900565121323,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 13.0,
+        "canonical_inputs": {
+          "sodium": 135.0,
+          "chloride": 100.0,
+          "bicarbonate": 22.0
+        },
+        "gate_ms": 0.03608500264817849,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5718",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "289.43651",
+    "lower": "274.96468",
+    "upper": "303.90834",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 5,
+        "canonical_inputs": {
+          "sodium": 136,
+          "chloride": 100,
+          "bicarbonate": 31
+        },
+        "gate_ms": 0.00959399767452851,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 5.0,
+        "canonical_inputs": {
+          "sodium": 136.0,
+          "chloride": 100.0,
+          "bicarbonate": 31.0
+        },
+        "gate_ms": 0.03278999793110415,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02176300040446222,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-5589",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "30",
+    "reference": "278.5362",
+    "lower": "264.60939",
+    "upper": "292.46301",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 29.100000000000005,
+        "canonical_inputs": {
+          "sodium": 135.5,
+          "chloride": 103.1,
+          "bicarbonate": 3.3
+        },
+        "gate_ms": 0.009743998816702515,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 29.100000000000005,
+        "canonical_inputs": {
+          "sodium": 135.5,
+          "chloride": 103.1,
+          "bicarbonate": 3.3
+        },
+        "gate_ms": 0.03679600195027888,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02235399733763188,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6296",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "14.0",
+    "lower": "13.3",
+    "upper": "14.7",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 14,
+        "canonical_inputs": {
+          "sodium": 139,
+          "chloride": 100,
+          "bicarbonate": 25
+        },
+        "gate_ms": 0.010366005881223828,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 14.0,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "chloride": 100.0,
+          "bicarbonate": 25.0
+        },
+        "gate_ms": 0.0602610016358085,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 14.0,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "chloride": 100.0,
+          "bicarbonate": 25.0
+        },
+        "gate_ms": 0.041882994992192835,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-6167",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "9.0",
+    "lower": "8.55",
+    "upper": "9.45",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 9,
+        "canonical_inputs": {
+          "sodium": 142,
+          "chloride": 120,
+          "bicarbonate": 13
+        },
+        "gate_ms": 0.009293995390180498,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 9.0,
+        "canonical_inputs": {
+          "sodium": 142.0,
+          "chloride": 120.0,
+          "bicarbonate": 13.0
+        },
+        "gate_ms": 0.03242899401811883,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02402600512141362,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6165",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "6.0",
+    "lower": "5.7",
+    "upper": "6.3",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 6,
+        "canonical_inputs": {
+          "sodium": 137,
+          "chloride": 101,
+          "bicarbonate": 30
+        },
+        "gate_ms": 0.009575000149197876,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 6.0,
+        "canonical_inputs": {
+          "sodium": 137.0,
+          "chloride": 101.0,
+          "bicarbonate": 30.0
+        },
+        "gate_ms": 0.040500999602954835,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.1956149935722351,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-6304",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "-7.0",
+    "lower": "-7.35",
+    "upper": "-6.65",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": -7,
+        "canonical_inputs": {
+          "sodium": 130,
+          "chloride": 92,
+          "bicarbonate": 45
+        },
+        "gate_ms": 0.009785006113816053,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": -7.0,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 92.0,
+          "bicarbonate": 45.0
+        },
+        "gate_ms": 0.03305899736005813,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": -7.0,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 92.0,
+          "bicarbonate": 45.0
+        },
+        "gate_ms": 0.03612400178099051,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-6189",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "39",
+    "workflow_error": null,
+    "expected_calculator_id": "39",
+    "reference": "7.5",
+    "lower": "7.125",
+    "upper": "7.875",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 7.5,
+        "canonical_inputs": {
+          "sodium": 140,
+          "chloride": 107,
+          "bicarbonate": 25.5
+        },
+        "gate_ms": 0.010556002962403,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 7.5,
+        "canonical_inputs": {
+          "sodium": 140.0,
+          "chloride": 107.0,
+          "bicarbonate": 25.5
+        },
+        "gate_ms": 0.0348920002579689,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.022613996407017112,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7633",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "0.88097",
+    "lower": "0.83692",
+    "upper": "0.92502",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 8.809716857601675,
+        "canonical_inputs": {
+          "height": 127,
+          "weight": 22
+        },
+        "gate_ms": 0.009513998520560563,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.8809716857601674,
+        "canonical_inputs": {
+          "height": 1.27,
+          "weight": 22.0
+        },
+        "gate_ms": 0.015673002053517848,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 0.8809716857601674,
+        "canonical_inputs": {
+          "height": 1.27,
+          "weight": 22.0
+        },
+        "gate_ms": 0.02794199826894328,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      }
+    }
+  },
+  {
+    "case_id": "train-7332",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "1.6614",
+    "lower": "1.57833",
+    "upper": "1.74447",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 16.6140001203804,
+        "canonical_inputs": {
+          "height": 183,
+          "weight": 54.3
+        },
+        "gate_ms": 0.009994997526519,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 16.6140001203804,
+        "canonical_inputs": {
+          "height": 183.0,
+          "weight": 54.3
+        },
+        "gate_ms": 0.016655001672916114,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": true,
+        "result": 16.6140001203804,
+        "canonical_inputs": {
+          "height": 183.0,
+          "weight": 54.3
+        },
+        "gate_ms": 0.029505004931706935,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7786",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "2.02574",
+    "lower": "1.92445",
+    "upper": "2.12703",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 20.257371772051552,
+        "canonical_inputs": {
+          "height": 187,
+          "weight": 79
+        },
+        "gate_ms": 0.008852999599184841,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 2.0257371772051553,
+        "canonical_inputs": {
+          "height": 1.87,
+          "weight": 79.0
+        },
+        "gate_ms": 0.016325000615324825,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.014712997653987259,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7744",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "0.21016",
+    "lower": "0.19965",
+    "upper": "0.22067",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 53.30728530573158,
+        "canonical_inputs": {
+          "height": 31,
+          "weight": 3300
+        },
+        "gate_ms": 0.009244002285413444,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 0.16857243744653713,
+        "canonical_inputs": {
+          "height": 0.31,
+          "weight": 3.3000000000000003
+        },
+        "gate_ms": 0.016514997696503997,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:height",
+        "gate_ms": 0.02569899515947327,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  },
+  {
+    "case_id": "train-7611",
+    "model_id": "smollm2_1.7b_q4km",
+    "selected_calculator_id": "60",
+    "workflow_error": null,
+    "expected_calculator_id": "60",
+    "reference": "1.91435",
+    "lower": "1.81863",
+    "upper": "2.01007",
+    "gates": {
+      "L1_schema_only": {
+        "released": true,
+        "result": 19.1434642168606,
+        "canonical_inputs": {
+          "height": 167,
+          "weight": 79
+        },
+        "gate_ms": 0.009193994628731161,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      },
+      "L2_unit_domain": {
+        "released": true,
+        "result": 1.91434642168606,
+        "canonical_inputs": {
+          "height": 1.67,
+          "weight": 79.0
+        },
+        "gate_ms": 0.016395002603530884,
+        "correct_within_interval": true,
+        "correct_within_0_1pct": true
+      },
+      "L3_literal_span": {
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.01793700357666239,
+        "correct_within_interval": false,
+        "correct_within_0_1pct": false
+      }
+    }
+  }
+]

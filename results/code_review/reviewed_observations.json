@@ -1,0 +1,79 @@
+{
+  "cli": "checked_calculator.py",
+  "route": "no proposed model call",
+  "cases": [
+    {
+      "id": "direct_measurements",
+      "expected": "return",
+      "released": true,
+      "result": 27.777777777777775,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "unit_equivalence",
+      "expected": "return",
+      "released": true,
+      "result": 27.777777777723205,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "no_weight",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "NONUNIQUE_NAMED_MEASUREMENT:weight",
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "two_distinct_weights",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "NONUNIQUE_NAMED_MEASUREMENT:weight",
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "relative_only",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "OTHER_PERSON",
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "goal_only",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "NONOBSERVED",
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "later_only",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "OTHER_TIME",
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "different_requested_quantity",
+      "expected": "abstain",
+      "released": false,
+      "result": null,
+      "reason": "UNSUPPORTED_OUTPUT_STATISTIC",
+      "route": null,
+      "meets_expected_behavior": true
+    }
+  ],
+  "repeat_and_span_checks": "passed"
+}

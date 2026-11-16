@@ -1,0 +1,1745 @@
+{
+  "new_model_calls": 0,
+  "distinct_case_ids": 100,
+  "code_hashes": {
+    "medcalc/source_binding.py": "e6dca72676a64a7ed1789d823ffa2c99fe181532f145c8c04173a91021ae357e",
+    "medcalc/source_repair.py": "6d7e085133ecfe85b3b93dbafb95e999cfe00dc71d55129fc5363f2b97f281b4",
+    "medcalc/live.py": "a63376b70e28b2aa17b4fdadbdf329e01cd5dffe2a31a99b7883433c78023178",
+    "medcalc/registry.py": "860971cef9b50b3a9e30edb5b67132de271fee4efdb86efc9acb6df2223f766d",
+    "medcalc/enforcement.py": "f136e8b086aa1319f56b160d7db5d2faca3cc396528e412685a7e281d7c09117",
+    "run_source_repair.py": "2d0d0af2b85ae543b38a46a9b2dd364ca54ae4617fccc9a66e0b57abfd0a0103"
+  },
+  "label_sha256": "86696726369da50c9137a9c0c9a6f1a9ac1f26df9570a6b1edec792a0c9ded1b",
+  "cohorts": {
+    "qwen_development": {
+      "same_returned_cases": {
+        "same_returned_case_count": 48,
+        "baseline_matches": 42,
+        "full_repair_matches": 47
+      },
+      "matched_selected_tool_mix": {
+        "quota": 48,
+        "expected_matches": {
+          "uniform_unit_domain": 42.0,
+          "quote_ranked_unit_domain": 42.0,
+          "uniform_source_repair": 47.0
+        },
+        "by_tool": {
+          "3": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "5": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4.0,
+              "expected_nonmatching": 0.0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 4
+            }
+          },
+          "6": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "7": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 3,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 3,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "11": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "19": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 1,
+              "expected_nonmatching": 4,
+              "conditional_95_match_counts": [
+                1,
+                1
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 1,
+              "expected_nonmatching": 4,
+              "conditional_95_match_counts": [
+                1,
+                1
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "26": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "30": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "39": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "60": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          }
+        }
+      },
+      "cases": 50,
+      "unique_source_groups": 50,
+      "methods": {
+        "unit_domain": {
+          "released": 48,
+          "matched": 42,
+          "nonmatching": 6,
+          "no_answer": 2,
+          "agreement": 0.84,
+          "coverage": 0.96,
+          "agreement_wilson95": [
+            0.7148578393696501,
+            0.916625793219666
+          ],
+          "conditional_agreement_wilson95": [
+            0.7529954171361317,
+            0.9414294856142802
+          ]
+        },
+        "literal_quote": {
+          "released": 20,
+          "matched": 18,
+          "nonmatching": 2,
+          "no_answer": 30,
+          "agreement": 0.36,
+          "coverage": 0.4,
+          "agreement_wilson95": [
+            0.24138749651846741,
+            0.49858983123887307
+          ],
+          "conditional_agreement_wilson95": [
+            0.6989663547715128,
+            0.9721335187862319
+          ]
+        },
+        "source_verify_only": {
+          "released": 43,
+          "matched": 42,
+          "nonmatching": 1,
+          "no_answer": 7,
+          "agreement": 0.84,
+          "coverage": 0.86,
+          "agreement_wilson95": [
+            0.7148578393696501,
+            0.916625793219666
+          ],
+          "conditional_agreement_wilson95": [
+            0.8794100655939282,
+            0.9958829127256662
+          ]
+        },
+        "source_verify_and_unit": {
+          "released": 47,
+          "matched": 46,
+          "nonmatching": 1,
+          "no_answer": 3,
+          "agreement": 0.92,
+          "coverage": 0.94,
+          "agreement_wilson95": [
+            0.8116175308165717,
+            0.968450485911407
+          ],
+          "conditional_agreement_wilson95": [
+            0.8888701895837066,
+            0.996234231961403
+          ]
+        },
+        "source_verify_and_named_value": {
+          "released": 44,
+          "matched": 43,
+          "nonmatching": 1,
+          "no_answer": 6,
+          "agreement": 0.86,
+          "coverage": 0.88,
+          "agreement_wilson95": [
+            0.7381380628941446,
+            0.9304916657298371
+          ],
+          "conditional_agreement_wilson95": [
+            0.8819229030178671,
+            0.9959767479399467
+          ]
+        },
+        "source_repair": {
+          "released": 49,
+          "matched": 48,
+          "nonmatching": 1,
+          "no_answer": 1,
+          "agreement": 0.96,
+          "coverage": 0.98,
+          "agreement_wilson95": [
+            0.8653990931249297,
+            0.9889611156723802
+          ],
+          "conditional_agreement_wilson95": [
+            0.8930647847660838,
+            0.9963883274101746
+          ]
+        }
+      },
+      "paired_to_full": {
+        "unit_domain": {
+          "gained": 6,
+          "lost": 0,
+          "delta_fraction": 0.12,
+          "calculator_stratified_bootstrap95": [
+            0.06,
+            0.2
+          ],
+          "paired_exact_mcnemar_p": 0.03125,
+          "transitions": {
+            "match to match": 42,
+            "no_answer to match": 1,
+            "no_answer to no_answer": 1,
+            "nonmatch to match": 5,
+            "nonmatch to nonmatch": 1
+          }
+        },
+        "literal_quote": {
+          "gained": 30,
+          "lost": 0,
+          "delta_fraction": 0.6,
+          "calculator_stratified_bootstrap95": [
+            0.48,
+            0.72
+          ],
+          "paired_exact_mcnemar_p": 1.862645149230957e-09,
+          "transitions": {
+            "match to match": 18,
+            "no_answer to match": 28,
+            "no_answer to no_answer": 1,
+            "no_answer to nonmatch": 1,
+            "nonmatch to match": 2
+          }
+        },
+        "source_verify_only": {
+          "gained": 6,
+          "lost": 0,
+          "delta_fraction": 0.12,
+          "calculator_stratified_bootstrap95": [
+            0.06,
+            0.2
+          ],
+          "paired_exact_mcnemar_p": 0.03125,
+          "transitions": {
+            "match to match": 42,
+            "no_answer to match": 6,
+            "no_answer to no_answer": 1,
+            "nonmatch to nonmatch": 1
+          }
+        },
+        "source_verify_and_unit": {
+          "gained": 2,
+          "lost": 0,
+          "delta_fraction": 0.04,
+          "calculator_stratified_bootstrap95": [
+            0.0,
+            0.1
+          ],
+          "paired_exact_mcnemar_p": 0.5,
+          "transitions": {
+            "match to match": 46,
+            "no_answer to match": 2,
+            "no_answer to no_answer": 1,
+            "nonmatch to nonmatch": 1
+          }
+        },
+        "source_verify_and_named_value": {
+          "gained": 5,
+          "lost": 0,
+          "delta_fraction": 0.1,
+          "calculator_stratified_bootstrap95": [
+            0.04,
+            0.16
+          ],
+          "paired_exact_mcnemar_p": 0.0625,
+          "transitions": {
+            "match to match": 43,
+            "no_answer to match": 5,
+            "no_answer to no_answer": 1,
+            "nonmatch to nonmatch": 1
+          }
+        }
+      },
+      "matched_coverage": {
+        "quota": 48,
+        "coverage": 0.96,
+        "uniform_unit_domain": {
+          "released": 48,
+          "expected_matches": 42,
+          "expected_nonmatching": 6,
+          "conditional_95_match_counts": [
+            42,
+            42
+          ],
+          "tied_candidates_at_cutoff": 0,
+          "places_at_cutoff": 0
+        },
+        "quote_ranked_unit_domain": {
+          "released": 48,
+          "expected_matches": 42,
+          "expected_nonmatching": 6,
+          "conditional_95_match_counts": [
+            42,
+            42
+          ],
+          "tied_candidates_at_cutoff": 0,
+          "places_at_cutoff": 0
+        },
+        "uniform_source_repair": {
+          "released": 48,
+          "expected_matches": 47.020408163265,
+          "expected_nonmatching": 0.979591836735,
+          "conditional_95_match_counts": [
+            47,
+            47
+          ],
+          "tied_candidates_at_cutoff": 49,
+          "places_at_cutoff": 48
+        }
+      },
+      "trace_sha256": "cc2b5c8c3be538e9da62b022339d255a1c5363b4b70d360645724871d12d3747",
+      "input_sha256": "1c5cc4e875c44a3d1c2a904236e4a0e4c550b76b3990e56f8174a611940de7a0"
+    },
+    "qwen_validation": {
+      "same_returned_cases": {
+        "same_returned_case_count": 39,
+        "baseline_matches": 34,
+        "full_repair_matches": 39
+      },
+      "matched_selected_tool_mix": {
+        "quota": 39,
+        "expected_matches": {
+          "uniform_unit_domain": 31.8,
+          "quote_ranked_unit_domain": 31.333333333333,
+          "uniform_source_repair": 39.0
+        },
+        "by_tool": {
+          "3": {
+            "quota": 3,
+            "uniform_unit_domain": {
+              "released": 3,
+              "expected_matches": 3.0,
+              "expected_nonmatching": 0.0,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 4,
+              "places_at_cutoff": 3
+            },
+            "quote_ranked_unit_domain": {
+              "released": 3,
+              "expected_matches": 3.0,
+              "expected_nonmatching": 0.0,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 3,
+              "places_at_cutoff": 2
+            },
+            "uniform_source_repair": {
+              "released": 3,
+              "expected_matches": 3,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "5": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 3.2,
+              "expected_nonmatching": 0.8,
+              "conditional_95_match_counts": [
+                3,
+                4
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 4
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 3.333333333333,
+              "expected_nonmatching": 0.666666666667,
+              "conditional_95_match_counts": [
+                3,
+                4
+              ],
+              "tied_candidates_at_cutoff": 3,
+              "places_at_cutoff": 2
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "6": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "7": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 2.4,
+              "expected_nonmatching": 1.6,
+              "conditional_95_match_counts": [
+                2,
+                3
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 4
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 2.0,
+              "expected_nonmatching": 2.0,
+              "conditional_95_match_counts": [
+                2,
+                2
+              ],
+              "tied_candidates_at_cutoff": 3,
+              "places_at_cutoff": 2
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "11": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "19": {
+            "quota": 2,
+            "uniform_unit_domain": {
+              "released": 2,
+              "expected_matches": 0.4,
+              "expected_nonmatching": 1.6,
+              "conditional_95_match_counts": [
+                0,
+                1
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 2
+            },
+            "quote_ranked_unit_domain": {
+              "released": 2,
+              "expected_matches": 0.5,
+              "expected_nonmatching": 1.5,
+              "conditional_95_match_counts": [
+                0,
+                1
+              ],
+              "tied_candidates_at_cutoff": 2,
+              "places_at_cutoff": 1
+            },
+            "uniform_source_repair": {
+              "released": 2,
+              "expected_matches": 2,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                2,
+                2
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "26": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "30": {
+            "quota": 3,
+            "uniform_unit_domain": {
+              "released": 3,
+              "expected_matches": 2.4,
+              "expected_nonmatching": 0.6,
+              "conditional_95_match_counts": [
+                2,
+                3
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 3
+            },
+            "quote_ranked_unit_domain": {
+              "released": 3,
+              "expected_matches": 2.0,
+              "expected_nonmatching": 1.0,
+              "conditional_95_match_counts": [
+                2,
+                2
+              ],
+              "tied_candidates_at_cutoff": 1,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 3,
+              "expected_matches": 3,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "39": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 2.4,
+              "expected_nonmatching": 1.6,
+              "conditional_95_match_counts": [
+                2,
+                3
+              ],
+              "tied_candidates_at_cutoff": 5,
+              "places_at_cutoff": 4
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 2.5,
+              "expected_nonmatching": 1.5,
+              "conditional_95_match_counts": [
+                2,
+                3
+              ],
+              "tied_candidates_at_cutoff": 2,
+              "places_at_cutoff": 1
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "60": {
+            "quota": 4,
+            "uniform_unit_domain": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 4,
+              "expected_matches": 4,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          }
+        }
+      },
+      "cases": 50,
+      "unique_source_groups": 50,
+      "methods": {
+        "unit_domain": {
+          "released": 48,
+          "matched": 37,
+          "nonmatching": 11,
+          "no_answer": 2,
+          "agreement": 0.74,
+          "coverage": 0.96,
+          "agreement_wilson95": [
+            0.6044684273515117,
+            0.8412847250644762
+          ],
+          "conditional_agreement_wilson95": [
+            0.6346073590999655,
+            0.8669217373308877
+          ]
+        },
+        "literal_quote": {
+          "released": 13,
+          "matched": 11,
+          "nonmatching": 2,
+          "no_answer": 37,
+          "agreement": 0.22,
+          "coverage": 0.26,
+          "agreement_wilson95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ],
+          "conditional_agreement_wilson95": [
+            0.5776536898051745,
+            0.9567418216419186
+          ]
+        },
+        "source_verify_only": {
+          "released": 34,
+          "matched": 34,
+          "nonmatching": 0,
+          "no_answer": 16,
+          "agreement": 0.68,
+          "coverage": 0.68,
+          "agreement_wilson95": [
+            0.5418970269185592,
+            0.7924178373934316
+          ],
+          "conditional_agreement_wilson95": [
+            0.8984854458466761,
+            0.9999999999999999
+          ]
+        },
+        "source_verify_and_unit": {
+          "released": 38,
+          "matched": 38,
+          "nonmatching": 0,
+          "no_answer": 12,
+          "agreement": 0.76,
+          "coverage": 0.76,
+          "agreement_wilson95": [
+            0.6258731624205708,
+            0.8570260860300828
+          ],
+          "conditional_agreement_wilson95": [
+            0.908190131774416,
+            0.9999999999999999
+          ]
+        },
+        "source_verify_and_named_value": {
+          "released": 35,
+          "matched": 35,
+          "nonmatching": 0,
+          "no_answer": 15,
+          "agreement": 0.7,
+          "coverage": 0.7,
+          "agreement_wilson95": [
+            0.562496495355466,
+            0.8089644649911906
+          ],
+          "conditional_agreement_wilson95": [
+            0.9010990076755959,
+            0.9999999999999999
+          ]
+        },
+        "source_repair": {
+          "released": 39,
+          "matched": 39,
+          "nonmatching": 0,
+          "no_answer": 11,
+          "agreement": 0.78,
+          "coverage": 0.78,
+          "agreement_wilson95": [
+            0.6475845041874634,
+            0.8724608402978559
+          ],
+          "conditional_agreement_wilson95": [
+            0.9103331462924287,
+            1
+          ]
+        }
+      },
+      "paired_to_full": {
+        "unit_domain": {
+          "gained": 5,
+          "lost": 3,
+          "delta_fraction": 0.04,
+          "calculator_stratified_bootstrap95": [
+            -0.06,
+            0.14
+          ],
+          "paired_exact_mcnemar_p": 0.7265625,
+          "transitions": {
+            "match to match": 34,
+            "match to no_answer": 3,
+            "no_answer to no_answer": 2,
+            "nonmatch to match": 5,
+            "nonmatch to no_answer": 6
+          }
+        },
+        "literal_quote": {
+          "gained": 28,
+          "lost": 0,
+          "delta_fraction": 0.56,
+          "calculator_stratified_bootstrap95": [
+            0.44000000000000006,
+            0.68
+          ],
+          "paired_exact_mcnemar_p": 7.450580596923828e-09,
+          "transitions": {
+            "match to match": 11,
+            "no_answer to match": 27,
+            "no_answer to no_answer": 10,
+            "nonmatch to match": 1,
+            "nonmatch to no_answer": 1
+          }
+        },
+        "source_verify_only": {
+          "gained": 5,
+          "lost": 0,
+          "delta_fraction": 0.1,
+          "calculator_stratified_bootstrap95": [
+            0.02,
+            0.18
+          ],
+          "paired_exact_mcnemar_p": 0.0625,
+          "transitions": {
+            "match to match": 34,
+            "no_answer to match": 5,
+            "no_answer to no_answer": 11
+          }
+        },
+        "source_verify_and_unit": {
+          "gained": 1,
+          "lost": 0,
+          "delta_fraction": 0.02,
+          "calculator_stratified_bootstrap95": [
+            0.0,
+            0.06
+          ],
+          "paired_exact_mcnemar_p": 1.0,
+          "transitions": {
+            "match to match": 38,
+            "no_answer to match": 1,
+            "no_answer to no_answer": 11
+          }
+        },
+        "source_verify_and_named_value": {
+          "gained": 4,
+          "lost": 0,
+          "delta_fraction": 0.08,
+          "calculator_stratified_bootstrap95": [
+            0.02,
+            0.16
+          ],
+          "paired_exact_mcnemar_p": 0.125,
+          "transitions": {
+            "match to match": 35,
+            "no_answer to match": 4,
+            "no_answer to no_answer": 11
+          }
+        }
+      },
+      "matched_coverage": {
+        "quota": 39,
+        "coverage": 0.78,
+        "uniform_unit_domain": {
+          "released": 39,
+          "expected_matches": 30.0625,
+          "expected_nonmatching": 8.9375,
+          "conditional_95_match_counts": [
+            28,
+            32
+          ],
+          "tied_candidates_at_cutoff": 48,
+          "places_at_cutoff": 39
+        },
+        "quote_ranked_unit_domain": {
+          "released": 39,
+          "expected_matches": 29.173913043478,
+          "expected_nonmatching": 9.826086956522,
+          "conditional_95_match_counts": [
+            28,
+            31
+          ],
+          "tied_candidates_at_cutoff": 23,
+          "places_at_cutoff": 14
+        },
+        "uniform_source_repair": {
+          "released": 39,
+          "expected_matches": 39,
+          "expected_nonmatching": 0,
+          "conditional_95_match_counts": [
+            39,
+            39
+          ],
+          "tied_candidates_at_cutoff": 0,
+          "places_at_cutoff": 0
+        }
+      },
+      "trace_sha256": "6d1d15bd2bdb9b7e7d6793bdbb024182c1b0c383b3609cc21781a922fd5dfdbd",
+      "input_sha256": "5b42a556166e9f0ce5340e06505d870034de9a11ccea14b57dfafec0254b4170"
+    },
+    "smollm2_development": {
+      "same_returned_cases": {
+        "same_returned_case_count": 36,
+        "baseline_matches": 23,
+        "full_repair_matches": 31
+      },
+      "matched_selected_tool_mix": {
+        "quota": 37,
+        "expected_matches": {
+          "uniform_unit_domain": 21.888888888889,
+          "quote_ranked_unit_domain": 22.0,
+          "uniform_source_repair": 32.0
+        },
+        "by_tool": {
+          "3": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "5": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "6": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "7": {
+            "quota": 3,
+            "uniform_unit_domain": {
+              "released": 3,
+              "expected_matches": 2,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                2,
+                2
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 3,
+              "expected_matches": 2,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                2,
+                2
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 3,
+              "expected_matches": 3,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "19": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 0.0,
+              "expected_nonmatching": 5.0,
+              "conditional_95_match_counts": [
+                0,
+                0
+              ],
+              "tied_candidates_at_cutoff": 9,
+              "places_at_cutoff": 5
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 0.0,
+              "expected_nonmatching": 5.0,
+              "conditional_95_match_counts": [
+                0,
+                0
+              ],
+              "tied_candidates_at_cutoff": 6,
+              "places_at_cutoff": 2
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 4,
+              "expected_nonmatching": 1,
+              "conditional_95_match_counts": [
+                4,
+                4
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "30": {
+            "quota": 2,
+            "uniform_unit_domain": {
+              "released": 2,
+              "expected_matches": 0.0,
+              "expected_nonmatching": 2.0,
+              "conditional_95_match_counts": [
+                0,
+                0
+              ],
+              "tied_candidates_at_cutoff": 4,
+              "places_at_cutoff": 2
+            },
+            "quote_ranked_unit_domain": {
+              "released": 2,
+              "expected_matches": 0.0,
+              "expected_nonmatching": 2.0,
+              "conditional_95_match_counts": [
+                0,
+                0
+              ],
+              "tied_candidates_at_cutoff": 2,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 2,
+              "expected_matches": 0,
+              "expected_nonmatching": 2,
+              "conditional_95_match_counts": [
+                0,
+                0
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "39": {
+            "quota": 7,
+            "uniform_unit_domain": {
+              "released": 7,
+              "expected_matches": 3.888888888889,
+              "expected_nonmatching": 3.111111111111,
+              "conditional_95_match_counts": [
+                3,
+                5
+              ],
+              "tied_candidates_at_cutoff": 9,
+              "places_at_cutoff": 7
+            },
+            "quote_ranked_unit_domain": {
+              "released": 7,
+              "expected_matches": 4.0,
+              "expected_nonmatching": 3.0,
+              "conditional_95_match_counts": [
+                3,
+                5
+              ],
+              "tied_candidates_at_cutoff": 6,
+              "places_at_cutoff": 4
+            },
+            "uniform_source_repair": {
+              "released": 7,
+              "expected_matches": 5,
+              "expected_nonmatching": 2,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          },
+          "60": {
+            "quota": 5,
+            "uniform_unit_domain": {
+              "released": 5,
+              "expected_matches": 3,
+              "expected_nonmatching": 2,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "quote_ranked_unit_domain": {
+              "released": 5,
+              "expected_matches": 3,
+              "expected_nonmatching": 2,
+              "conditional_95_match_counts": [
+                3,
+                3
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            },
+            "uniform_source_repair": {
+              "released": 5,
+              "expected_matches": 5,
+              "expected_nonmatching": 0,
+              "conditional_95_match_counts": [
+                5,
+                5
+              ],
+              "tied_candidates_at_cutoff": 0,
+              "places_at_cutoff": 0
+            }
+          }
+        }
+      },
+      "cases": 50,
+      "unique_source_groups": 50,
+      "methods": {
+        "unit_domain": {
+          "released": 45,
+          "matched": 23,
+          "nonmatching": 22,
+          "no_answer": 5,
+          "agreement": 0.46,
+          "coverage": 0.9,
+          "agreement_wilson95": [
+            0.3296965219222435,
+            0.5960112860084253
+          ],
+          "conditional_agreement_wilson95": [
+            0.3700446464458318,
+            0.650429762471215
+          ]
+        },
+        "literal_quote": {
+          "released": 10,
+          "matched": 7,
+          "nonmatching": 3,
+          "no_answer": 40,
+          "agreement": 0.14,
+          "coverage": 0.2,
+          "agreement_wilson95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ],
+          "conditional_agreement_wilson95": [
+            0.39677814746114537,
+            0.8922087325936989
+          ]
+        },
+        "source_verify_only": {
+          "released": 26,
+          "matched": 22,
+          "nonmatching": 4,
+          "no_answer": 24,
+          "agreement": 0.44,
+          "coverage": 0.52,
+          "agreement_wilson95": [
+            0.3116219921125717,
+            0.5769397197834315
+          ],
+          "conditional_agreement_wilson95": [
+            0.6646880067178652,
+            0.9384996627642165
+          ]
+        },
+        "source_verify_and_unit": {
+          "released": 30,
+          "matched": 26,
+          "nonmatching": 4,
+          "no_answer": 20,
+          "agreement": 0.52,
+          "coverage": 0.6,
+          "agreement_wilson95": [
+            0.38511744890044614,
+            0.6520286471342196
+          ],
+          "conditional_agreement_wilson95": [
+            0.703186733179637,
+            0.9469034451594526
+          ]
+        },
+        "source_verify_and_named_value": {
+          "released": 33,
+          "matched": 28,
+          "nonmatching": 5,
+          "no_answer": 17,
+          "agreement": 0.56,
+          "coverage": 0.66,
+          "agreement_wilson95": [
+            0.4230602802165686,
+            0.6883780078874284
+          ],
+          "conditional_agreement_wilson95": [
+            0.6908012411955788,
+            0.9334954271839244
+          ]
+        },
+        "source_repair": {
+          "released": 37,
+          "matched": 32,
+          "nonmatching": 5,
+          "no_answer": 13,
+          "agreement": 0.64,
+          "coverage": 0.74,
+          "agreement_wilson95": [
+            0.501410168761127,
+            0.7586125034815325
+          ],
+          "conditional_agreement_wilson95": [
+            0.7202258821599021,
+            0.9408670557426799
+          ]
+        }
+      },
+      "paired_to_full": {
+        "unit_domain": {
+          "gained": 9,
+          "lost": 0,
+          "delta_fraction": 0.18,
+          "calculator_stratified_bootstrap95": [
+            0.1,
+            0.26
+          ],
+          "paired_exact_mcnemar_p": 0.00390625,
+          "transitions": {
+            "match to match": 23,
+            "no_answer to match": 1,
+            "no_answer to no_answer": 4,
+            "nonmatch to match": 8,
+            "nonmatch to no_answer": 9,
+            "nonmatch to nonmatch": 5
+          }
+        },
+        "literal_quote": {
+          "gained": 25,
+          "lost": 0,
+          "delta_fraction": 0.5,
+          "calculator_stratified_bootstrap95": [
+            0.4,
+            0.5799999999999998
+          ],
+          "paired_exact_mcnemar_p": 5.960464477539063e-08,
+          "transitions": {
+            "match to match": 7,
+            "no_answer to match": 24,
+            "no_answer to no_answer": 12,
+            "no_answer to nonmatch": 4,
+            "nonmatch to match": 1,
+            "nonmatch to no_answer": 1,
+            "nonmatch to nonmatch": 1
+          }
+        },
+        "source_verify_only": {
+          "gained": 10,
+          "lost": 0,
+          "delta_fraction": 0.2,
+          "calculator_stratified_bootstrap95": [
+            0.12,
+            0.28
+          ],
+          "paired_exact_mcnemar_p": 0.001953125,
+          "transitions": {
+            "match to match": 22,
+            "no_answer to match": 10,
+            "no_answer to no_answer": 13,
+            "no_answer to nonmatch": 1,
+            "nonmatch to nonmatch": 4
+          }
+        },
+        "source_verify_and_unit": {
+          "gained": 6,
+          "lost": 0,
+          "delta_fraction": 0.12,
+          "calculator_stratified_bootstrap95": [
+            0.04,
+            0.2
+          ],
+          "paired_exact_mcnemar_p": 0.03125,
+          "transitions": {
+            "match to match": 26,
+            "no_answer to match": 6,
+            "no_answer to no_answer": 13,
+            "no_answer to nonmatch": 1,
+            "nonmatch to nonmatch": 4
+          }
+        },
+        "source_verify_and_named_value": {
+          "gained": 4,
+          "lost": 0,
+          "delta_fraction": 0.08,
+          "calculator_stratified_bootstrap95": [
+            0.02,
+            0.14
+          ],
+          "paired_exact_mcnemar_p": 0.125,
+          "transitions": {
+            "match to match": 28,
+            "no_answer to match": 4,
+            "no_answer to no_answer": 13,
+            "nonmatch to nonmatch": 5
+          }
+        }
+      },
+      "matched_coverage": {
+        "quota": 37,
+        "coverage": 0.74,
+        "uniform_unit_domain": {
+          "released": 37,
+          "expected_matches": 18.911111111111,
+          "expected_nonmatching": 18.088888888889,
+          "conditional_95_match_counts": [
+            16,
+            21
+          ],
+          "tied_candidates_at_cutoff": 45,
+          "places_at_cutoff": 37
+        },
+        "quote_ranked_unit_domain": {
+          "released": 37,
+          "expected_matches": 18.733333333333,
+          "expected_nonmatching": 18.266666666667,
+          "conditional_95_match_counts": [
+            16,
+            21
+          ],
+          "tied_candidates_at_cutoff": 30,
+          "places_at_cutoff": 22
+        },
+        "uniform_source_repair": {
+          "released": 37,
+          "expected_matches": 32,
+          "expected_nonmatching": 5,
+          "conditional_95_match_counts": [
+            32,
+            32
+          ],
+          "tied_candidates_at_cutoff": 0,
+          "places_at_cutoff": 0
+        }
+      },
+      "trace_sha256": "f0989715a84a208f69fd367fc639f187d27f33995924425c232abe4ee0b2d323",
+      "input_sha256": "1c5cc4e875c44a3d1c2a904236e4a0e4c550b76b3990e56f8174a611940de7a0"
+    }
+  }
+}

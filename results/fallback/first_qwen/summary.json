@@ -1,0 +1,136 @@
+{
+  "baseline": {
+    "n": 44,
+    "matches": 33,
+    "nonmatching_released": 7,
+    "unanswered": 4,
+    "released": 40,
+    "all_case_agreement_wilson95": [
+      0.6055943364104086,
+      0.8542578617103511
+    ],
+    "error_among_released_wilson95": [
+      0.0874541374603592,
+      0.31949990331787714
+    ],
+    "gains_vs_baseline": 0,
+    "losses_vs_baseline": 0,
+    "paired_exact_p": 1,
+    "transitions_vs_baseline": {
+      "matching to matching": 33,
+      "nonmatching to nonmatching": 7,
+      "unanswered to unanswered": 4
+    }
+  },
+  "source_repair": {
+    "n": 44,
+    "matches": 35,
+    "nonmatching_released": 3,
+    "unanswered": 6,
+    "released": 38,
+    "all_case_agreement_wilson95": [
+      0.6549942193889834,
+      0.8884674692991871
+    ],
+    "error_among_released_wilson95": [
+      0.027214595506987724,
+      0.20799371457771454
+    ],
+    "gains_vs_baseline": 6,
+    "losses_vs_baseline": 4,
+    "paired_exact_p": 0.75390625,
+    "transitions_vs_baseline": {
+      "matching to matching": 29,
+      "matching to nonmatching": 2,
+      "matching to unanswered": 2,
+      "nonmatching to matching": 5,
+      "nonmatching to nonmatching": 1,
+      "nonmatching to unanswered": 1,
+      "unanswered to matching": 1,
+      "unanswered to unanswered": 3
+    }
+  },
+  "note_only": {
+    "n": 44,
+    "matches": 28,
+    "nonmatching_released": 2,
+    "unanswered": 14,
+    "released": 30,
+    "all_case_agreement_wilson95": [
+      0.4886637687904344,
+      0.762164702911798
+    ],
+    "error_among_released_wilson95": [
+      0.018477023791270378,
+      0.2132345836261692
+    ],
+    "gains_vs_baseline": 7,
+    "losses_vs_baseline": 12,
+    "paired_exact_p": 0.359283447265625,
+    "transitions_vs_baseline": {
+      "matching to matching": 21,
+      "matching to nonmatching": 2,
+      "matching to unanswered": 10,
+      "nonmatching to matching": 5,
+      "nonmatching to unanswered": 2,
+      "unanswered to matching": 2,
+      "unanswered to unanswered": 2
+    }
+  },
+  "combined": {
+    "n": 44,
+    "matches": 36,
+    "nonmatching_released": 3,
+    "unanswered": 5,
+    "released": 39,
+    "all_case_agreement_wilson95": [
+      0.6803944911281533,
+      0.9048719428437227
+    ],
+    "error_among_released_wilson95": [
+      0.02650739530377974,
+      0.20321071167954996
+    ],
+    "gains_vs_baseline": 7,
+    "losses_vs_baseline": 4,
+    "paired_exact_p": 0.548828125,
+    "transitions_vs_baseline": {
+      "matching to matching": 29,
+      "matching to nonmatching": 2,
+      "matching to unanswered": 2,
+      "nonmatching to matching": 5,
+      "nonmatching to nonmatching": 1,
+      "nonmatching to unanswered": 1,
+      "unanswered to matching": 2,
+      "unanswered to unanswered": 2
+    }
+  },
+  "reviewed": {
+    "n": 44,
+    "matches": 36,
+    "nonmatching_released": 2,
+    "unanswered": 6,
+    "released": 38,
+    "all_case_agreement_wilson95": [
+      0.6803944911281533,
+      0.9048719428437227
+    ],
+    "error_among_released_wilson95": [
+      0.014554208147292413,
+      0.17285462131770377
+    ],
+    "gains_vs_baseline": 7,
+    "losses_vs_baseline": 4,
+    "paired_exact_p": 0.548828125,
+    "transitions_vs_baseline": {
+      "matching to matching": 29,
+      "matching to nonmatching": 1,
+      "matching to unanswered": 3,
+      "nonmatching to matching": 5,
+      "nonmatching to nonmatching": 1,
+      "nonmatching to unanswered": 1,
+      "unanswered to matching": 2,
+      "unanswered to unanswered": 2
+    }
+  }
+}

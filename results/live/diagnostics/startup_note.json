@@ -1,0 +1,5 @@
+{
+  "event": "Cancelled premature second runtime startup before readiness or any model request. No schema result was generated. Original run continued. Startup log retained.",
+  "scored_model_requests": 0,
+  "reason": "Process enumeration is isolated between execution sessions; queued dependency must be checked through its session completion instead."
+}

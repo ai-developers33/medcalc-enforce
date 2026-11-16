@@ -1,0 +1,48 @@
+{
+  "model": "smollm2_1.7b_q4km",
+  "cases": 80,
+  "cohort": "extension",
+  "methods": {
+    "L2_unit_domain": {
+      "counts": {
+        "released": 75,
+        "annotation_comparable_released": 74,
+        "expected_fields_in_comparable_releases": 177,
+        "matching_fields_in_comparable_releases": 116,
+        "all_fields_match": 40,
+        "numeric_match_with_argument_discrepancy": 1
+      },
+      "matching_answers_with_argument_discrepancies": [
+        {
+          "case_id": "official-110",
+          "mismatched_fields": [
+            "albumin"
+          ]
+        }
+      ],
+      "unavailable_reference_fields": [
+        {
+          "case_id": "official-283",
+          "detail": "unsupported unit 'mm^3' for platelets"
+        }
+      ]
+    },
+    "source_bound": {
+      "counts": {
+        "released": 54,
+        "annotation_comparable_released": 53,
+        "expected_fields_in_comparable_releases": 134,
+        "matching_fields_in_comparable_releases": 131,
+        "all_fields_match": 51
+      },
+      "matching_answers_with_argument_discrepancies": [],
+      "unavailable_reference_fields": [
+        {
+          "case_id": "official-283",
+          "detail": "unsupported unit 'mm^3' for platelets"
+        }
+      ]
+    }
+  },
+  "scope": "Secondary descriptive audit after the primary outcome lock. Evaluation of annotated fields uses the original registry and strict canonical tolerance. Non-comparable field annotations are explicitly counted. Source annotation quality is not independently adjudicated."
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "source_row": "392",
+    "calculator_id": "3",
+    "computed": 41.365956613491235,
+    "reference": 41.36596,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "277",
+    "calculator_id": "3",
+    "computed": 20.951021146395785,
+    "reference": 20.95102,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "345",
+    "calculator_id": "3",
+    "computed": 140.84672243543568,
+    "reference": 140.84672,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "220",
+    "calculator_id": "3",
+    "computed": 5.37040058665893,
+    "reference": 5.3704,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "587",
+    "calculator_id": "3",
+    "computed": 36.92181805901175,
+    "reference": 36.92182,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "442",
+    "calculator_id": "3",
+    "computed": 65.30223788570349,
+    "reference": 65.30224,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "547",
+    "calculator_id": "3",
+    "computed": 21.387055052203426,
+    "reference": 21.38706,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "164",
+    "calculator_id": "3",
+    "computed": 36.262669930453015,
+    "reference": 36.26267,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "476",
+    "calculator_id": "3",
+    "computed": 75.97011671946372,
+    "reference": 75.97012,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "456",
+    "calculator_id": "3",
+    "computed": 45.44402792370843,
+    "reference": 45.44403,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "498",
+    "calculator_id": "3",
+    "computed": 43.858652926990025,
+    "reference": 43.85939,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "290",
+    "calculator_id": "3",
+    "computed": 48.85356833838521,
+    "reference": 48.85357,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "342",
+    "calculator_id": "3",
+    "computed": 34.93443561808295,
+    "reference": 34.93444,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "570",
+    "calculator_id": "3",
+    "computed": 10.222372868287172,
+    "reference": 10.22237,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "299",
+    "calculator_id": "3",
+    "computed": 12.36361572581299,
+    "reference": 12.36362,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "519",
+    "calculator_id": "3",
+    "computed": 91.4694127034811,
+    "reference": 91.46941,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "414",
+    "calculator_id": "3",
+    "computed": 50.23466567555501,
+    "reference": 50.23467,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "231",
+    "calculator_id": "3",
+    "computed": 4.545292683272316,
+    "reference": 4.54529,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "493",
+    "calculator_id": "3",
+    "computed": 65.49398352436853,
+    "reference": 65.49398,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "467",
+    "calculator_id": "3",
+    "computed": 0.01158591745583762,
+    "reference": 0.011586,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2017",
+    "calculator_id": "5",
+    "computed": 76.66666666666667,
+    "reference": 76.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1649",
+    "calculator_id": "5",
+    "computed": 72.66666666666667,
+    "reference": 72.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1164",
+    "calculator_id": "5",
+    "computed": 60.0,
+    "reference": 60.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1956",
+    "calculator_id": "5",
+    "computed": 116.66666666666667,
+    "reference": 116.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1532",
+    "calculator_id": "5",
+    "computed": 90.0,
+    "reference": 90.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1423",
+    "calculator_id": "5",
+    "computed": 117.0,
+    "reference": 117.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1883",
+    "calculator_id": "5",
+    "computed": 100.0,
+    "reference": 100.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1607",
+    "calculator_id": "5",
+    "computed": 67.33333333333333,
+    "reference": 67.33333,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1351",
+    "calculator_id": "5",
+    "computed": 87.66666666666667,
+    "reference": 87.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1453",
+    "calculator_id": "5",
+    "computed": 126.66666666666667,
+    "reference": 126.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1374",
+    "calculator_id": "5",
+    "computed": 80.0,
+    "reference": 80.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1171",
+    "calculator_id": "5",
+    "computed": 112.66666666666667,
+    "reference": 112.66667,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1707",
+    "calculator_id": "5",
+    "computed": 115.0,
+    "reference": 115.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1773",
+    "calculator_id": "5",
+    "computed": 102.0,
+    "reference": 102.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1723",
+    "calculator_id": "5",
+    "computed": 83.0,
+    "reference": 83.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1711",
+    "calculator_id": "5",
+    "computed": 88.33333333333333,
+    "reference": 88.33333,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1859",
+    "calculator_id": "5",
+    "computed": 70.0,
+    "reference": 70.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1625",
+    "calculator_id": "5",
+    "computed": 104.0,
+    "reference": 104.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1489",
+    "calculator_id": "5",
+    "computed": 88.33333333333333,
+    "reference": 88.33333,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "1667",
+    "calculator_id": "5",
+    "computed": 79.0,
+    "reference": 79.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2148",
+    "calculator_id": "6",
+    "computed": 26.729927495071667,
+    "reference": 26.72993,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2397",
+    "calculator_id": "6",
+    "computed": 19.723183391003463,
+    "reference": 19.72318,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2375",
+    "calculator_id": "6",
+    "computed": 20.060954438486167,
+    "reference": 20.06095,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2236",
+    "calculator_id": "6",
+    "computed": 24.238227146814403,
+    "reference": 24.23823,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2370",
+    "calculator_id": "6",
+    "computed": 19.948059768903608,
+    "reference": 19.94806,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2231",
+    "calculator_id": "6",
+    "computed": 18.696051423324146,
+    "reference": 18.69605,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2118",
+    "calculator_id": "6",
+    "computed": 24.887702751566263,
+    "reference": 24.8877,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2146",
+    "calculator_id": "6",
+    "computed": 18.378491913463556,
+    "reference": 18.37849,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2431",
+    "calculator_id": "6",
+    "computed": 23.243408017070564,
+    "reference": 23.24341,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2248",
+    "calculator_id": "6",
+    "computed": 30.35925113847192,
+    "reference": 30.35925,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2194",
+    "calculator_id": "6",
+    "computed": 15.780835753061481,
+    "reference": 15.78084,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2338",
+    "calculator_id": "6",
+    "computed": 24.280263614290668,
+    "reference": 24.28026,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2454",
+    "calculator_id": "6",
+    "computed": 25.2162533116282,
+    "reference": 25.21625,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2114",
+    "calculator_id": "6",
+    "computed": 15.546410608138999,
+    "reference": 15.54641,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2505",
+    "calculator_id": "6",
+    "computed": 20.700816741315066,
+    "reference": 20.70082,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2391",
+    "calculator_id": "6",
+    "computed": 27.734374999999993,
+    "reference": 27.73437,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2069",
+    "calculator_id": "6",
+    "computed": 20.06920415224914,
+    "reference": 20.0692,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2501",
+    "calculator_id": "6",
+    "computed": 25.15589569160998,
+    "reference": 25.1559,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2331",
+    "calculator_id": "6",
+    "computed": 15.3109366376471,
+    "reference": 15.31094,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2081",
+    "calculator_id": "6",
+    "computed": 23.301094832264035,
+    "reference": 23.30109,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2665",
+    "calculator_id": "7",
+    "computed": 17.22512,
+    "reference": 17.22512,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2554",
+    "calculator_id": "7",
+    "computed": 6.98,
+    "reference": 6.98,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2545",
+    "calculator_id": "7",
+    "computed": 9.02,
+    "reference": 9.02,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2680",
+    "calculator_id": "7",
+    "computed": 16.46,
+    "reference": 16.46,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2595",
+    "calculator_id": "7",
+    "computed": 6.2,
+    "reference": 6.2,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2638",
+    "calculator_id": "7",
+    "computed": 8.94,
+    "reference": 8.94,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2640",
+    "calculator_id": "7",
+    "computed": 9.1,
+    "reference": 9.1,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2675",
+    "calculator_id": "7",
+    "computed": 12.22,
+    "reference": 12.22,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2536",
+    "calculator_id": "7",
+    "computed": 8.74,
+    "reference": 8.74,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2571",
+    "calculator_id": "7",
+    "computed": 6.96,
+    "reference": 6.96,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2572",
+    "calculator_id": "7",
+    "computed": 14.298,
+    "reference": 14.298,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2660",
+    "calculator_id": "7",
+    "computed": 10.200000000000001,
+    "reference": 10.2,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2635",
+    "calculator_id": "7",
+    "computed": 10.092,
+    "reference": 10.092,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2591",
+    "calculator_id": "7",
+    "computed": 9.5,
+    "reference": 9.5,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2615",
+    "calculator_id": "7",
+    "computed": 8.19168,
+    "reference": 8.1917,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2560",
+    "calculator_id": "7",
+    "computed": 8.6,
+    "reference": 8.6,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2696",
+    "calculator_id": "7",
+    "computed": 17.479999999999997,
+    "reference": 17.48,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2717",
+    "calculator_id": "7",
+    "computed": 9.69872,
+    "reference": 9.6987,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2585",
+    "calculator_id": "7",
+    "computed": 7.65272,
+    "reference": 7.6527,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "2710",
+    "calculator_id": "7",
+    "computed": 9.617600000000001,
+    "reference": 9.6176,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4081",
+    "calculator_id": "11",
+    "computed": 716.8839980545436,
+    "reference": 716.884,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4079",
+    "calculator_id": "11",
+    "computed": 466.0598495186357,
+    "reference": 466.05888,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4023",
+    "calculator_id": "11",
+    "computed": 362.56836137019275,
+    "reference": 362.56794,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4067",
+    "calculator_id": "11",
+    "computed": 301.83996863680375,
+    "reference": 301.84037,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4029",
+    "calculator_id": "11",
+    "computed": 405.35272705797024,
+    "reference": 405.35293,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4075",
+    "calculator_id": "11",
+    "computed": 226.75713880713877,
+    "reference": 226.75759,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4038",
+    "calculator_id": "11",
+    "computed": 433.9032150145929,
+    "reference": 433.90267,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4054",
+    "calculator_id": "11",
+    "computed": 491.38055517083706,
+    "reference": 491.3808,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4072",
+    "calculator_id": "11",
+    "computed": 313.84677790284866,
+    "reference": 313.84701,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4069",
+    "calculator_id": "11",
+    "computed": 588.4624457006581,
+    "reference": 588.46539,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4082",
+    "calculator_id": "11",
+    "computed": 436.8725214521966,
+    "reference": 436.87077,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4031",
+    "calculator_id": "11",
+    "computed": 592.2873176648869,
+    "reference": 592.28791,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4084",
+    "calculator_id": "11",
+    "computed": 532.0188123240255,
+    "reference": 532.0185,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4076",
+    "calculator_id": "11",
+    "computed": 503.4878350069642,
+    "reference": 503.48754,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4021",
+    "calculator_id": "11",
+    "computed": 631.3034135817737,
+    "reference": 631.30289,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4058",
+    "calculator_id": "11",
+    "computed": 329.22082254924277,
+    "reference": 329.21992,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4027",
+    "calculator_id": "11",
+    "computed": 533.9887639267329,
+    "reference": 533.98743,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4070",
+    "calculator_id": "11",
+    "computed": 656.2232851705279,
+    "reference": 656.22274,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4050",
+    "calculator_id": "11",
+    "computed": 786.0400753142297,
+    "reference": 786.03615,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4087",
+    "calculator_id": "11",
+    "computed": 392.16935117369894,
+    "reference": 392.17014,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4327",
+    "calculator_id": "19",
+    "computed": 2.8112903225806454,
+    "reference": 2.81129,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4318",
+    "calculator_id": "19",
+    "computed": 1691.6054535561739,
+    "reference": 1691.60545,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4307",
+    "calculator_id": "19",
+    "computed": 1.6272376272376272,
+    "reference": 1.62724,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4305",
+    "calculator_id": "19",
+    "computed": 0.8638743455497382,
+    "reference": 0.86387,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4356",
+    "calculator_id": "19",
+    "computed": 1.3175455713747262,
+    "reference": 1.31755,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4315",
+    "calculator_id": "19",
+    "computed": 5.825192815237053,
+    "reference": 5.82519,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4286",
+    "calculator_id": "19",
+    "computed": 11.853146249979025,
+    "reference": 11.85315,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4309",
+    "calculator_id": "19",
+    "computed": 2273.481194085515,
+    "reference": 2273.48119,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4314",
+    "calculator_id": "19",
+    "computed": 4.208187824901768,
+    "reference": 4.20819,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4329",
+    "calculator_id": "19",
+    "computed": 5.003884233153397,
+    "reference": 5.00388,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4348",
+    "calculator_id": "19",
+    "computed": 1.1165452507364306,
+    "reference": 1.11655,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4316",
+    "calculator_id": "19",
+    "computed": 3.2220788037483667,
+    "reference": 3.22208,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4311",
+    "calculator_id": "19",
+    "computed": 3.126742162735031,
+    "reference": 3.12674,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4320",
+    "calculator_id": "19",
+    "computed": 30.370172626092494,
+    "reference": 30.37017,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4354",
+    "calculator_id": "19",
+    "computed": 3.1788948679379225,
+    "reference": 3.17889,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4298",
+    "calculator_id": "19",
+    "computed": 10.63769828586278,
+    "reference": 10.6377,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4353",
+    "calculator_id": "19",
+    "computed": 2.326006934985364,
+    "reference": 2.32601,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4340",
+    "calculator_id": "19",
+    "computed": 7.62818200155556,
+    "reference": 7.62818,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4300",
+    "calculator_id": "19",
+    "computed": 2.6079995022150833,
+    "reference": 2.608,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "4282",
+    "calculator_id": "19",
+    "computed": 1.2727922061357857,
+    "reference": 1.27279,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5463",
+    "calculator_id": "26",
+    "computed": 135.032,
+    "reference": 135.032,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5482",
+    "calculator_id": "26",
+    "computed": 132.752,
+    "reference": 132.752,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5341",
+    "calculator_id": "26",
+    "computed": 300.52512,
+    "reference": 300.52512,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5398",
+    "calculator_id": "26",
+    "computed": 195.448,
+    "reference": 195.448,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5381",
+    "calculator_id": "26",
+    "computed": 130.76,
+    "reference": 130.76,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5511",
+    "calculator_id": "26",
+    "computed": 139.88,
+    "reference": 139.88,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5378",
+    "calculator_id": "26",
+    "computed": 175.784,
+    "reference": 175.784,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5458",
+    "calculator_id": "26",
+    "computed": 135.016,
+    "reference": 135.016,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5465",
+    "calculator_id": "26",
+    "computed": 132.152,
+    "reference": 132.152,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5495",
+    "calculator_id": "26",
+    "computed": 132.672,
+    "reference": 132.672,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5462",
+    "calculator_id": "26",
+    "computed": 169.256,
+    "reference": 169.256,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5407",
+    "calculator_id": "26",
+    "computed": 132.456,
+    "reference": 132.456,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5288",
+    "calculator_id": "26",
+    "computed": 136.24,
+    "reference": 136.24,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5471",
+    "calculator_id": "26",
+    "computed": 138.928,
+    "reference": 138.928,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5423",
+    "calculator_id": "26",
+    "computed": 142.44,
+    "reference": 142.44,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5474",
+    "calculator_id": "26",
+    "computed": 137.512,
+    "reference": 137.512,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5316",
+    "calculator_id": "26",
+    "computed": 119.048,
+    "reference": 119.048,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5466",
+    "calculator_id": "26",
+    "computed": 138.976,
+    "reference": 138.976,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5395",
+    "calculator_id": "26",
+    "computed": 146.168,
+    "reference": 146.168,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5376",
+    "calculator_id": "26",
+    "computed": 137.896256,
+    "reference": 137.89626,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5675",
+    "calculator_id": "30",
+    "computed": 292.3809523809524,
+    "reference": 292.38095,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5620",
+    "calculator_id": "30",
+    "computed": 298.8888888888889,
+    "reference": 298.88889,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5771",
+    "calculator_id": "30",
+    "computed": 286.8253968253968,
+    "reference": 286.8254,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5718",
+    "calculator_id": "30",
+    "computed": 289.43650793650795,
+    "reference": 289.43651,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5589",
+    "calculator_id": "30",
+    "computed": 278.53619746031745,
+    "reference": 278.5362,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5789",
+    "calculator_id": "30",
+    "computed": 306.7142857142857,
+    "reference": 306.71429,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5778",
+    "calculator_id": "30",
+    "computed": 285.9126984126984,
+    "reference": 285.9127,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5714",
+    "calculator_id": "30",
+    "computed": 310.21031746031747,
+    "reference": 310.21032,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5730",
+    "calculator_id": "30",
+    "computed": 279.22222222222223,
+    "reference": 279.22222,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5780",
+    "calculator_id": "30",
+    "computed": 286.90476190476187,
+    "reference": 286.90476,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5781",
+    "calculator_id": "30",
+    "computed": 307.05555555555554,
+    "reference": 307.05556,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5637",
+    "calculator_id": "30",
+    "computed": 303.3769841269841,
+    "reference": 303.37698,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5564",
+    "calculator_id": "30",
+    "computed": 3683.574603174603,
+    "reference": 3683.5746,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5723",
+    "calculator_id": "30",
+    "computed": 306.3492063492063,
+    "reference": 306.34921,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5669",
+    "calculator_id": "30",
+    "computed": 322.8253968253968,
+    "reference": 322.8254,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5560",
+    "calculator_id": "30",
+    "computed": 280.9682539682539,
+    "reference": 280.96825,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5782",
+    "calculator_id": "30",
+    "computed": 281.55555555555554,
+    "reference": 281.55556,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5766",
+    "calculator_id": "30",
+    "computed": 286.79761904761904,
+    "reference": 286.79762,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5605",
+    "calculator_id": "30",
+    "computed": 292.8849206349206,
+    "reference": 292.88492,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "5770",
+    "calculator_id": "30",
+    "computed": 310.1031746031746,
+    "reference": 310.10317,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6296",
+    "calculator_id": "39",
+    "computed": 14.0,
+    "reference": 14.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6167",
+    "calculator_id": "39",
+    "computed": 9.0,
+    "reference": 9.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6165",
+    "calculator_id": "39",
+    "computed": 6.0,
+    "reference": 6.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6304",
+    "calculator_id": "39",
+    "computed": -7.0,
+    "reference": -7.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6189",
+    "calculator_id": "39",
+    "computed": 7.5,
+    "reference": 7.5,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6201",
+    "calculator_id": "39",
+    "computed": 84.79576868829336,
+    "reference": 84.796,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6277",
+    "calculator_id": "39",
+    "computed": 13.0,
+    "reference": 13.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6339",
+    "calculator_id": "39",
+    "computed": 10.0,
+    "reference": 10.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6257",
+    "calculator_id": "39",
+    "computed": 42.0,
+    "reference": 42.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6196",
+    "calculator_id": "39",
+    "computed": 16.8,
+    "reference": 16.8,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6330",
+    "calculator_id": "39",
+    "computed": 2.0,
+    "reference": 2.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6224",
+    "calculator_id": "39",
+    "computed": 15.0,
+    "reference": 15.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6278",
+    "calculator_id": "39",
+    "computed": 18.0,
+    "reference": 18.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6262",
+    "calculator_id": "39",
+    "computed": 13.2,
+    "reference": 13.2,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6206",
+    "calculator_id": "39",
+    "computed": 7.0,
+    "reference": 7.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6266",
+    "calculator_id": "39",
+    "computed": 7.899999999999999,
+    "reference": 7.9,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6160",
+    "calculator_id": "39",
+    "computed": 14.0,
+    "reference": 14.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6310",
+    "calculator_id": "39",
+    "computed": 11.0,
+    "reference": 11.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6173",
+    "calculator_id": "39",
+    "computed": 100.0,
+    "reference": 100.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "6215",
+    "calculator_id": "39",
+    "computed": 14.0,
+    "reference": 14.0,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7633",
+    "calculator_id": "60",
+    "computed": 0.8809716857601674,
+    "reference": 0.88097,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7332",
+    "calculator_id": "60",
+    "computed": 1.66140001203804,
+    "reference": 1.6614,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7786",
+    "calculator_id": "60",
+    "computed": 2.0257371772051553,
+    "reference": 2.02574,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7744",
+    "calculator_id": "60",
+    "computed": 0.21015867021530818,
+    "reference": 0.21016,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7611",
+    "calculator_id": "60",
+    "computed": 1.91434642168606,
+    "reference": 1.91435,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7663",
+    "calculator_id": "60",
+    "computed": 2.151549828999242,
+    "reference": 2.15155,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7995",
+    "calculator_id": "60",
+    "computed": 2.227105745132009,
+    "reference": 2.22711,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7628",
+    "calculator_id": "60",
+    "computed": 1.2330517696620311,
+    "reference": 1.23305,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7486",
+    "calculator_id": "60",
+    "computed": 1.9748417658131499,
+    "reference": 1.97484,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7403",
+    "calculator_id": "60",
+    "computed": 0.8792357792739987,
+    "reference": 0.87924,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7182",
+    "calculator_id": "60",
+    "computed": 0.6633249580710799,
+    "reference": 0.66332,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7873",
+    "calculator_id": "60",
+    "computed": 1.4433756729740645,
+    "reference": 1.44338,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7733",
+    "calculator_id": "60",
+    "computed": 1.632993161855452,
+    "reference": 1.63299,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7354",
+    "calculator_id": "60",
+    "computed": 0.8634555897992412,
+    "reference": 0.86346,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7766",
+    "calculator_id": "60",
+    "computed": 2.3354157374366276,
+    "reference": 2.33542,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7448",
+    "calculator_id": "60",
+    "computed": 1.0124228365658292,
+    "reference": 1.01242,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7880",
+    "calculator_id": "60",
+    "computed": 1.3371819455689475,
+    "reference": 1.33718,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7298",
+    "calculator_id": "60",
+    "computed": 1.4142135623730951,
+    "reference": 1.41421,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7802",
+    "calculator_id": "60",
+    "computed": 2.3990738953928776,
+    "reference": 2.39907,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  },
+  {
+    "source_row": "7912",
+    "calculator_id": "60",
+    "computed": 0.672371425131477,
+    "reference": 0.67237,
+    "benchmark_match": true,
+    "match_at_0_1_percent": true
+  }
+]

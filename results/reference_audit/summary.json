@@ -1,0 +1,19 @@
+{
+  "selected_cases": 44,
+  "selected_calculators": 9,
+  "decimal_within_interval": 44,
+  "registry_within_interval": 44,
+  "decimal_within_0_1_percent": 44,
+  "arithmetic_implementations_agree": 44,
+  "largest_relative_difference_from_gold": 1.795170990036801e-05,
+  "bp_source_unit_status": {
+    "numeric_pair_present_unit_not_printed_after_pair": 1,
+    "explicit_mmHg_after_reference_pair": 4
+  },
+  "osmolality_explanation_status": {
+    "third_operand_disagrees_with_glucose_annotation": 4
+  },
+  "locked_reference_sha256": "70f6803bd628a4726b06f407943933eda28fe3d33ee5be8fc17c97d927373c21",
+  "upstream_excerpt_sha256": "9e9c061732bc68db21a9492503c58b9a328e48df30c2bdb9ac37b9504d6070df",
+  "decimal_precision": 42
+}

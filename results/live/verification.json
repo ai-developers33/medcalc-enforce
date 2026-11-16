@@ -1,0 +1,15 @@
+{
+  "workflows": 200,
+  "retained_llm_responses": 384,
+  "generated_calls_replayed": 97,
+  "all_checks_passed": true,
+  "source_notes_unmodified": true,
+  "primary_gold_unchanged": true,
+  "actual_prompts_match_nongold_builders": true,
+  "all_recorded_generated_calls_replay": true,
+  "software_tests_passed": 17,
+  "input_sha256": "1c5cc4e875c44a3d1c2a904236e4a0e4c550b76b3990e56f8174a611940de7a0",
+  "limitation": "No rerun of model inference; this verifies raw-trace consistency and deterministic replay. Runtime interruptions are separately logged.",
+  "run_model_identities_verified": 4,
+  "distinct_models": 2
+}

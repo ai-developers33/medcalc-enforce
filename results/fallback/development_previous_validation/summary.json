@@ -1,0 +1,102 @@
+{
+  "baseline": {
+    "n": 50,
+    "matches": 37,
+    "nonmatching_released": 11,
+    "unanswered": 2,
+    "released": 48,
+    "all_case_agreement_wilson95": [
+      0.6044684273515117,
+      0.8412847250644762
+    ],
+    "error_among_released_wilson95": [
+      0.13307826266911232,
+      0.3653926409000346
+    ],
+    "gains_vs_baseline": 0,
+    "losses_vs_baseline": 0,
+    "paired_exact_p": 1,
+    "transitions_vs_baseline": {
+      "matching to matching": 37,
+      "nonmatching to nonmatching": 11,
+      "unanswered to unanswered": 2
+    }
+  },
+  "source_repair": {
+    "n": 50,
+    "matches": 39,
+    "nonmatching_released": 0,
+    "unanswered": 11,
+    "released": 39,
+    "all_case_agreement_wilson95": [
+      0.6475845041874634,
+      0.8724608402978559
+    ],
+    "error_among_released_wilson95": [
+      0,
+      0.08966685370757144
+    ],
+    "gains_vs_baseline": 5,
+    "losses_vs_baseline": 3,
+    "paired_exact_p": 0.7265625,
+    "transitions_vs_baseline": {
+      "matching to matching": 34,
+      "matching to unanswered": 3,
+      "nonmatching to matching": 5,
+      "nonmatching to unanswered": 6,
+      "unanswered to unanswered": 2
+    }
+  },
+  "note_only": {
+    "n": 50,
+    "matches": 28,
+    "nonmatching_released": 0,
+    "unanswered": 22,
+    "released": 28,
+    "all_case_agreement_wilson95": [
+      0.4230602802165686,
+      0.6883780078874284
+    ],
+    "error_among_released_wilson95": [
+      1.3877787807814457e-17,
+      0.12064330476584563
+    ],
+    "gains_vs_baseline": 6,
+    "losses_vs_baseline": 15,
+    "paired_exact_p": 0.0783538818359375,
+    "transitions_vs_baseline": {
+      "matching to matching": 22,
+      "matching to unanswered": 15,
+      "nonmatching to matching": 5,
+      "nonmatching to unanswered": 6,
+      "unanswered to matching": 1,
+      "unanswered to unanswered": 1
+    }
+  },
+  "combined": {
+    "n": 50,
+    "matches": 42,
+    "nonmatching_released": 0,
+    "unanswered": 8,
+    "released": 42,
+    "all_case_agreement_wilson95": [
+      0.7148578393696501,
+      0.916625793219666
+    ],
+    "error_among_released_wilson95": [
+      0,
+      0.08379879086570391
+    ],
+    "gains_vs_baseline": 8,
+    "losses_vs_baseline": 3,
+    "paired_exact_p": 0.2265625,
+    "transitions_vs_baseline": {
+      "matching to matching": 34,
+      "matching to unanswered": 3,
+      "nonmatching to matching": 7,
+      "nonmatching to unanswered": 4,
+      "unanswered to matching": 1,
+      "unanswered to unanswered": 1
+    }
+  }
+}

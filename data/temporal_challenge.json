@@ -1,0 +1,430 @@
+[
+  {
+    "id": "bmi-clean",
+    "group": "correct proposals",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nHeight: 2 m\nWeight: 80 kg\nDischarge:\nHeight: 2 m\nWeight: 100 kg",
+    "proposal": {
+      "height": [
+        200,
+        "cm"
+      ],
+      "weight": [
+        80,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 2,
+        "weight": 80
+      },
+      "answer": 20
+    }
+  },
+  {
+    "id": "bmi-late",
+    "group": "wrong time proposals",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nHeight: 2 m\nWeight: 80 kg\nDischarge:\nHeight: 2 m\nWeight: 100 kg",
+    "proposal": {
+      "height": [
+        200,
+        "cm"
+      ],
+      "weight": [
+        100,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 2,
+        "weight": 80
+      },
+      "answer": 20
+    }
+  },
+  {
+    "id": "bmi-early",
+    "group": "wrong time proposals",
+    "calculator": "6",
+    "phase": "discharge",
+    "note": "Admission:\nHeight: 2 m\nWeight: 80 kg\nDischarge:\nHeight: 2 m\nWeight: 100 kg",
+    "proposal": {
+      "height": [
+        200,
+        "cm"
+      ],
+      "weight": [
+        80,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 2,
+        "weight": 100
+      },
+      "answer": 25
+    }
+  },
+  {
+    "id": "bmi-reversed-sections",
+    "group": "wrong time proposals",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Discharge:\nWeight: 72 kg\nHeight: 1.6 m\nAdmission:\nWeight: 64 kg\nHeight: 1.6 m",
+    "proposal": {
+      "height": [
+        160,
+        "cm"
+      ],
+      "weight": [
+        72,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 1.6,
+        "weight": 64
+      },
+      "answer": 25
+    }
+  },
+  {
+    "id": "bp-both-late",
+    "group": "wrong time proposals",
+    "calculator": "5",
+    "phase": "admission",
+    "note": "Admission:\nBlood pressure: 120/60 mmHg\nDischarge:\nBlood pressure: 150/90 mmHg",
+    "proposal": {
+      "sbp": [
+        150,
+        "mmHg"
+      ],
+      "dbp": [
+        90,
+        "mmHg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sbp": 120,
+        "dbp": 60
+      },
+      "answer": 80
+    }
+  },
+  {
+    "id": "bp-mixed",
+    "group": "mixed time proposals",
+    "calculator": "5",
+    "phase": "admission",
+    "note": "Discharge:\nBlood pressure: 110/65 mmHg\nAdmission:\nBlood pressure: 140/80 mmHg",
+    "proposal": {
+      "sbp": [
+        140,
+        "mmHg"
+      ],
+      "dbp": [
+        65,
+        "mmHg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sbp": 140,
+        "dbp": 80
+      },
+      "answer": 100
+    }
+  },
+  {
+    "id": "ag-mixed",
+    "group": "mixed time proposals",
+    "calculator": "39",
+    "phase": "admission",
+    "note": "Admission:\nSodium: 140 mEq/L\nChloride: 104 mEq/L\nBicarbonate: 24 mEq/L\nDischarge:\nSodium: 135 mEq/L\nChloride: 100 mEq/L\nBicarbonate: 19 mEq/L",
+    "proposal": {
+      "sodium": [
+        140,
+        "mEq/L"
+      ],
+      "chloride": [
+        100,
+        "mEq/L"
+      ],
+      "bicarbonate": [
+        19,
+        "mEq/L"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sodium": 140,
+        "chloride": 104,
+        "bicarbonate": 24
+      },
+      "answer": 12
+    }
+  },
+  {
+    "id": "na-both-late",
+    "group": "wrong time proposals",
+    "calculator": "26",
+    "phase": "admission",
+    "note": "Admission:\nSodium: 130 mEq/L\nGlucose: 300 mg/dL\nDischarge:\nSodium: 138 mEq/L\nGlucose: 100 mg/dL",
+    "proposal": {
+      "sodium": [
+        138,
+        "mEq/L"
+      ],
+      "glucose": [
+        100,
+        "mg/dL"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sodium": 130,
+        "glucose": 300
+      },
+      "answer": 134.8
+    }
+  },
+  {
+    "id": "bmi-equal-repeats",
+    "group": "benign duplicate",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nHeight: 180 cm\nHeight: 1.8 m\nWeight: 81 kg",
+    "proposal": {
+      "height": [
+        180,
+        "cm"
+      ],
+      "weight": [
+        81,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 1.8,
+        "weight": 81
+      },
+      "answer": 25
+    }
+  },
+  {
+    "id": "ag-clean",
+    "group": "correct proposals",
+    "calculator": "39",
+    "phase": "admission",
+    "note": "Admission:\nSodium: 138 mEq/L\nChloride: 99 mEq/L\nBicarbonate: 25 mEq/L",
+    "proposal": {
+      "sodium": [
+        138,
+        "mEq/L"
+      ],
+      "chloride": [
+        99,
+        "mEq/L"
+      ],
+      "bicarbonate": [
+        25,
+        "mEq/L"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sodium": 138,
+        "chloride": 99,
+        "bicarbonate": 25
+      },
+      "answer": 14
+    }
+  },
+  {
+    "id": "bmi-conflict",
+    "group": "conflicting values",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nHeight: 1.8 m\nWeight: 81 kg\nWeight: 65 kg",
+    "proposal": {
+      "height": [
+        180,
+        "cm"
+      ],
+      "weight": [
+        81,
+        "kg"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "bp-conflict",
+    "group": "conflicting values",
+    "calculator": "5",
+    "phase": "admission",
+    "note": "Admission:\nBlood pressure: 115/70 mmHg\nBlood pressure: 136/85 mmHg",
+    "proposal": {
+      "sbp": [
+        115,
+        "mmHg"
+      ],
+      "dbp": [
+        70,
+        "mmHg"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "ag-missing-one",
+    "group": "missing target observation",
+    "calculator": "39",
+    "phase": "admission",
+    "note": "Admission:\nSodium: 138 mEq/L\nChloride: 99 mEq/L\nDischarge:\nBicarbonate: 25 mEq/L",
+    "proposal": {
+      "sodium": [
+        138,
+        "mEq/L"
+      ],
+      "chloride": [
+        99,
+        "mEq/L"
+      ],
+      "bicarbonate": [
+        25,
+        "mEq/L"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "bmi-missing-phase",
+    "group": "missing target observation",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Discharge:\nWeight: 70 kg\nHeight: 1.7 m",
+    "proposal": {
+      "height": [
+        170,
+        "cm"
+      ],
+      "weight": [
+        70,
+        "kg"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "bmi-duplicate-phase",
+    "group": "conflicting values",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nWeight: 70 kg\nHeight: 1.7 m\nAdmission:\nWeight: 75 kg\nHeight: 1.7 m",
+    "proposal": {
+      "height": [
+        170,
+        "cm"
+      ],
+      "weight": [
+        75,
+        "kg"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "bp-history",
+    "group": "missing target observation",
+    "calculator": "5",
+    "phase": "admission",
+    "note": "Admission:\nSystolic blood pressure: 135 mmHg\nHistory:\nDiastolic blood pressure: 75 mmHg",
+    "proposal": {
+      "sbp": [
+        135,
+        "mmHg"
+      ],
+      "dbp": [
+        75,
+        "mmHg"
+      ]
+    },
+    "expected": null
+  },
+  {
+    "id": "bmi-unlabeled-prose",
+    "group": "answerable unsupported prose",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "The patient was 170 cm tall; weight was 68 kg at admission and 72 kg at discharge.",
+    "proposal": {
+      "height": [
+        170,
+        "cm"
+      ],
+      "weight": [
+        68,
+        "kg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "height": 1.7,
+        "weight": 68
+      },
+      "answer": 23.529411764705884
+    }
+  },
+  {
+    "id": "bp-inline-after-treatment",
+    "group": "answerable unsupported prose",
+    "calculator": "5",
+    "phase": "admission",
+    "note": "At admission blood pressure was 126/75 mmHg. After treatment it was 144/90 mmHg.",
+    "proposal": {
+      "sbp": [
+        144,
+        "mmHg"
+      ],
+      "dbp": [
+        90,
+        "mmHg"
+      ]
+    },
+    "expected": {
+      "inputs": {
+        "sbp": 126,
+        "dbp": 75
+      },
+      "answer": 92
+    }
+  },
+  {
+    "id": "bmi-inline-history",
+    "group": "missing target observation",
+    "calculator": "6",
+    "phase": "admission",
+    "note": "Admission:\nHeight: 2 m\nWeight: previously 70 kg; current measurement unavailable",
+    "proposal": {
+      "height": [
+        200,
+        "cm"
+      ],
+      "weight": [
+        70,
+        "kg"
+      ]
+    },
+    "expected": null
+  }
+]

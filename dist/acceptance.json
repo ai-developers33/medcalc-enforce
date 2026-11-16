@@ -1,0 +1,65 @@
+{
+  "wheel": "medcalc_enforce_research-0.4.0-py3-none-any.whl",
+  "sha256": "5aad658c574cc466e2842f83382a570a292165a4bf10e3ef3c6091656c5bf59e",
+  "installed_without_network_or_dependencies": true,
+  "smoke_tests_from_outside_source_tree": [
+    {
+      "request": {
+        "question": "Mean arterial pressure?",
+        "note": "Blood pressure 120/75 mmHg."
+      },
+      "decision": {
+        "released": true,
+        "result": 90.0,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 120.0,
+              "unit": "mmHg",
+              "evidence_id": "sbp:15:26"
+            },
+            "dbp": {
+              "value": 75.0,
+              "unit": "mmHg",
+              "evidence_id": "dbp:15:26"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 120.0,
+          "dbp": 75.0
+        },
+        "evidence": {
+          "sbp": {
+            "start": 15,
+            "end": 26,
+            "source": "120/75 mmHg"
+          },
+          "dbp": {
+            "start": 15,
+            "end": 26,
+            "source": "120/75 mmHg"
+          }
+        },
+        "note_sha256": "db9ba2ed8282596c41ec64178ff711f6badd00de961d64797e44e1c9525ba84d",
+        "route": "named_measurements",
+        "calculator_id": "5",
+        "proposal_status": "NO_PROPOSAL",
+        "policy": "reviewed"
+      }
+    },
+    {
+      "request": {
+        "question": "BMI percentile?",
+        "note": "Height 170 cm. Weight 70 kg."
+      },
+      "decision": {
+        "released": false,
+        "reason": "UNSUPPORTED_OUTPUT_STATISTIC",
+        "policy": "reviewed"
+      }
+    }
+  ]
+}

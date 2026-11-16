@@ -1,0 +1,6 @@
+[
+  {"id":"same_clause_patient_control","question":"What is the patient's BMI?","note":"His sister reported the patient's measured height 1.80 m and weight 90 kg.","expect":"return","reference":27.77777777777778},
+  {"id":"wrong_subject_prior_sentence","question":"What is the patient's BMI?","note":"The following two adult measurements belong to his brother. Height 180 cm. Weight 90 kg. The patient's own measurements are unavailable.","expect":"abstain"},
+  {"id":"wrong_time_prior_sentence","question":"What was the patient's admission BMI?","note":"Discharge measurements are listed below. Height 180 cm. Weight 90 kg. Admission values are missing.","expect":"abstain"},
+  {"id":"header_admission_control","question":"What was the patient's admission BMI?","note":"Admission measurements are listed below. Height 180 cm. Weight 90 kg.","expect":"return","reference":27.77777777777778}
+]

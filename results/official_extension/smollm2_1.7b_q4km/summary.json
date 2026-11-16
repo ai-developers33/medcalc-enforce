@@ -1,0 +1,73 @@
+{
+  "cases": 80,
+  "independent_sources": 80,
+  "paid_api_calls": 0,
+  "recorded_requests": 160,
+  "methods": {
+    "L1_schema_only": {
+      "matched": 28,
+      "nonmatching_released": 51,
+      "blocked_or_failed": 1,
+      "released": 79,
+      "agreement": 0.35,
+      "coverage": 0.9875,
+      "disagreement_among_released": 0.6455696202531646,
+      "conditional_error_Wilson95": [
+        0.5355927424329845,
+        0.7420460187310634
+      ]
+    },
+    "L2_unit_domain": {
+      "matched": 41,
+      "nonmatching_released": 34,
+      "blocked_or_failed": 5,
+      "released": 75,
+      "agreement": 0.5125,
+      "coverage": 0.9375,
+      "disagreement_among_released": 0.4533333333333333,
+      "conditional_error_Wilson95": [
+        0.3456979638413221,
+        0.5655162614570731
+      ]
+    },
+    "L3_literal_span": {
+      "matched": 7,
+      "nonmatching_released": 2,
+      "blocked_or_failed": 71,
+      "released": 9,
+      "agreement": 0.0875,
+      "coverage": 0.1125,
+      "disagreement_among_released": 0.2222222222222222,
+      "conditional_error_Wilson95": [
+        0.06322510711784671,
+        0.5474110308930111
+      ]
+    },
+    "source_bound": {
+      "matched": 52,
+      "nonmatching_released": 2,
+      "blocked_or_failed": 26,
+      "released": 54,
+      "agreement": 0.65,
+      "coverage": 0.675,
+      "disagreement_among_released": 0.037037037037037035,
+      "conditional_error_Wilson95": [
+        0.01021636794844559,
+        0.12535176917275476
+      ]
+    }
+  },
+  "paired_vs_unit_domain": {
+    "from": "L2_unit_domain",
+    "to": "source_bound",
+    "gained_matching_answers": 14,
+    "lost_matching_answers": 3,
+    "agreement_delta": 0.1375,
+    "stratified_bootstrap95": [
+      0.05,
+      0.225
+    ],
+    "paired_exact_mcnemar_p": 0.012725830078125,
+    "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+  }
+}

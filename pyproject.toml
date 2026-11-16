@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medcalc-enforce-research"
+version = "0.6.0"
+description = "Deterministic discourse-aware runtime enforcement and transactional semantic commit for clinical calculator calls"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+medcalc-enforce = "unified_calculator:main"
+medcalc-check = "checked_calculator:main"
+medcalc-experiment = "research_calculator:main"
+
+[tool.setuptools]
+packages = ["medcalc"]
+py-modules = ["unified_calculator", "checked_calculator", "research_calculator"]

@@ -1,0 +1,24 @@
+{
+  "commit": "751a514644d22bc6f7066087205fbbb61b7b40f5",
+  "sha256": {
+    "core/Execution.py": "70996e18d32346277ae1fa17e578f8afaafd058aaecfdc7c1a16a8447aad086a",
+    "toolconfig/anion_gap/config.json": "7377475e964afbad47a224b05e80db24ad1cc53e07dfdd048869058f2632ec24",
+    "toolconfig/anion_gap/score.py": "c09fc758da22e17f2f3205eba595cce340545c8f4ccf8e35640f7dc32a1eb110",
+    "toolconfig/body_mass_index_bmi/config.json": "961584563a0341f538822b9fb85a5140c1a7c427ce222fd93b7ba35ef2405adc",
+    "toolconfig/body_mass_index_bmi/score.py": "9f1ee03f01e72d8dd6984cc184b267a83ca19c8f88776c3d1c2d454c13027099",
+    "toolconfig/body_surface_area_calculator/config.json": "c387a59c43abac04706bf1ad905aed18ad4f85741c58354369e84caa7e0c6d5d",
+    "toolconfig/body_surface_area_calculator/score.py": "3808b52c2015332d88e58c33142db300d8eae469c3eca3f3f7f81ced1b82160a",
+    "toolconfig/calcium_correction_for_hypoalbuminemia/config.json": "b191d92c85b0a1d9c66d50f94961d5d8a1622da2f1678c145ff5e297725b604d",
+    "toolconfig/calcium_correction_for_hypoalbuminemia/score.py": "79e480e40b8f7bdbe927fee6c001cbca9fb70db4b4563c0f20ca306a6192a20f",
+    "toolconfig/ckd_epi_equations_for_glomerular_filtration_rate/config.json": "e285d592ffe4f1a9a2b5b17ab8895dbb0cf2c33a2bcb3e209150d549b05b9a5e",
+    "toolconfig/ckd_epi_equations_for_glomerular_filtration_rate/score.py": "5ef36f892bfa94fb6fedacdbb1f22cd9fb6633988d2291b739d2796b466affb7",
+    "toolconfig/fibrosis_4_fib_4_index_for_liver_fibrosis/config.json": "3cc5a906d9fcb605fb54155ff673f3e0aaff07add6cae5c0c7028891e5e46598",
+    "toolconfig/fibrosis_4_fib_4_index_for_liver_fibrosis/score.py": "25523f88cd345622a98bf036b360bc44eea303723bcc8a676353287b5800703c",
+    "toolconfig/mean_arterial_pressure_map/config.json": "340cb52cbc3978a49665a846a8afcd8b69d19335a8eeb915a1bf0026009d6fb9",
+    "toolconfig/mean_arterial_pressure_map/score.py": "18855d41ef20cf41d174393740dd0a081850a7a3bdb5431c1bd0583240269861",
+    "toolconfig/serum_osmolality/config.json": "cfc9f07dd4147184daf8965846387ed20957e264151995401250e27ad2646651",
+    "toolconfig/serum_osmolality/score.py": "11d3d8b738eb5df2486b7c82c3204d52fcf9e3bfd42c2ee6637976966db8e0dd",
+    "toolconfig/sodium_correction_for_hyperglycemia/config.json": "fb1aafb29ade78cf267426be255b0d6ccdbf60d8c65b532e357ece30f658d382",
+    "toolconfig/sodium_correction_for_hyperglycemia/score.py": "6bfa7821710b665e9abf8dbe8b573ec04f0469fff16fbc4aff3aa9dbe62ec0a2"
+  }
+}

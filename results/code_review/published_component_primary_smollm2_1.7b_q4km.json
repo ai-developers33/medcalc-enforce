@@ -1,0 +1,436 @@
+{
+  "upstream_commit": "751a514644d22bc6f7066087205fbbb61b7b40f5",
+  "model": "smollm2_1.7b_q4km",
+  "official_panel_cases": 44,
+  "formula_matched_subset": 39,
+  "mapped_calculators": {
+    "3": "ckd_epi_equations_for_glomerular_filtration_rate",
+    "5": "mean_arterial_pressure_map",
+    "6": "body_mass_index_bmi",
+    "7": "calcium_correction_for_hypoalbuminemia",
+    "19": "fibrosis_4_fib_4_index_for_liver_fibrosis",
+    "26": "sodium_correction_for_hyperglycemia",
+    "30": "serum_osmolality",
+    "39": "anion_gap",
+    "60": "body_surface_area_calculator"
+  },
+  "status": {
+    "requires_new_unit_conversion_generation": 9,
+    "returned": 30
+  },
+  "outcomes": {
+    "published_first_pass": {
+      "unanswered": 9,
+      "disagrees": 8,
+      "matches": 22
+    },
+    "unit_domain": {
+      "matches": 22,
+      "unanswered": 2,
+      "disagrees": 15
+    },
+    "reviewed": {
+      "matches": 29,
+      "unanswered": 9,
+      "disagrees": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "official-21",
+      "expected_tool": "3",
+      "selected": "3",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-23",
+      "expected_tool": "3",
+      "selected": "3",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "unanswered",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-33",
+      "expected_tool": "3",
+      "selected": "3",
+      "first_pass_status": "returned",
+      "first_pass_score": 54.07,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-37",
+      "expected_tool": "3",
+      "selected": "3",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-27",
+      "expected_tool": "3",
+      "selected": "3",
+      "first_pass_status": "returned",
+      "first_pass_score": 25.66,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-63",
+      "expected_tool": "5",
+      "selected": "5",
+      "first_pass_status": "returned",
+      "first_pass_score": 111.33,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-62",
+      "expected_tool": "5",
+      "selected": "5",
+      "first_pass_status": "returned",
+      "first_pass_score": 62.0,
+      "published_first_pass": "disagrees",
+      "unit_domain": "unanswered",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-61",
+      "expected_tool": "5",
+      "selected": "5",
+      "first_pass_status": "returned",
+      "first_pass_score": 100.0,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-80",
+      "expected_tool": "5",
+      "selected": "5",
+      "first_pass_status": "returned",
+      "first_pass_score": 106.67,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-75",
+      "expected_tool": "5",
+      "selected": "5",
+      "first_pass_status": "returned",
+      "first_pass_score": 53.33,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-82",
+      "expected_tool": "6",
+      "selected": "6",
+      "first_pass_status": "returned",
+      "first_pass_score": 23.79,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-86",
+      "expected_tool": "6",
+      "selected": "6",
+      "first_pass_status": "returned",
+      "first_pass_score": 22.99,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-89",
+      "expected_tool": "6",
+      "selected": "6",
+      "first_pass_status": "returned",
+      "first_pass_score": 19.98,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-85",
+      "expected_tool": "6",
+      "selected": "6",
+      "first_pass_status": "returned",
+      "first_pass_score": 23.95,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-95",
+      "expected_tool": "6",
+      "selected": "6",
+      "first_pass_status": "returned",
+      "first_pass_score": 24.3,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-105",
+      "expected_tool": "7",
+      "selected": "7",
+      "first_pass_status": "returned",
+      "first_pass_score": 18.59,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-103",
+      "expected_tool": "7",
+      "selected": "7",
+      "first_pass_status": "returned",
+      "first_pass_score": 8.66,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-119",
+      "expected_tool": "7",
+      "selected": "7",
+      "first_pass_status": "returned",
+      "first_pass_score": 9.46,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-107",
+      "expected_tool": "7",
+      "selected": "7",
+      "first_pass_status": "returned",
+      "first_pass_score": 8.94,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-117",
+      "expected_tool": "7",
+      "selected": "7",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-298",
+      "expected_tool": "19",
+      "selected": "19",
+      "first_pass_status": "returned",
+      "first_pass_score": 2.68,
+      "published_first_pass": "matches",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-287",
+      "expected_tool": "19",
+      "selected": "19",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.55,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-291",
+      "expected_tool": "19",
+      "selected": "19",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.73,
+      "published_first_pass": "matches",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-299",
+      "expected_tool": "19",
+      "selected": "19",
+      "first_pass_status": "returned",
+      "first_pass_score": 4.15,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-281",
+      "expected_tool": "19",
+      "selected": "19",
+      "first_pass_status": "returned",
+      "first_pass_score": 5.54,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-389",
+      "expected_tool": "26",
+      "selected": "30",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-387",
+      "expected_tool": "26",
+      "selected": "30",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-391",
+      "expected_tool": "26",
+      "selected": "30",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-386",
+      "expected_tool": "26",
+      "selected": "30",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-397",
+      "expected_tool": "26",
+      "selected": "30",
+      "first_pass_status": "requires_new_unit_conversion_generation",
+      "first_pass_score": null,
+      "published_first_pass": "unanswered",
+      "unit_domain": "disagrees",
+      "reviewed": "disagrees"
+    },
+    {
+      "case_id": "official-426",
+      "expected_tool": "30",
+      "selected": "39",
+      "first_pass_status": "returned",
+      "first_pass_score": 120.71,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-440",
+      "expected_tool": "30",
+      "selected": "39",
+      "first_pass_status": "returned",
+      "first_pass_score": 108.2,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-427",
+      "expected_tool": "30",
+      "selected": "39",
+      "first_pass_status": "returned",
+      "first_pass_score": 30.4,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-434",
+      "expected_tool": "30",
+      "selected": "39",
+      "first_pass_status": "returned",
+      "first_pass_score": 135.63,
+      "published_first_pass": "disagrees",
+      "unit_domain": "disagrees",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-747",
+      "expected_tool": "60",
+      "selected": "60",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.15,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-749",
+      "expected_tool": "60",
+      "selected": "60",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.54,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "unanswered"
+    },
+    {
+      "case_id": "official-741",
+      "expected_tool": "60",
+      "selected": "60",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.94,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-754",
+      "expected_tool": "60",
+      "selected": "60",
+      "first_pass_status": "returned",
+      "first_pass_score": 2.19,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    },
+    {
+      "case_id": "official-758",
+      "expected_tool": "60",
+      "selected": "60",
+      "first_pass_status": "returned",
+      "first_pass_score": 1.84,
+      "published_first_pass": "matches",
+      "unit_domain": "matches",
+      "reviewed": "matches"
+    }
+  ],
+  "panel": "primary",
+  "both_returned": {
+    "cases": 24,
+    "published_first_pass": 18,
+    "reviewed": 24
+  }
+}

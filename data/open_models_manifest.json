@@ -1,0 +1,28 @@
+{
+  "runtime": {
+    "release": "b12211",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12211/llama-b12211-bin-ubuntu-x64.tar.gz",
+    "sha256": "962924b5431bc1237a9e5d26ba072d37b6fe05f79b495206e7ff6134887624c5",
+    "size": 23109987
+  },
+  "models": [
+    {
+      "id": "qwen2.5_1.5b_q4km",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+      "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "size": 1117320736,
+      "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "smollm2_1.7b_q4km",
+      "repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+      "revision": "2d4a76a30b4af41ecd395c35725ac11688d4cfe4",
+      "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+      "size": 1055609536,
+      "sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "reason": "Original SmolLM JSON-object server terminated unexpectedly at case 43 after pronounced latency increases. Its default prompt-cache limit was 8192 MiB on a roughly 10 GB host. Memory pressure is a plausible explanation, not a confirmed kernel diagnosis.",
+  "original_failures_retained": true,
+  "schema_run_paused_for_infrastructure_fix": true,
+  "completed_schema_cases_retained": [
+    "train-392",
+    "train-277",
+    "train-345",
+    "train-220",
+    "train-587",
+    "train-2017",
+    "train-1649",
+    "train-1164",
+    "train-1956",
+    "train-1532",
+    "train-2148",
+    "train-2397",
+    "train-2375",
+    "train-2236",
+    "train-2370",
+    "train-2665",
+    "train-2554",
+    "train-2545",
+    "train-2680",
+    "train-2595",
+    "train-4081",
+    "train-4079",
+    "train-4023"
+  ],
+  "inflight_call_may_be_unrecorded": true,
+  "new_cache_limit_mib": 256,
+  "timing_comparison_not_controlled": true
+}

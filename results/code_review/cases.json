@@ -1,0 +1,10 @@
+[
+  {"id":"direct_measurements","question":"What is the patient's BMI?","note":"Height 180 cm. Weight 90 kg.","expect":"return","reference":27.77777777777778},
+  {"id":"unit_equivalence","question":"What is the patient's BMI?","note":"Height 1.8 m. Weight 198.416035966 lb.","expect":"return","reference":27.77777777777778},
+  {"id":"no_weight","question":"What is the patient's BMI?","note":"Height 180 cm. Weight was not measured.","expect":"abstain"},
+  {"id":"two_distinct_weights","question":"What is the patient's BMI?","note":"Height 180 cm. At admission, weight 90 kg. At discharge, weight 80 kg.","expect":"abstain"},
+  {"id":"relative_only","question":"What is the patient's BMI?","note":"The patient's height was 180 cm. Weight was not measured. His father's weight was 90 kg.","expect":"abstain"},
+  {"id":"goal_only","question":"What is the patient's BMI?","note":"The patient has height 180 cm. A target weight of 90 kg is suggested. Actual weight has not been measured.","expect":"abstain"},
+  {"id":"later_only","question":"What was the patient's admission BMI?","note":"At discharge, height was 180 cm and weight was 90 kg. Admission measurements are unavailable.","expect":"abstain"},
+  {"id":"different_requested_quantity","question":"What is the patient's BMI percentile?","note":"Height 180 cm. Weight 90 kg.","expect":"abstain"}
+]

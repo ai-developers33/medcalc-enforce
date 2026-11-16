@@ -1,0 +1,33 @@
+{
+  "source": "Constructed sectioned-note fixtures and negative/control probes",
+  "fixture_sha256": "fb8197154965e7945b68c6d28222188c71a568bfb96be2da289f7faaf0062c5e",
+  "cases": 19,
+  "distinct_notes": 17,
+  "calculators": [
+    "26",
+    "39",
+    "5",
+    "6"
+  ],
+  "answerable": 12,
+  "methods": {
+    "frozen_source_repair": {
+      "matching_release": 4,
+      "nonmatching_release": 8,
+      "unsupported_release": 7
+    },
+    "explicit_timepoint_guard": {
+      "matching_release": 10,
+      "appropriate_abstention": 7,
+      "answerable_blocked": 2
+    }
+  },
+  "llm_calls": 0,
+  "scope": "The author of the guard wrote the explicit fixture oracles; these related scenarios test a contract, not clinical accuracy or independent adjudication.",
+  "previous_validation_input_compatibility": {
+    "all_notes": 50,
+    "explicit_first_admitted_requests": 45,
+    "unique_supported_admission_section_among_requested": 0,
+    "scope": "Input-format applicability only, before executing any calculator. Remaining questions do not expressly request the first admission."
+  }
+}

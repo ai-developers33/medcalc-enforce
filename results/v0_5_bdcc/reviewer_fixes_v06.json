@@ -1,0 +1,1281 @@
+{
+  "fix1_provenance_and_regex_attribution": {
+    "pure_regex_note_only_124": {
+      "n": 124,
+      "matched": 94,
+      "agreement": 0.758065,
+      "nonmatching": 1,
+      "unanswered": 29,
+      "abstention_reasons": {
+        "NONUNIQUE_NAMED_MEASUREMENT:creatinine": 5,
+        "NONUNIQUE_NAMED_MEASUREMENT:sbp": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:height": 5,
+        "OTHER_TIME:calcium": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:calcium": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:albumin": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:ast": 2,
+        "NONUNIQUE_NAMED_MEASUREMENT:sodium": 4,
+        "NONUNIQUE_NAMED_MEASUREMENT:bun": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:age": 1,
+        "ADULT_EQUATION:age": 1,
+        "NONUNIQUE_NAMED_MEASUREMENT:weight": 2,
+        "NONUNIQUE_NAMED_MEASUREMENT:platelets": 4
+      },
+      "discrete_scores_120_matched": 0,
+      "discrete_scores_120_reason": "DISCRETE_REQUIRES_STRUCTURED_PROPOSAL"
+    },
+    "per_model_official_124": {
+      "qwen2.5_1.5b_q4km": {
+        "total_released": 112,
+        "total_matched": 110,
+        "total_unsafe": 2,
+        "proposal_path_released": 109,
+        "proposal_path_share": 0.973214,
+        "tiers": {
+          "tier_1_0_canonical_proposal": {
+            "released": 92,
+            "matched": 91,
+            "unsafe": 1
+          },
+          "tier_0_85_repaired_proposal": {
+            "released": 17,
+            "matched": 16,
+            "unsafe": 1
+          },
+          "tier_0_70_named_fallback": {
+            "released": 3,
+            "matched": 3,
+            "unsafe": 0
+          }
+        },
+        "field_actions": {
+          "canonical_source_match": 241,
+          "unique_named_source_repair": 8,
+          "source_unit_repair": 11
+        },
+        "vs_pure_regex_note_only": {
+          "rescued_cases": 16,
+          "lost_cases": 0,
+          "net_gain_cases": 16,
+          "mcnemar_exact_p": 3.05176e-05
+        }
+      },
+      "smollm2_1.7b_q4km": {
+        "total_released": 109,
+        "total_matched": 107,
+        "total_unsafe": 2,
+        "proposal_path_released": 78,
+        "proposal_path_share": 0.715596,
+        "tiers": {
+          "tier_1_0_canonical_proposal": {
+            "released": 57,
+            "matched": 56,
+            "unsafe": 1
+          },
+          "tier_0_85_repaired_proposal": {
+            "released": 21,
+            "matched": 21,
+            "unsafe": 0
+          },
+          "tier_0_70_named_fallback": {
+            "released": 31,
+            "matched": 30,
+            "unsafe": 1
+          }
+        },
+        "field_actions": {
+          "canonical_source_match": 165,
+          "unique_named_source_repair": 18,
+          "source_unit_repair": 13
+        },
+        "vs_pure_regex_note_only": {
+          "rescued_cases": 13,
+          "lost_cases": 0,
+          "net_gain_cases": 13,
+          "mcnemar_exact_p": 0.0002441406
+        }
+      },
+      "phi3.5_mini_q4km": {
+        "total_released": 114,
+        "total_matched": 110,
+        "total_unsafe": 4,
+        "proposal_path_released": 113,
+        "proposal_path_share": 0.991228,
+        "tiers": {
+          "tier_1_0_canonical_proposal": {
+            "released": 100,
+            "matched": 97,
+            "unsafe": 3
+          },
+          "tier_0_85_repaired_proposal": {
+            "released": 13,
+            "matched": 12,
+            "unsafe": 1
+          },
+          "tier_0_70_named_fallback": {
+            "released": 1,
+            "matched": 1,
+            "unsafe": 0
+          }
+        },
+        "field_actions": {
+          "canonical_source_match": 255,
+          "unique_named_source_repair": 1,
+          "source_unit_repair": 15
+        },
+        "vs_pure_regex_note_only": {
+          "rescued_cases": 16,
+          "lost_cases": 0,
+          "net_gain_cases": 16,
+          "mcnemar_exact_p": 3.05176e-05
+        }
+      },
+      "qwen2.5_7b_q4km": {
+        "total_released": 115,
+        "total_matched": 114,
+        "total_unsafe": 1,
+        "proposal_path_released": 114,
+        "proposal_path_share": 0.991304,
+        "tiers": {
+          "tier_1_0_canonical_proposal": {
+            "released": 101,
+            "matched": 101,
+            "unsafe": 0
+          },
+          "tier_0_85_repaired_proposal": {
+            "released": 13,
+            "matched": 12,
+            "unsafe": 1
+          },
+          "tier_0_70_named_fallback": {
+            "released": 1,
+            "matched": 1,
+            "unsafe": 0
+          }
+        },
+        "field_actions": {
+          "canonical_source_match": 259,
+          "unique_named_source_repair": 2,
+          "source_unit_repair": 14
+        },
+        "vs_pure_regex_note_only": {
+          "rescued_cases": 20,
+          "lost_cases": 0,
+          "net_gain_cases": 20,
+          "mcnemar_exact_p": 1.9073e-06
+        }
+      },
+      "llama3.1_8b_q4km": {
+        "total_released": 115,
+        "total_matched": 113,
+        "total_unsafe": 2,
+        "proposal_path_released": 115,
+        "proposal_path_share": 1.0,
+        "tiers": {
+          "tier_1_0_canonical_proposal": {
+            "released": 99,
+            "matched": 98,
+            "unsafe": 1
+          },
+          "tier_0_85_repaired_proposal": {
+            "released": 16,
+            "matched": 15,
+            "unsafe": 1
+          },
+          "tier_0_70_named_fallback": {
+            "released": 0,
+            "matched": 0,
+            "unsafe": 0
+          }
+        },
+        "field_actions": {
+          "canonical_source_match": 254,
+          "unique_named_source_repair": 4,
+          "source_unit_repair": 19
+        },
+        "vs_pure_regex_note_only": {
+          "rescued_cases": 19,
+          "lost_cases": 0,
+          "net_gain_cases": 19,
+          "mcnemar_exact_p": 3.8147e-06
+        }
+      }
+    },
+    "pooled_620": {
+      "total_released": 565,
+      "proposal_path_released": 529,
+      "proposal_path_share": 0.936283,
+      "tiers": {
+        "tier_1_0_canonical_proposal": {
+          "released": 449,
+          "matched": 443,
+          "unsafe": 6,
+          "precision": 0.986637
+        },
+        "tier_0_85_repaired_proposal": {
+          "released": 80,
+          "matched": 76,
+          "unsafe": 4,
+          "precision": 0.95
+        },
+        "tier_0_70_named_fallback": {
+          "released": 36,
+          "matched": 35,
+          "unsafe": 1,
+          "precision": 0.972222
+        }
+      }
+    }
+  },
+  "fix3_residual_11_of_620_taxonomy": {
+    "total_residual_unsafe": 11,
+    "unique_case_ids": [
+      "official-119",
+      "official-23",
+      "official-290",
+      "official-299",
+      "official-31",
+      "official-397"
+    ],
+    "errors": [
+      {
+        "model": "qwen2.5_1.5b_q4km",
+        "case_id": "official-119",
+        "calculator_id": "7",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 8.1,
+        "ground_truth": 9.46,
+        "bounds": [
+          8.987,
+          9.933
+        ],
+        "canonical_inputs_used": {
+          "albumin": 3.0,
+          "calcium": 7.3
+        },
+        "annotated_gold_quantities": {
+          "albumin": {
+            "value": 1.3,
+            "unit": "g/dL"
+          },
+          "calcium": {
+            "value": 7.3,
+            "unit": "mg/dL"
+          }
+        },
+        "evidence_spans": {
+          "albumin": "3 g/dL",
+          "calcium": "7.3 mg/dL"
+        }
+      },
+      {
+        "model": "qwen2.5_1.5b_q4km",
+        "case_id": "official-397",
+        "calculator_id": "26",
+        "route": "checked_model_proposal",
+        "tier": "tier_0_85_repaired_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "matching",
+        "result": 117.888,
+        "ground_truth": 131.28,
+        "bounds": [
+          124.716,
+          137.844
+        ],
+        "canonical_inputs_used": {
+          "sodium": 117.0,
+          "glucose": 137.0
+        },
+        "annotated_gold_quantities": {
+          "glucose": {
+            "value": 695.0,
+            "unit": "mg/dL"
+          },
+          "sodium": {
+            "value": 117.0,
+            "unit": "mEq/L"
+          }
+        },
+        "evidence_spans": {
+          "sodium": "117 mEq/L",
+          "glucose": "137 mg/dL"
+        }
+      },
+      {
+        "model": "smollm2_1.7b_q4km",
+        "case_id": "official-397",
+        "calculator_id": "26",
+        "route": "named_measurements",
+        "tier": "tier_0_70_named_fallback",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 117.888,
+        "ground_truth": 131.28,
+        "bounds": [
+          124.716,
+          137.844
+        ],
+        "canonical_inputs_used": {
+          "sodium": 117.0,
+          "glucose": 137.0
+        },
+        "annotated_gold_quantities": {
+          "glucose": {
+            "value": 695.0,
+            "unit": "mg/dL"
+          },
+          "sodium": {
+            "value": 117.0,
+            "unit": "mEq/L"
+          }
+        },
+        "evidence_spans": {
+          "sodium": "117 mEq/L",
+          "glucose": "137 mg/dL"
+        }
+      },
+      {
+        "model": "smollm2_1.7b_q4km",
+        "case_id": "official-290",
+        "calculator_id": "19",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 2.764994,
+        "ground_truth": 6.65888,
+        "bounds": [
+          6.32594,
+          6.99182
+        ],
+        "canonical_inputs_used": {
+          "age": 60.0,
+          "ast": 182.0,
+          "alt": 238.0,
+          "platelets": 256.0
+        },
+        "annotated_gold_quantities": {
+          "age": {
+            "value": 60,
+            "unit": "years"
+          },
+          "alt": {
+            "value": 238.0,
+            "unit": "U/L"
+          },
+          "ast": {
+            "value": 182.0,
+            "unit": "U/L"
+          },
+          "platelets": {
+            "value": 106300.0,
+            "unit": "\u00b5L"
+          }
+        },
+        "evidence_spans": {
+          "age": "60-year-old",
+          "ast": "182 IU/L",
+          "alt": "238 IU/L",
+          "platelets": "256,000/\u03bcL"
+        }
+      },
+      {
+        "model": "phi3.5_mini_q4km",
+        "case_id": "official-23",
+        "calculator_id": "3",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 69.881759,
+        "ground_truth": 48.44101,
+        "bounds": [
+          46.01896,
+          50.86306
+        ],
+        "canonical_inputs_used": {
+          "sex": "Female",
+          "age": 51.0,
+          "creatinine": 0.98
+        },
+        "annotated_gold_quantities": {
+          "age": {
+            "value": 51,
+            "unit": "years"
+          },
+          "creatinine": {
+            "value": 1.33,
+            "unit": "mg/dL"
+          },
+          "sex": {
+            "value": "Female",
+            "unit": "category"
+          }
+        },
+        "evidence_spans": {
+          "sex": "woman",
+          "age": "51-year-old",
+          "creatinine": "0.98 mg/dL"
+        }
+      },
+      {
+        "model": "phi3.5_mini_q4km",
+        "case_id": "official-119",
+        "calculator_id": "7",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 8.1,
+        "ground_truth": 9.46,
+        "bounds": [
+          8.987,
+          9.933
+        ],
+        "canonical_inputs_used": {
+          "albumin": 3.0,
+          "calcium": 7.3
+        },
+        "annotated_gold_quantities": {
+          "albumin": {
+            "value": 1.3,
+            "unit": "g/dL"
+          },
+          "calcium": {
+            "value": 7.3,
+            "unit": "mg/dL"
+          }
+        },
+        "evidence_spans": {
+          "albumin": "3 g/dL",
+          "calcium": "7.3 mg/dL"
+        }
+      },
+      {
+        "model": "phi3.5_mini_q4km",
+        "case_id": "official-299",
+        "calculator_id": "19",
+        "route": "checked_model_proposal",
+        "tier": "tier_0_85_repaired_proposal",
+        "v04_outcome": "unanswered",
+        "v04_reason": "NONUNIQUE_NAMED_MEASUREMENT:ast",
+        "l2_outcome": "unanswered",
+        "result": 20.527333,
+        "ground_truth": 4.08073,
+        "bounds": [
+          3.87669,
+          4.28477
+        ],
+        "canonical_inputs_used": {
+          "age": 49.0,
+          "ast": 57.0,
+          "alt": 17.0,
+          "platelets": 33.0
+        },
+        "annotated_gold_quantities": {
+          "age": {
+            "value": 49,
+            "unit": "years"
+          },
+          "alt": {
+            "value": 17.0,
+            "unit": "U/L"
+          },
+          "ast": {
+            "value": 57.0,
+            "unit": "U/L"
+          },
+          "platelets": {
+            "value": 166000.0,
+            "unit": "\u00b5L"
+          }
+        },
+        "evidence_spans": {
+          "age": "49-year-old",
+          "ast": "57 IU/L",
+          "alt": "17 IU/L",
+          "platelets": "33 k/\u00b5L"
+        }
+      },
+      {
+        "model": "phi3.5_mini_q4km",
+        "case_id": "official-397",
+        "calculator_id": "26",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 117.888,
+        "ground_truth": 131.28,
+        "bounds": [
+          124.716,
+          137.844
+        ],
+        "canonical_inputs_used": {
+          "sodium": 117.0,
+          "glucose": 137.0
+        },
+        "annotated_gold_quantities": {
+          "glucose": {
+            "value": 695.0,
+            "unit": "mg/dL"
+          },
+          "sodium": {
+            "value": 117.0,
+            "unit": "mEq/L"
+          }
+        },
+        "evidence_spans": {
+          "sodium": "117 mEq/L",
+          "glucose": "137 mg/dL"
+        }
+      },
+      {
+        "model": "qwen2.5_7b_q4km",
+        "case_id": "official-397",
+        "calculator_id": "26",
+        "route": "checked_model_proposal",
+        "tier": "tier_0_85_repaired_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "matching",
+        "result": 117.888,
+        "ground_truth": 131.28,
+        "bounds": [
+          124.716,
+          137.844
+        ],
+        "canonical_inputs_used": {
+          "sodium": 117.0,
+          "glucose": 137.0
+        },
+        "annotated_gold_quantities": {
+          "glucose": {
+            "value": 695.0,
+            "unit": "mg/dL"
+          },
+          "sodium": {
+            "value": 117.0,
+            "unit": "mEq/L"
+          }
+        },
+        "evidence_spans": {
+          "sodium": "117 mEq/L",
+          "glucose": "137 mg/dL"
+        }
+      },
+      {
+        "model": "llama3.1_8b_q4km",
+        "case_id": "official-397",
+        "calculator_id": "26",
+        "route": "checked_model_proposal",
+        "tier": "tier_0_85_repaired_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "matching",
+        "result": 117.888,
+        "ground_truth": 131.28,
+        "bounds": [
+          124.716,
+          137.844
+        ],
+        "canonical_inputs_used": {
+          "sodium": 117.0,
+          "glucose": 137.0
+        },
+        "annotated_gold_quantities": {
+          "glucose": {
+            "value": 695.0,
+            "unit": "mg/dL"
+          },
+          "sodium": {
+            "value": 117.0,
+            "unit": "mEq/L"
+          }
+        },
+        "evidence_spans": {
+          "sodium": "117 mEq/L",
+          "glucose": "137 mg/dL"
+        }
+      },
+      {
+        "model": "llama3.1_8b_q4km",
+        "case_id": "official-31",
+        "calculator_id": "3",
+        "route": "checked_model_proposal",
+        "tier": "tier_1_0_canonical_proposal",
+        "v04_outcome": "nonmatching",
+        "v04_reason": null,
+        "l2_outcome": "nonmatching",
+        "result": 52.988695,
+        "ground_truth": 28.13233,
+        "bounds": [
+          26.72571,
+          29.53895
+        ],
+        "canonical_inputs_used": {
+          "sex": "Male",
+          "age": 28.0,
+          "creatinine": 1.77
+        },
+        "annotated_gold_quantities": {
+          "sex": {
+            "value": "Male",
+            "unit": "category"
+          },
+          "age": {
+            "value": 28,
+            "unit": "years"
+          },
+          "creatinine": {
+            "value": 3.0,
+            "unit": "mg/dL"
+          }
+        },
+        "evidence_spans": {
+          "sex": "male",
+          "age": "28-year-old",
+          "creatinine": "1.77 mg/dl"
+        }
+      }
+    ]
+  },
+  "fix6_clustered_620_inference": {
+    "n_runs": 620,
+    "n_independent_patient_clusters": 124,
+    "bootstrap_resamples": 10000,
+    "pooled_l2_agreement": 0.769355,
+    "pooled_v05_agreement": 0.893548,
+    "pooled_v05_agreement_clustered_ci95": [
+      0.845161,
+      0.93871
+    ],
+    "delta_agreement": 0.124194,
+    "delta_agreement_clustered_ci95": [
+      0.070968,
+      0.174194
+    ],
+    "pooled_l2_unsafe_rate": 0.172581,
+    "pooled_v05_unsafe_rate": 0.017742,
+    "pooled_v05_unsafe_clustered_ci95": [
+      0.003226,
+      0.037097
+    ],
+    "delta_unsafe_rate": -0.154839,
+    "delta_unsafe_clustered_ci95": [
+      -0.185484,
+      -0.122581
+    ],
+    "delta_vs_pure_regex_agreement": 0.135484,
+    "delta_vs_pure_regex_clustered_ci95": [
+      0.083871,
+      0.190323
+    ],
+    "independent_cluster_sign_tests_n124": {
+      "agreement_improved_clusters": 62,
+      "agreement_worsened_clusters": 7,
+      "agreement_cluster_sign_p": 4.102799046681871e-12,
+      "safety_improved_clusters": 62,
+      "safety_worsened_clusters": 2,
+      "safety_cluster_sign_p": 2.2562247209423347e-16,
+      "vs_regex_improved_clusters": 20,
+      "vs_regex_worsened_clusters": 0,
+      "vs_regex_cluster_sign_p": 1.9073486328125e-06
+    },
+    "stratified_discordant_pairs_620": {
+      "agreement_gains": 108,
+      "agreement_losses": 31,
+      "agreement_mcnemar_p": 3.5186910487070825e-11,
+      "unsafe_eliminated": 100,
+      "unsafe_introduced": 4,
+      "unsafe_mcnemar_p": 4.7190556679600615e-25
+    }
+  },
+  "fix2_zero_tuning_oov_discourse_transfer": {
+    "frozen_code_verification": {
+      "discourse_guard_py_sha256": "dc74af9b1b525515209d02a489f1029842a48404dfc405b2e97784e73b112e6c",
+      "release_policy_py_sha256": "ba74626e2fef0415e24ee1ee60dfcef9f0f055eca0a31e9ef8d3436a4dd0021b",
+      "zero_rule_modifications": true
+    },
+    "total_oov_cases": 64,
+    "strata": {
+      "adversarial_oov_surface": {
+        "total": 24,
+        "l2_false_release": 23,
+        "v04_false_release": 13,
+        "v05_false_release": 0
+      },
+      "adversarial_oov_lexicon_boundary": {
+        "total": 8,
+        "l2_false_release": 8,
+        "v04_false_release": 8,
+        "v05_false_release": 8
+      },
+      "valid_multisection_control": {
+        "total": 32,
+        "l2_matched": 19,
+        "v04_matched": 14,
+        "v05_matched": 31,
+        "l2_unsafe": 13,
+        "v04_unsafe": 12,
+        "v05_unsafe": 0
+      }
+    },
+    "pooled_adversarial_traps_32": {
+      "n": 32,
+      "l2_false_releases": 31,
+      "l2_false_release_rate": 0.96875,
+      "v04_false_releases": 21,
+      "v04_false_release_rate": 0.65625,
+      "v05_false_releases": 8,
+      "v05_false_release_rate": 0.25,
+      "v05_interception_rate": 0.75,
+      "v05_interception_wilson95": [
+        0.578934,
+        0.867476
+      ],
+      "vs_l2_mcnemar_p": 2.384185791015625e-07,
+      "vs_v04_mcnemar_p": 0.000244140625
+    },
+    "valid_multisection_controls_32": {
+      "n": 32,
+      "l2_matched": 19,
+      "l2_unsafe": 13,
+      "v04_matched": 14,
+      "v04_unsafe": 12,
+      "v05_matched": 31,
+      "v05_unsafe": 0,
+      "v05_recall_wilson95": [
+        0.842557,
+        0.994462
+      ],
+      "vs_v04_mcnemar_p": 1.52587890625e-05
+    },
+    "trap_details": [
+      {
+        "case_id": "oov-trap-01",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:height"
+      },
+      {
+        "case_id": "oov-trap-02",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:sbp"
+      },
+      {
+        "case_id": "oov-trap-03",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:height"
+      },
+      {
+        "case_id": "oov-trap-04",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:albumin"
+      },
+      {
+        "case_id": "oov-trap-05",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:sodium"
+      },
+      {
+        "case_id": "oov-trap-06",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:sodium"
+      },
+      {
+        "case_id": "oov-trap-07",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:sodium"
+      },
+      {
+        "case_id": "oov-trap-08",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:heart_rate"
+      },
+      {
+        "case_id": "oov-trap-09",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:creatinine"
+      },
+      {
+        "case_id": "oov-trap-10",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_collateral",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_PERSON:height"
+      },
+      {
+        "case_id": "oov-trap-11",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:sbp"
+      },
+      {
+        "case_id": "oov-trap-12",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:sodium"
+      },
+      {
+        "case_id": "oov-trap-13",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:albumin"
+      },
+      {
+        "case_id": "oov-trap-14",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:sodium"
+      },
+      {
+        "case_id": "oov-trap-15",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:sodium"
+      },
+      {
+        "case_id": "oov-trap-16",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:height"
+      },
+      {
+        "case_id": "oov-trap-17",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:height"
+      },
+      {
+        "case_id": "oov-trap-18",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:heart_rate"
+      },
+      {
+        "case_id": "oov-trap-19",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:ast"
+      },
+      {
+        "case_id": "oov-trap-20",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_temporal",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "OTHER_TIME:creatinine"
+      },
+      {
+        "case_id": "oov-trap-21",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_nonobserved",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "NONOBSERVED:weight"
+      },
+      {
+        "case_id": "oov-trap-22",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_nonobserved",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "NONOBSERVED:weight"
+      },
+      {
+        "case_id": "oov-trap-23",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_delta",
+        "l2_released": false,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "NONUNIQUE_NAMED_MEASUREMENT:weight"
+      },
+      {
+        "case_id": "oov-trap-24",
+        "stratum": "adversarial_oov_surface",
+        "category": "unseen_surface_nonobserved",
+        "l2_released": true,
+        "v04_released": false,
+        "v05_released": false,
+        "v05_reason": "NONOBSERVED:sbp"
+      },
+      {
+        "case_id": "oov-trap-25",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_donor",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-26",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_roommate",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-27",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_ems_phase",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-28",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_uncle",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-29",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_neonate_fetal",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-30",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_prior_year",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-31",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_specimen_mixup",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-trap-32",
+        "stratum": "adversarial_oov_lexicon_boundary",
+        "category": "out_of_lexicon_pacemaker_sim",
+        "l2_released": true,
+        "v04_released": true,
+        "v05_released": true,
+        "v05_reason": null
+      }
+    ],
+    "control_details": [
+      {
+        "case_id": "oov-ctrl-01",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-02",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-03",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-04",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-05",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-06",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-07",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-08",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-09",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-10",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-11",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-12",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-13",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-14",
+        "l2_outcome": "matching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-15",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-16",
+        "l2_outcome": "matching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-17",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-18",
+        "l2_outcome": "matching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-19",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-20",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-21",
+        "l2_outcome": "matching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "unanswered",
+        "v05_reason": "UNRESOLVED_CALCULATOR:"
+      },
+      {
+        "case_id": "oov-ctrl-22",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-23",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-24",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-25",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-26",
+        "l2_outcome": "matching",
+        "v04_outcome": "matching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-27",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-28",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-29",
+        "l2_outcome": "matching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-30",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "unanswered",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-31",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      },
+      {
+        "case_id": "oov-ctrl-32",
+        "l2_outcome": "nonmatching",
+        "v04_outcome": "nonmatching",
+        "v05_outcome": "matching",
+        "v05_reason": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "phase": "validation",
+  "cases": 50,
+  "unique_groups": 50,
+  "new_llm_calls": 100,
+  "new_calls_by_role": {
+    "planner": 50,
+    "baseline": 50
+  },
+  "selected_correct_tool": 50,
+  "wall_seconds": 385.2984534399948,
+  "methods": {
+    "L2_unit_domain": {
+      "matched": 37,
+      "strict_0_1pct_matched": 37,
+      "nonmatching_released": 11,
+      "blocked_or_failed": 2,
+      "released": 48,
+      "agreement": 0.74,
+      "agreement_wilson95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ],
+      "matching_fraction_of_released": 0.7708333333333334,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "5": {
+          "n": 5,
+          "matched": 4,
+          "released": 5
+        },
+        "6": {
+          "n": 5,
+          "matched": 4,
+          "released": 5
+        },
+        "7": {
+          "n": 5,
+          "matched": 3,
+          "released": 5
+        },
+        "11": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "19": {
+          "n": 5,
+          "matched": 1,
+          "released": 5
+        },
+        "26": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "30": {
+          "n": 5,
+          "matched": 4,
+          "released": 5
+        },
+        "39": {
+          "n": 5,
+          "matched": 3,
+          "released": 5
+        },
+        "60": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        }
+      },
+      "block_reasons": {
+        "ValueError: Generation did not finish: length": 2
+      }
+    },
+    "L3_literal_span": {
+      "matched": 11,
+      "strict_0_1pct_matched": 11,
+      "nonmatching_released": 2,
+      "blocked_or_failed": 37,
+      "released": 13,
+      "agreement": 0.22,
+      "agreement_wilson95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ],
+      "matching_fraction_of_released": 0.8461538461538461,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 0,
+          "released": 0
+        },
+        "5": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "6": {
+          "n": 5,
+          "matched": 0,
+          "released": 0
+        },
+        "7": {
+          "n": 5,
+          "matched": 0,
+          "released": 1
+        },
+        "11": {
+          "n": 5,
+          "matched": 3,
+          "released": 3
+        },
+        "19": {
+          "n": 5,
+          "matched": 0,
+          "released": 1
+        },
+        "26": {
+          "n": 5,
+          "matched": 1,
+          "released": 1
+        },
+        "30": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "39": {
+          "n": 5,
+          "matched": 1,
+          "released": 1
+        },
+        "60": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        }
+      },
+      "block_reasons": {
+        "QUOTE_NOT_EXACT:sex": 4,
+        "ValueError: Generation did not finish: length": 2,
+        "QUOTE_NOT_EXACT:sbp": 3,
+        "QUOTE_NOT_EXACT:height": 7,
+        "QUOTE_NOT_EXACT:albumin": 3,
+        "QUOTE_NOT_EXACT:calcium": 1,
+        "QUOTE_NOT_EXACT:heart_rate": 2,
+        "VALUE_NOT_IN_QUOTE:platelets": 1,
+        "QUOTE_NOT_EXACT:age": 2,
+        "QUOTE_NOT_EXACT:alt": 1,
+        "QUOTE_NOT_EXACT:sodium": 7,
+        "VALUE_NOT_IN_QUOTE:glucose": 1,
+        "QUOTE_NOT_EXACT:bun": 1,
+        "QUOTE_NOT_EXACT:bicarbonate": 2
+      }
+    },
+    "source_bound": {
+      "matched": 39,
+      "strict_0_1pct_matched": 39,
+      "nonmatching_released": 0,
+      "blocked_or_failed": 11,
+      "released": 39,
+      "agreement": 0.78,
+      "agreement_wilson95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ],
+      "matching_fraction_of_released": 1.0,
+      "by_calculator": {
+        "3": {
+          "n": 5,
+          "matched": 3,
+          "released": 3
+        },
+        "5": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "6": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "7": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "11": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "19": {
+          "n": 5,
+          "matched": 2,
+          "released": 2
+        },
+        "26": {
+          "n": 5,
+          "matched": 5,
+          "released": 5
+        },
+        "30": {
+          "n": 5,
+          "matched": 3,
+          "released": 3
+        },
+        "39": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        },
+        "60": {
+          "n": 5,
+          "matched": 4,
+          "released": 4
+        }
+      },
+      "block_reasons": {
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:creatinine": 1,
+        "ValueError: BASELINE_EXTRACTION_FAILED": 2,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sbp": 1,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:albumin": 1,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:platelets": 2,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:ast": 1,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sodium": 1,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bun": 1,
+        "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bicarbonate": 1
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "from": "L2_unit_domain",
+      "to": "source_bound",
+      "gained_matching_answers": 5,
+      "lost_matching_answers": 3,
+      "agreement_delta": 0.04,
+      "stratified_bootstrap95": [
+        -0.06,
+        0.14
+      ],
+      "paired_exact_mcnemar_p": 0.7265625,
+      "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+    },
+    {
+      "from": "L3_literal_span",
+      "to": "source_bound",
+      "gained_matching_answers": 28,
+      "lost_matching_answers": 0,
+      "agreement_delta": 0.56,
+      "stratified_bootstrap95": [
+        0.44,
+        0.68
+      ],
+      "paired_exact_mcnemar_p": 7.450580596923828e-09,
+      "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+    }
+  ],
+  "paid_api_cost_usd": 0
+}

@@ -1,0 +1,38 @@
+{
+  "model": "qwen2.5_1.5b_q4km",
+  "cases": 44,
+  "cohort": "initial",
+  "methods": {
+    "L2_unit_domain": {
+      "counts": {
+        "released": 40,
+        "annotation_comparable_released": 40,
+        "expected_fields_in_comparable_releases": 96,
+        "matching_fields_in_comparable_releases": 88,
+        "all_fields_match": 32,
+        "numeric_match_with_argument_discrepancy": 1
+      },
+      "matching_answers_with_argument_discrepancies": [
+        {
+          "case_id": "official-105",
+          "mismatched_fields": [
+            "albumin"
+          ]
+        }
+      ],
+      "unavailable_reference_fields": []
+    },
+    "source_bound": {
+      "counts": {
+        "released": 38,
+        "annotation_comparable_released": 38,
+        "expected_fields_in_comparable_releases": 90,
+        "matching_fields_in_comparable_releases": 87,
+        "all_fields_match": 35
+      },
+      "matching_answers_with_argument_discrepancies": [],
+      "unavailable_reference_fields": []
+    }
+  },
+  "scope": "Secondary descriptive audit after the primary outcome lock. Evaluation of annotated fields uses the original registry and strict canonical tolerance. Non-comparable field annotations are explicitly counted. Source annotation quality is not independently adjudicated."
+}

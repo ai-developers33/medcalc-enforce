@@ -1,0 +1,73 @@
+{
+  "cases": 44,
+  "independent_sources": 44,
+  "paid_api_calls": 0,
+  "recorded_requests": 88,
+  "methods": {
+    "L1_schema_only": {
+      "matched": 37,
+      "nonmatching_released": 6,
+      "blocked_or_failed": 1,
+      "released": 43,
+      "agreement": 0.8409090909090909,
+      "coverage": 0.9772727272727273,
+      "disagreement_among_released": 0.13953488372093023,
+      "conditional_error_Wilson95": [
+        0.06555723427964878,
+        0.2726358796738286
+      ]
+    },
+    "L2_unit_domain": {
+      "matched": 38,
+      "nonmatching_released": 3,
+      "blocked_or_failed": 3,
+      "released": 41,
+      "agreement": 0.8636363636363636,
+      "coverage": 0.9318181818181818,
+      "disagreement_among_released": 0.07317073170731707,
+      "conditional_error_Wilson95": [
+        0.02519783063390993,
+        0.19427448537719041
+      ]
+    },
+    "L3_literal_span": {
+      "matched": 24,
+      "nonmatching_released": 3,
+      "blocked_or_failed": 17,
+      "released": 27,
+      "agreement": 0.5454545454545454,
+      "coverage": 0.6136363636363636,
+      "disagreement_among_released": 0.1111111111111111,
+      "conditional_error_Wilson95": [
+        0.038520348283098374,
+        0.2805780081827982
+      ]
+    },
+    "source_bound": {
+      "matched": 37,
+      "nonmatching_released": 2,
+      "blocked_or_failed": 5,
+      "released": 39,
+      "agreement": 0.8409090909090909,
+      "coverage": 0.8863636363636364,
+      "disagreement_among_released": 0.05128205128205128,
+      "conditional_error_Wilson95": [
+        0.014177955415274113,
+        0.16885640047613612
+      ]
+    }
+  },
+  "paired_vs_unit_domain": {
+    "from": "L2_unit_domain",
+    "to": "source_bound",
+    "gained_matching_answers": 3,
+    "lost_matching_answers": 4,
+    "agreement_delta": -0.022727272727272728,
+    "stratified_bootstrap95": [
+      -0.11363636363636363,
+      0.06818181818181818
+    ],
+    "paired_exact_mcnemar_p": 1.0,
+    "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+  }
+}

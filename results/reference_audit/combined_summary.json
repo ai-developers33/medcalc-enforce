@@ -1,0 +1,69 @@
+{
+  "by_cohort": {
+    "first": {
+      "cases": 44,
+      "source_fields_scorable": 44,
+      "field_units_covered": 107,
+      "decimal_within_primary_interval": 44,
+      "decimal_within_0_1_percent": 44,
+      "registry_checks_applicable": 44,
+      "registry_within_primary_interval": 44,
+      "registry_agrees_with_decimal": 44,
+      "max_relative_difference_from_gold": 1.795170990036801e-05,
+      "reference_arithmetic_unscorable": {},
+      "registry_unscorable": {},
+      "decimal_outside_interval": [],
+      "bp_unit_check_counts": {
+        "numeric_pair_present_unit_not_printed_after_pair": 1,
+        "explicit_mmHg_after_reference_pair": 4
+      },
+      "osmolality_explanation_counts": {
+        "third_operand_disagrees_with_glucose_annotation": 4
+      }
+    },
+    "extension": {
+      "cases": 80,
+      "source_fields_scorable": 80,
+      "field_units_covered": 196,
+      "decimal_within_primary_interval": 80,
+      "decimal_within_0_1_percent": 80,
+      "registry_checks_applicable": 79,
+      "registry_within_primary_interval": 79,
+      "registry_agrees_with_decimal": 79,
+      "max_relative_difference_from_gold": 1.2670062809321585e-05,
+      "reference_arithmetic_unscorable": {},
+      "registry_unscorable": {
+        "official-283": "unsupported unit 'mm^3' for platelets"
+      },
+      "decimal_outside_interval": [],
+      "bp_unit_check_counts": {
+        "explicit_mmHg_after_reference_pair": 11
+      },
+      "osmolality_explanation_counts": {}
+    }
+  },
+  "combined": {
+    "cases": 124,
+    "source_fields_scorable": 124,
+    "field_units_covered": 303,
+    "decimal_within_primary_interval": 124,
+    "decimal_within_0_1_percent": 124,
+    "registry_checks_applicable": 123,
+    "registry_within_primary_interval": 123,
+    "registry_agrees_with_decimal": 123,
+    "max_relative_difference_from_gold": 1.795170990036801e-05,
+    "reference_arithmetic_unscorable": {},
+    "registry_unscorable": {
+      "official-283": "unsupported unit 'mm^3' for platelets"
+    },
+    "decimal_outside_interval": [],
+    "bp_unit_check_counts": {
+      "numeric_pair_present_unit_not_printed_after_pair": 1,
+      "explicit_mmHg_after_reference_pair": 15
+    },
+    "osmolality_explanation_counts": {
+      "third_operand_disagrees_with_glucose_annotation": 4
+    }
+  },
+  "canonical_reference_all_sha256": "197bb7502df9dc0ab2408291d65ff0db58137f5fb7a522521cb70da8433dc731"
+}

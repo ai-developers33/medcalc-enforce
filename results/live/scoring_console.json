@@ -1,0 +1,418 @@
+{
+  "status": "development pilot; not held-out clinical validation",
+  "models": {
+    "qwen2.5_1.5b_q4km": {
+      "cases": 50,
+      "source_groups": 50,
+      "selected_correct_tool": 50,
+      "llm_calls": 100,
+      "transport_failure_cases": 0,
+      "prompt_tokens": 68568,
+      "completion_tokens": 2892,
+      "extraction_fields_correct": 0,
+      "extraction_fields_expected": 125,
+      "all_required_fields_correct": 0,
+      "workflow_errors": {
+        "Rejected: ARGUMENT_SET:": 49,
+        "ValueError: Generation did not finish: length": 1
+      },
+      "finish_reasons": {
+        "stop": 99,
+        "length": 1
+      },
+      "gates": {
+        "L1_schema_only": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 49,
+            "ValueError: Generation did not finish: length": 1
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        },
+        "L2_unit_domain": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 49,
+            "ValueError: Generation did not finish: length": 1
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        },
+        "L3_literal_span": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 49,
+            "ValueError: Generation did not finish: length": 1
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        }
+      },
+      "wall_seconds": 222.76599080798042,
+      "workflow_seconds_median": 3.9872482794999087,
+      "workflow_seconds_p95": 8.034719932850566,
+      "literal_gate_blocked_otherwise_numerically_correct": 0,
+      "literal_gate_blocked_otherwise_numerically_incorrect": 0
+    },
+    "qwen2.5_1.5b_q4km_schema": {
+      "cases": 50,
+      "source_groups": 50,
+      "selected_correct_tool": 50,
+      "llm_calls": 100,
+      "transport_failure_cases": 0,
+      "prompt_tokens": 68568,
+      "completion_tokens": 5998,
+      "extraction_fields_correct": 112,
+      "extraction_fields_expected": 125,
+      "all_required_fields_correct": 42,
+      "workflow_errors": {
+        "ValueError: Generation did not finish: length": 1
+      },
+      "finish_reasons": {
+        "stop": 99,
+        "length": 1
+      },
+      "gates": {
+        "L1_schema_only": {
+          "released": 49,
+          "correct_released": 33,
+          "strict_0_1pct_correct_released": 32,
+          "incorrect_released": 16,
+          "blocked_or_failed": 1,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.66,
+          "end_to_end_accuracy_wilson95": [
+            0.521538260502326,
+            0.7756305077749992
+          ],
+          "incorrect_release_rate": 0.32,
+          "coverage": 0.98,
+          "accuracy_among_released": 0.673469387755102,
+          "reasons": {
+            "ValueError: Generation did not finish: length": 1
+          },
+          "gate_ms_p50": 0.010114999895449728,
+          "gate_ms_p95": 0.027599204622674612
+        },
+        "L2_unit_domain": {
+          "released": 48,
+          "correct_released": 42,
+          "strict_0_1pct_correct_released": 42,
+          "incorrect_released": 6,
+          "blocked_or_failed": 2,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.84,
+          "end_to_end_accuracy_wilson95": [
+            0.7148578393696501,
+            0.916625793219666
+          ],
+          "incorrect_release_rate": 0.12,
+          "coverage": 0.96,
+          "accuracy_among_released": 0.875,
+          "reasons": {
+            "UNIT_OR_VALUE:sbp": 1,
+            "ValueError: Generation did not finish: length": 1
+          },
+          "gate_ms_p50": 0.025599001673981547,
+          "gate_ms_p95": 0.043329197796992895
+        },
+        "L3_literal_span": {
+          "released": 20,
+          "correct_released": 18,
+          "strict_0_1pct_correct_released": 18,
+          "incorrect_released": 2,
+          "blocked_or_failed": 30,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.36,
+          "end_to_end_accuracy_wilson95": [
+            0.24138749651846741,
+            0.49858983123887307
+          ],
+          "incorrect_release_rate": 0.04,
+          "coverage": 0.4,
+          "accuracy_among_released": 0.9,
+          "reasons": {
+            "QUOTE_NOT_EXACT:sex": 5,
+            "UNIT_OR_VALUE:sbp": 1,
+            "QUOTE_NOT_EXACT:height": 4,
+            "QUOTE_NOT_EXACT:albumin": 3,
+            "ValueError: Generation did not finish: length": 1,
+            "QUOTE_NOT_EXACT:heart_rate": 3,
+            "QUOTE_NOT_EXACT:age": 5,
+            "QUOTE_NOT_EXACT:sodium": 7,
+            "VALUE_NOT_IN_QUOTE:sodium": 1
+          },
+          "gate_ms_p50": 0.029022994567640126,
+          "gate_ms_p95": 0.06347740127239375
+        }
+      },
+      "wall_seconds": 310.6976440730141,
+      "workflow_seconds_median": 5.427780649504712,
+      "workflow_seconds_p95": 12.554730444949378,
+      "literal_gate_blocked_otherwise_numerically_correct": 24,
+      "literal_gate_blocked_otherwise_numerically_incorrect": 4
+    },
+    "smollm2_1.7b_q4km": {
+      "cases": 50,
+      "source_groups": 50,
+      "selected_correct_tool": 27,
+      "llm_calls": 84,
+      "transport_failure_cases": 8,
+      "prompt_tokens": 60305,
+      "completion_tokens": 8887,
+      "extraction_fields_correct": 0,
+      "extraction_fields_expected": 125,
+      "all_required_fields_correct": 0,
+      "workflow_errors": {
+        "Rejected: ARGUMENT_SET:": 35,
+        "ValueError: Generation did not finish: length": 5,
+        "ValueError: Duplicate key: field": 1,
+        "ValueError: Duplicate key: unit": 1,
+        "RemoteDisconnected: Remote end closed connection without response": 1,
+        "URLError: <urlopen error [Errno 111] Connection refused>": 7
+      },
+      "finish_reasons": {
+        "stop": 79,
+        "length": 5
+      },
+      "gates": {
+        "L1_schema_only": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 35,
+            "ValueError: Generation did not finish: length": 5,
+            "ValueError: Duplicate key: field": 1,
+            "ValueError: Duplicate key: unit": 1,
+            "RemoteDisconnected: Remote end closed connection without response": 1,
+            "URLError: <urlopen error [Errno 111] Connection refused>": 7
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        },
+        "L2_unit_domain": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 35,
+            "ValueError: Generation did not finish: length": 5,
+            "ValueError: Duplicate key: field": 1,
+            "ValueError: Duplicate key: unit": 1,
+            "RemoteDisconnected: Remote end closed connection without response": 1,
+            "URLError: <urlopen error [Errno 111] Connection refused>": 7
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        },
+        "L3_literal_span": {
+          "released": 0,
+          "correct_released": 0,
+          "strict_0_1pct_correct_released": 0,
+          "incorrect_released": 0,
+          "blocked_or_failed": 50,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.0,
+          "end_to_end_accuracy_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "incorrect_release_rate": 0.0,
+          "coverage": 0.0,
+          "accuracy_among_released": null,
+          "reasons": {
+            "Rejected: ARGUMENT_SET:": 35,
+            "ValueError: Generation did not finish: length": 5,
+            "ValueError: Duplicate key: field": 1,
+            "ValueError: Duplicate key: unit": 1,
+            "RemoteDisconnected: Remote end closed connection without response": 1,
+            "URLError: <urlopen error [Errno 111] Connection refused>": 7
+          },
+          "gate_ms_p50": null,
+          "gate_ms_p95": null
+        }
+      },
+      "wall_seconds": 562.0181852130117,
+      "workflow_seconds_median": 5.962400139997044,
+      "workflow_seconds_p95": 34.269032969497495,
+      "literal_gate_blocked_otherwise_numerically_correct": 0,
+      "literal_gate_blocked_otherwise_numerically_incorrect": 0
+    },
+    "smollm2_1.7b_q4km_schema": {
+      "cases": 50,
+      "source_groups": 50,
+      "selected_correct_tool": 35,
+      "llm_calls": 100,
+      "transport_failure_cases": 0,
+      "prompt_tokens": 71844,
+      "completion_tokens": 7128,
+      "extraction_fields_correct": 69,
+      "extraction_fields_expected": 125,
+      "all_required_fields_correct": 22,
+      "workflow_errors": {
+        "ValueError: Generation did not finish: length": 2
+      },
+      "finish_reasons": {
+        "stop": 98,
+        "length": 2
+      },
+      "gates": {
+        "L1_schema_only": {
+          "released": 48,
+          "correct_released": 17,
+          "strict_0_1pct_correct_released": 16,
+          "incorrect_released": 31,
+          "blocked_or_failed": 2,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.34,
+          "end_to_end_accuracy_wilson95": [
+            0.2243694922250009,
+            0.478461739497674
+          ],
+          "incorrect_release_rate": 0.62,
+          "coverage": 0.96,
+          "accuracy_among_released": 0.3541666666666667,
+          "reasons": {
+            "ValueError: Generation did not finish: length": 2
+          },
+          "gate_ms_p50": 0.009979998139897361,
+          "gate_ms_p95": 0.01219365258293692
+        },
+        "L2_unit_domain": {
+          "released": 45,
+          "correct_released": 23,
+          "strict_0_1pct_correct_released": 22,
+          "incorrect_released": 22,
+          "blocked_or_failed": 5,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.46,
+          "end_to_end_accuracy_wilson95": [
+            0.3296965219222435,
+            0.5960112860084253
+          ],
+          "incorrect_release_rate": 0.44,
+          "coverage": 0.9,
+          "accuracy_among_released": 0.5111111111111111,
+          "reasons": {
+            "ValueError: Generation did not finish: length": 2,
+            "UNIT_OR_VALUE:alt": 1,
+            "UNIT_OR_VALUE:sodium": 1,
+            "UNIT_OR_VALUE:chloride": 1
+          },
+          "gate_ms_p50": 0.027150999812874943,
+          "gate_ms_p95": 0.041802948544500396
+        },
+        "L3_literal_span": {
+          "released": 10,
+          "correct_released": 7,
+          "strict_0_1pct_correct_released": 7,
+          "incorrect_released": 3,
+          "blocked_or_failed": 40,
+          "execution_errors": 0,
+          "end_to_end_accuracy": 0.14,
+          "end_to_end_accuracy_wilson95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ],
+          "incorrect_release_rate": 0.06,
+          "coverage": 0.2,
+          "accuracy_among_released": 0.7,
+          "reasons": {
+            "QUOTE_NOT_EXACT:sex": 5,
+            "QUOTE_NOT_EXACT:sbp": 5,
+            "QUOTE_NOT_EXACT:height": 4,
+            "QUOTE_NOT_EXACT:calcium": 1,
+            "QUOTE_NOT_EXACT:albumin": 1,
+            "ValueError: Generation did not finish: length": 2,
+            "QUOTE_NOT_EXACT:age": 6,
+            "VALUE_NOT_IN_QUOTE:ast": 2,
+            "UNIT_OR_VALUE:alt": 1,
+            "QUOTE_NOT_EXACT:ast": 1,
+            "QUOTE_NOT_EXACT:bun": 1,
+            "QUOTE_NOT_EXACT:sodium": 8,
+            "UNIT_OR_VALUE:sodium": 1,
+            "UNIT_OR_VALUE:chloride": 1,
+            "VALUE_NOT_IN_QUOTE:height": 1
+          },
+          "gate_ms_p50": 0.022834497940493748,
+          "gate_ms_p95": 0.043772953358711675
+        }
+      },
+      "wall_seconds": 433.86465136699553,
+      "workflow_seconds_median": 7.930649872003414,
+      "workflow_seconds_p95": 15.448288804399265,
+      "literal_gate_blocked_otherwise_numerically_correct": 16,
+      "literal_gate_blocked_otherwise_numerically_incorrect": 19
+    }
+  },
+  "paid_api_cost_usd": 0,
+  "scored_files": {
+    "qwen2.5_1.5b_q4km.jsonl": "bf9c6192467cab65191f04a07044379cc1cb56b4d53cbb906bb5a7b398537c74",
+    "qwen2.5_1.5b_q4km_schema.jsonl": "cc2b5c8c3be538e9da62b022339d255a1c5363b4b70d360645724871d12d3747",
+    "smollm2_1.7b_q4km.jsonl": "b1d9dcf2ed6cfed3e6296c24e4c40aea1132519fb0f294cc014c152c502a0438",
+    "smollm2_1.7b_q4km_schema.jsonl": "f0989715a84a208f69fd367fc639f187d27f33995924425c232abe4ee0b2d323"
+  }
+}

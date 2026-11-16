@@ -1,0 +1,1042 @@
+[
+  {
+    "row": "135",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "138",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "140",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "156",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "160",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "171",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "176",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "182",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "199",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "217",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "236",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "249",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "250",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "261",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "279",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "297",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "323",
+    "calculator": "3",
+    "reason": "unsupported_annotation:unsupported composite quantity age"
+  },
+  {
+    "row": "333",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "355",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "362",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "376",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "386",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "400",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "402",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "404",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "407",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "415",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "420",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "434",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "458",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "480",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "504",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "505",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "507",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "509",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "516",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "539",
+    "calculator": "3",
+    "reason": "unsupported_annotation:unsupported composite quantity age"
+  },
+  {
+    "row": "546",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "557",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "565",
+    "calculator": "3",
+    "reason": "outside_adult_CKD_contract"
+  },
+  {
+    "row": "573",
+    "calculator": "3",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1187",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1217",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1429",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1526",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1672",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1692",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1828",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "1830",
+    "calculator": "5",
+    "reason": "unsupported_annotation:unsupported unit 's mm hg' for sbp"
+  },
+  {
+    "row": "1962",
+    "calculator": "5",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2059",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2077",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2095",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2107",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2116",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2173",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2176",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2225",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2232",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2339",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2344",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2360",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2388",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2399",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2476",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2479",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2518",
+    "calculator": "6",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2542",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2555",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2582",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2604",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2621",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2633",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2670",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2672",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2679",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2688",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "2711",
+    "calculator": "7",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "4331",
+    "calculator": "19",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "4363",
+    "calculator": "19",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5302",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5304",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5320",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5324",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5348",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5360",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5370",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5371",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5377",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5384",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5385",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5388",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5389",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5390",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5394",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5406",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5419",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5434",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5437",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5447",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5448",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5455",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5464",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5479",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5480",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5483",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5499",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5506",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5531",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5534",
+    "calculator": "26",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5544",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5546",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5552",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5553",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5574",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5582",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5583",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5594",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5606",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5608",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5612",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5633",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5643",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5663",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5674",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5682",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5684",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5692",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5704",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5740",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5743",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5744",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5747",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5753",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5775",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5819",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5824",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5825",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5830",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5843",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5848",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5857",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "5862",
+    "calculator": "30",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6164",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6182",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6185",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6199",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6212",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6217",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6218",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6220",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6221",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6222",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6223",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6226",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6229",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6235",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6238",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6239",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6241",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6242",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6245",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6249",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6252",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6261",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6265",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6269",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6273",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6275",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6285",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6291",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6300",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6302",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6303",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6326",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6327",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6334",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "6340",
+    "calculator": "39",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7162",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7165",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7205",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7223",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7275",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7356",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7444",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7501",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7504",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7512",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7524",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7543",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7548",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7551",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7553",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7558",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7587",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7600",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7604",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7624",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7662",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7665",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7670",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7701",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7754",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7777",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7816",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7878",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7922",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  },
+  {
+    "row": "7968",
+    "calculator": "60",
+    "reason": "shared_with_official_test"
+  }
+]

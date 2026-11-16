@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "architecture": "x86_64",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "logical_cpus": 9,
+  "requested_inference_threads": 8,
+  "gpu": false,
+  "models_loaded_concurrently": 1,
+  "prompt_cache_enabled": true,
+  "validation_tests_passed": 17,
+  "memory_total_kb": 10206472,
+  "processor": "AMD EPYC 9V74 80-Core Processor",
+  "initial_saved_prompt_cache_limit_mib": 8192,
+  "revised_saved_prompt_cache_limit_mib": 256,
+  "timing_scope": "Descriptive shared-host measurement; includes inference and per-case overhead, excludes setup, downloads and interrupted unscored request."
+}

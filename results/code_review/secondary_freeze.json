@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-11-13T23:19:11.987321+00:00",
+  "secondary_policy": "reviewed",
+  "hashes": {
+    "checked_calculator.py": "694879eb53084b61c6d3e4db7b9cfddcada373032427360f7bb14d0213dc6d54",
+    "medcalc/enforcement.py": "f136e8b086aa1319f56b160d7db5d2faca3cc396528e412685a7e281d7c09117",
+    "medcalc/live.py": "a63376b70e28b2aa17b4fdadbdf329e01cd5dffe2a31a99b7883433c78023178",
+    "medcalc/registry.py": "860971cef9b50b3a9e30edb5b67132de271fee4efdb86efc9acb6df2223f766d",
+    "medcalc/release_policy.py": "ba74626e2fef0415e24ee1ee60dfcef9f0f055eca0a31e9ef8d3436a4dd0021b",
+    "medcalc/source_binding.py": "e6dca72676a64a7ed1789d823ffa2c99fe181532f145c8c04173a91021ae357e",
+    "medcalc/source_fallback.py": "a783255463f251efba92d74d55ff78dc95a0661e141b89465051279cea940946",
+    "medcalc/source_repair.py": "6d7e085133ecfe85b3b93dbafb95e999cfe00dc71d55129fc5363f2b97f281b4",
+    "research_calculator.py": "dc2ef96f9e47e11794cfe25409e140055d858f6dced4c8a3d222dd1a7d967b8a",
+    "tests/test_release_policy.py": "223b17f8169ea09d8b27051934eec6ce97584adca8de74934e1293a4222e75a9"
+  },
+  "disclosure": "Added from synthetic CLI review after registration of primary candidate. No official sample inputs, model traces or scores inspected in this revision. Post hoc secondary analysis on the same registered split."
+}

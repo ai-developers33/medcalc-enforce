@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "verified",
+    "file": "test_data.csv",
+    "url": "https://raw.githubusercontent.com/nikhilk7153/MedCalc-Bench-Verified/801592132bfd833f049b517a4e013e00a5fc40fa/datasets/test_data.csv",
+    "bytes": 5368480,
+    "sha256": "9d296b09668d945d7c4ad8136032e984a3a3b8b0a7b046eb0f9f787331d9d97d",
+    "local_path": "data/raw/test_data.csv"
+  },
+  {
+    "dataset": "verified",
+    "file": "train_data.csv",
+    "url": "https://raw.githubusercontent.com/nikhilk7153/MedCalc-Bench-Verified/801592132bfd833f049b517a4e013e00a5fc40fa/datasets/train_data.csv",
+    "bytes": 51121580,
+    "sha256": "bd0292576be31e2fa8140c2e9eb456168335a85d1986155f010082d64f497845",
+    "local_path": "data/raw/verified/train_data.csv"
+  },
+  {
+    "dataset": "verified",
+    "file": "one_shot_data.csv",
+    "url": "https://raw.githubusercontent.com/nikhilk7153/MedCalc-Bench-Verified/801592132bfd833f049b517a4e013e00a5fc40fa/datasets/one_shot_data.csv",
+    "bytes": 243995,
+    "sha256": "21da9d2674939f94311a4ff1262a2caea5b1d01795430e097683c1d02574561a",
+    "local_path": "data/raw/verified/one_shot_data.csv"
+  },
+  {
+    "dataset": "medcalc_pro",
+    "file": "simple.json",
+    "url": "https://raw.githubusercontent.com/easymoney7774/MedCalc-Pro/751a514644d22bc6f7066087205fbbb61b7b40f5/data/simple.json",
+    "bytes": 5736609,
+    "sha256": "d452c96dac4af0ba8fd66cf24491f8f7e890ebf4fd53b31f84d096d1bb70bf08",
+    "local_path": "data/raw/medcalc_pro/simple.json"
+  },
+  {
+    "dataset": "medcalc_pro",
+    "file": "nest.json",
+    "url": "https://raw.githubusercontent.com/easymoney7774/MedCalc-Pro/751a514644d22bc6f7066087205fbbb61b7b40f5/data/nest.json",
+    "bytes": 241479,
+    "sha256": "70016eb7200a66f655207eecb2a879656bbb785b8b228196c045101380b91f8d",
+    "local_path": "data/raw/medcalc_pro/nest.json"
+  },
+  {
+    "dataset": "medcalc_pro",
+    "file": "multi.json",
+    "url": "https://raw.githubusercontent.com/easymoney7774/MedCalc-Pro/751a514644d22bc6f7066087205fbbb61b7b40f5/data/multi.json",
+    "bytes": 5613895,
+    "sha256": "34b3052d8cef0b3ace24057da671cd7b12802138374eb4dd64d7edbdf27793e3",
+    "local_path": "data/raw/medcalc_pro/multi.json"
+  },
+  {
+    "dataset": "medcalc_pro",
+    "file": "scales_registry.json",
+    "url": "https://raw.githubusercontent.com/easymoney7774/MedCalc-Pro/751a514644d22bc6f7066087205fbbb61b7b40f5/data/scales_registry.json",
+    "bytes": 68337,
+    "sha256": "04ceb03a7709a3bc59c484c8a4da3274ea6a06a7c1d78ce44499f3b741b59482",
+    "local_path": "data/raw/medcalc_pro/scales_registry.json"
+  }
+]

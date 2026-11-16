@@ -1,0 +1,57 @@
+{
+  "frozen_code_and_input_hashes_match": true,
+  "validation_cases": 50,
+  "development_article_and_text_overlap": 0,
+  "unique_validation_articles": 50,
+  "unique_validation_texts": 50,
+  "input_only_fields": [
+    "case_id",
+    "group_id",
+    "note_id",
+    "note_type",
+    "patient_note",
+    "question",
+    "source_row"
+  ],
+  "validation_counts_per_calculator": {
+    "3": 5,
+    "5": 5,
+    "6": 5,
+    "7": 5,
+    "11": 5,
+    "19": 5,
+    "26": 5,
+    "30": 5,
+    "39": 5,
+    "60": 5
+  },
+  "completed_requests_checked": 100,
+  "duplicate_request_keys": 0,
+  "raw_generation_to_call_replay_matches": true,
+  "all_baseline_gate_replays_match": true,
+  "all_source_repair_replays_match": true,
+  "released_source_spans_match": true,
+  "preserved_v0_2_files_byte_identical": [
+    "data/pilot_rows.jsonl",
+    "data/live_inputs.jsonl",
+    "results/live/qwen2.5_1.5b_q4km_schema.jsonl",
+    "medcalc/live.py",
+    "medcalc/registry.py",
+    "medcalc/enforcement.py"
+  ],
+  "token_usage": {
+    "completion_tokens": 7313,
+    "prompt_tokens": 71358,
+    "total_tokens": 78671
+  },
+  "finish_reasons": {
+    "stop": 98,
+    "length": 2
+  },
+  "repair_gate_ms": {
+    "n_released_with_timings": 39,
+    "median": 1.2579670001287013,
+    "max": 6.226247998711187,
+    "scope": "Successful repair only, excludes initial packet construction; descriptive shared-CPU timings, not an end-to-end latency benchmark."
+  }
+}

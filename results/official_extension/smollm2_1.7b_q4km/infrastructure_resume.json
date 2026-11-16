@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-13T23:37:08.867583+00:00",
+  "completed_cases": 4,
+  "completed_requests": 11,
+  "old_slots": 4,
+  "resumed_slots": 2,
+  "reason": "Server disconnected in the four-slot run. Available memory was ~1.2 GB just beforehand. Process exit cause was not verified. Completed cases including bad outputs remain in the denominator. Journaled requests are reused unchanged. Unreturned in-flight requests may be reissued. All committed cases and both run invocations are retained."
+}

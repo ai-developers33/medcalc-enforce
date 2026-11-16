@@ -1,0 +1,54 @@
+{
+  "dataset_hashes": {
+    "test_data.csv": "9d296b09668d945d7c4ad8136032e984a3a3b8b0a7b046eb0f9f787331d9d97d",
+    "train_data.csv": "bd0292576be31e2fa8140c2e9eb456168335a85d1986155f010082d64f497845",
+    "one_shot_data.csv": "21da9d2674939f94311a4ff1262a2caea5b1d01795430e097683c1d02574561a"
+  },
+  "first_cohort_lock_sha256": "a6dff505f9b3cc21be9bcd2bb8326ba5fc8f6ba0abeb16055c08e59c7bc84e25",
+  "input_sha256": "add14df2a12fb1b56b6e718abcc7ed86cda7c3eac37bad94e1ed8699331a0405",
+  "reference_sha256": "3841fef345e8646e07b029880be793e6c3bdfb975b7622e1d911e41eac9046c8",
+  "code_hashes": {
+    "medcalc/source_binding.py": "e6dca72676a64a7ed1789d823ffa2c99fe181532f145c8c04173a91021ae357e",
+    "medcalc/source_repair.py": "6d7e085133ecfe85b3b93dbafb95e999cfe00dc71d55129fc5363f2b97f281b4",
+    "medcalc/live.py": "a63376b70e28b2aa17b4fdadbdf329e01cd5dffe2a31a99b7883433c78023178",
+    "medcalc/registry.py": "860971cef9b50b3a9e30edb5b67132de271fee4efdb86efc9acb6df2223f766d",
+    "medcalc/enforcement.py": "f136e8b086aa1319f56b160d7db5d2faca3cc396528e412685a7e281d7c09117",
+    "run_source_repair.py": "2d0d0af2b85ae543b38a46a9b2dd364ca54ae4617fccc9a66e0b57abfd0a0103"
+  },
+  "runner_sha256": "6bdbeaca4d4399880c64b283467061b3520eead400b775540c329b2ec9012963",
+  "extension_script_sha256": "efbb2458f925b231a628b1f89e6ef78e7b5f207fc5779351eb3d2122b899d0ec",
+  "planned_models": [
+    {
+      "id": "qwen2.5_1.5b_q4km",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+      "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "size": 1117320736,
+      "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "smollm2_1.7b_q4km",
+      "repo": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+      "revision": "2d4a76a30b4af41ecd395c35725ac11688d4cfe4",
+      "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+      "size": 1055609536,
+      "sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+      "license": "Apache-2.0"
+    }
+  ],
+  "selected": 80,
+  "selected_by_calculator": {
+    "3": 12,
+    "5": 11,
+    "6": 5,
+    "7": 8,
+    "11": 15,
+    "19": 12,
+    "26": 6,
+    "60": 11
+  },
+  "selection": "All remaining official-test rows for the ten supported calculators under original source/text exclusions, deduplicated globally by source key and normalized note. Excludes all 44 first-cohort sources and normalized notes. No model or outcomes used to determine membership.",
+  "primary_outcomes": "For each model separately report matching, nonmatching released and blocked counts across every selected case. Compare all policies on the same model call. No replacements, prompt tuning or selective retries.",
+  "locked_utc": "2026-11-13T23:19:16Z"
+}

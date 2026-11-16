@@ -1,0 +1,29 @@
+{
+  "scope": "Historical 50 cases; calls reused, no simulated updates in timing experiment. Includes abstentions and missing calls. Local CPU under concurrent inference load; SQLite durable writes on this host filesystem. Descriptive latency only.",
+  "cases": 50,
+  "repetitions": 3,
+  "python": "3.12.14",
+  "timing_ms": {
+    "unit_domain": {
+      "observations": 150,
+      "numeric_results": 144,
+      "median": 0.018297,
+      "p95": 0.038517,
+      "max": 0.290659
+    },
+    "checked_calculator": {
+      "observations": 150,
+      "numeric_results": 126,
+      "median": 3.954153,
+      "p95": 18.039259,
+      "max": 27.058304
+    },
+    "checked_and_published": {
+      "observations": 150,
+      "numeric_results": 126,
+      "median": 4.121801,
+      "p95": 16.367145,
+      "max": 30.025086
+    }
+  }
+}

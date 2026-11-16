@@ -1,0 +1,3764 @@
+[
+  {
+    "case_id": "train-442",
+    "source_row": "442",
+    "expected_calculator": "3",
+    "benchmark_answer": "65.30224",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 65.30223788570349,
+        "canonical_inputs": {
+          "sex": "Female",
+          "age": 58.0,
+          "creatinine": 1.0
+        },
+        "gate_ms": 0.3015949987457134
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.0321890038321726
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:creatinine"
+      }
+    }
+  },
+  {
+    "case_id": "train-547",
+    "source_row": "547",
+    "expected_calculator": "3",
+    "benchmark_answer": "21.38706",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 21.387055052203426,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 67.0,
+          "creatinine": 3.08
+        },
+        "gate_ms": 0.029675000405404717
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.02370499714743346
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 21.387055052203426,
+        "call": {
+          "calculator_id": "3",
+          "formula_version": "CKD-EPI-2021",
+          "arguments": {
+            "sex": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "q001"
+            },
+            "age": {
+              "value": 67.0,
+              "unit": "years",
+              "evidence_id": "q000"
+            },
+            "creatinine": {
+              "value": 3.08,
+              "unit": "mg/dl",
+              "evidence_id": "q006"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 67.0,
+          "creatinine": 3.08
+        },
+        "evidence": {
+          "sex": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "span-sex"
+            },
+            "source_id": "q001",
+            "source": "male",
+            "start": 14,
+            "end": 18,
+            "field_hint": "sex"
+          },
+          "age": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 67,
+              "unit": "years",
+              "evidence_id": "span-age"
+            },
+            "source_id": "q000",
+            "source": "67-year-old",
+            "start": 2,
+            "end": 13,
+            "field_hint": "age"
+          },
+          "creatinine": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 3.08,
+              "unit": "mg/dL",
+              "evidence_id": "span-creatinine"
+            },
+            "source_id": "q006",
+            "source": "3.08 mg/dl",
+            "start": 489,
+            "end": 499,
+            "field_hint": null
+          }
+        },
+        "note_sha256": "501effbf2253416b42ba4c416bda814f522c3def43e73ee6cd4f6162c4db57c9",
+        "gate_ms": 0.9304429986514151
+      }
+    }
+  },
+  {
+    "case_id": "train-164",
+    "source_row": "164",
+    "expected_calculator": "3",
+    "benchmark_answer": "36.26267",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 36.262669930453015,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 56.0,
+          "creatinine": 2.1
+        },
+        "gate_ms": 0.027781999961007386
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.02198299625888467
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 36.262669930453015,
+        "call": {
+          "calculator_id": "3",
+          "formula_version": "CKD-EPI-2021",
+          "arguments": {
+            "sex": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "q001"
+            },
+            "age": {
+              "value": 56.0,
+              "unit": "years",
+              "evidence_id": "q000"
+            },
+            "creatinine": {
+              "value": 2.1,
+              "unit": "mg/dl",
+              "evidence_id": "q005"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 56.0,
+          "creatinine": 2.1
+        },
+        "evidence": {
+          "sex": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "span-sex"
+            },
+            "source_id": "q001",
+            "source": "man",
+            "start": 14,
+            "end": 17,
+            "field_hint": "sex"
+          },
+          "age": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 56,
+              "unit": "years",
+              "evidence_id": "span-age"
+            },
+            "source_id": "q000",
+            "source": "56-year old",
+            "start": 2,
+            "end": 13,
+            "field_hint": "age"
+          },
+          "creatinine": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 2.1,
+              "unit": "mg/dL",
+              "evidence_id": "span-creatinine"
+            },
+            "source_id": "q005",
+            "source": "2.1 mg/dl",
+            "start": 1232,
+            "end": 1241,
+            "field_hint": "creatinine"
+          }
+        },
+        "note_sha256": "7386ad1bfb5db47d4a96ab510a93208f457f8b35cb4e0319d7902a89d142905e",
+        "gate_ms": 1.3045070008956827
+      }
+    }
+  },
+  {
+    "case_id": "train-476",
+    "source_row": "476",
+    "expected_calculator": "3",
+    "benchmark_answer": "75.97012",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 75.97011671946372,
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 69.0,
+          "creatinine": 1.06
+        },
+        "gate_ms": 0.02628000220283866
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sex",
+        "gate_ms": 0.023466003767680377
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 75.97011671946372,
+        "call": {
+          "calculator_id": "3",
+          "formula_version": "CKD-EPI-2021",
+          "arguments": {
+            "sex": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "q001"
+            },
+            "age": {
+              "value": 69.0,
+              "unit": "years",
+              "evidence_id": "q000"
+            },
+            "creatinine": {
+              "value": 1.06,
+              "unit": "mg/dl",
+              "evidence_id": "q008"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sex": "Male",
+          "age": 69.0,
+          "creatinine": 1.06
+        },
+        "evidence": {
+          "sex": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": "Male",
+              "unit": "category",
+              "evidence_id": "span-sex"
+            },
+            "source_id": "q001",
+            "source": "male",
+            "start": 15,
+            "end": 19,
+            "field_hint": "sex"
+          },
+          "age": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 69,
+              "unit": "years",
+              "evidence_id": "span-age"
+            },
+            "source_id": "q000",
+            "source": "69-years old",
+            "start": 2,
+            "end": 14,
+            "field_hint": "age"
+          },
+          "creatinine": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 1.06,
+              "unit": "mg/dL",
+              "evidence_id": "span-creatinine"
+            },
+            "source_id": "q008",
+            "source": "1.06 mg/dL",
+            "start": 559,
+            "end": 569,
+            "field_hint": "creatinine"
+          }
+        },
+        "note_sha256": "d35dcbf8ad1a82588be4f08d711d3e3b3633fd908ad37851be90deab4af986b8",
+        "gate_ms": 1.2340510002104566
+      }
+    }
+  },
+  {
+    "case_id": "train-456",
+    "source_row": "456",
+    "expected_calculator": "3",
+    "benchmark_answer": "45.44403",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false
+      },
+      "L3_literal_span": {
+        "matched": false
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "ValueError: BASELINE_EXTRACTION_FAILED"
+      }
+    }
+  },
+  {
+    "case_id": "train-1423",
+    "source_row": "1423",
+    "expected_calculator": "5",
+    "benchmark_answer": "117.0",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 117.0,
+        "canonical_inputs": {
+          "sbp": 177.0,
+          "dbp": 87.0
+        },
+        "gate_ms": 0.01810800313251093
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 117.0,
+        "canonical_inputs": {
+          "sbp": 177.0,
+          "dbp": 87.0
+        },
+        "gate_ms": 0.037526006053667516
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 117.0,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 177.0,
+              "unit": "mmHg",
+              "evidence_id": "q002"
+            },
+            "dbp": {
+              "value": 87.0,
+              "unit": "mmHg",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 177.0,
+          "dbp": 87.0
+        },
+        "evidence": {
+          "sbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 177,
+              "unit": "mmHg",
+              "evidence_id": "span-sbp"
+            },
+            "source_id": "q002",
+            "source": "177/87 mmHg",
+            "start": 159,
+            "end": 170,
+            "field_hint": "sbp"
+          },
+          "dbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 87,
+              "unit": "mmHg",
+              "evidence_id": "span-dbp"
+            },
+            "source_id": "q003",
+            "source": "177/87 mmHg",
+            "start": 159,
+            "end": 170,
+            "field_hint": "dbp"
+          }
+        },
+        "note_sha256": "e5dbf189c7a1908a9eb69515d368895fb688812a00ecea674b5d711c3547c324",
+        "gate_ms": 0.4259120032656938
+      }
+    }
+  },
+  {
+    "case_id": "train-1883",
+    "source_row": "1883",
+    "expected_calculator": "5",
+    "benchmark_answer": "100.0",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 100.0,
+        "canonical_inputs": {
+          "sbp": 132.0,
+          "dbp": 84.0
+        },
+        "gate_ms": 0.018167003872804344
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.019548999262042344
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 100.0,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 132.0,
+              "unit": "mmHg",
+              "evidence_id": "q003"
+            },
+            "dbp": {
+              "value": 84.0,
+              "unit": "mmHg",
+              "evidence_id": "q004"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 132.0,
+          "dbp": 84.0
+        },
+        "evidence": {
+          "sbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 132,
+              "unit": "mmHg",
+              "evidence_id": "span-sbp"
+            },
+            "source_id": "q003",
+            "source": "132/84 mm Hg",
+            "start": 515,
+            "end": 527,
+            "field_hint": "sbp"
+          },
+          "dbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 84,
+              "unit": "mmHg",
+              "evidence_id": "span-dbp"
+            },
+            "source_id": "q004",
+            "source": "132/84 mm Hg",
+            "start": 515,
+            "end": 527,
+            "field_hint": "dbp"
+          }
+        },
+        "note_sha256": "28ed1b1da80a477c1ad7427c802bdef60ea3c3156cd896b81167ec9af5276b3f",
+        "gate_ms": 0.5927540041739121
+      }
+    }
+  },
+  {
+    "case_id": "train-1607",
+    "source_row": "1607",
+    "expected_calculator": "5",
+    "benchmark_answer": "67.33333",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 100.0,
+        "canonical_inputs": {
+          "sbp": 140.0,
+          "dbp": 80.0
+        },
+        "gate_ms": 0.01714599784463644
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.01951000012923032
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 67.33333333333333,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 82.0,
+              "unit": "mmHg",
+              "evidence_id": "q004"
+            },
+            "dbp": {
+              "value": 60.0,
+              "unit": "mmHg",
+              "evidence_id": "q005"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 82.0,
+          "dbp": 60.0
+        },
+        "evidence": {
+          "sbp": {
+            "action": "unique_named_source_repair",
+            "proposal": {
+              "value": 140,
+              "unit": "mmHg",
+              "evidence_id": "span-sbp"
+            },
+            "source_id": "q004",
+            "source": "82/60 mmHg",
+            "start": 449,
+            "end": 459,
+            "field_hint": "sbp"
+          },
+          "dbp": {
+            "action": "unique_named_source_repair",
+            "proposal": {
+              "value": 80,
+              "unit": "mmHg",
+              "evidence_id": "span-dbp"
+            },
+            "source_id": "q005",
+            "source": "82/60 mmHg",
+            "start": 449,
+            "end": 459,
+            "field_hint": "dbp"
+          }
+        },
+        "note_sha256": "d3104aab102209d5d5ba799d74006343be660207d89586b130c9b1e23d5f03f0",
+        "gate_ms": 2.393558999756351
+      }
+    }
+  },
+  {
+    "case_id": "train-1351",
+    "source_row": "1351",
+    "expected_calculator": "5",
+    "benchmark_answer": "87.66667",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 87.66666666666667,
+        "canonical_inputs": {
+          "sbp": 121.0,
+          "dbp": 71.0
+        },
+        "gate_ms": 0.01814699498936534
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 87.66666666666667,
+        "canonical_inputs": {
+          "sbp": 121.0,
+          "dbp": 71.0
+        },
+        "gate_ms": 0.03243899845983833
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 87.66666666666667,
+        "call": {
+          "calculator_id": "5",
+          "formula_version": "SBP-plus-2DBP-over-3",
+          "arguments": {
+            "sbp": {
+              "value": 121.0,
+              "unit": "mmHg",
+              "evidence_id": "q004"
+            },
+            "dbp": {
+              "value": 71.0,
+              "unit": "mmHg",
+              "evidence_id": "q005"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sbp": 121.0,
+          "dbp": 71.0
+        },
+        "evidence": {
+          "sbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 121,
+              "unit": "mmHg",
+              "evidence_id": "span-sbp"
+            },
+            "source_id": "q004",
+            "source": "121/71 mm Hg",
+            "start": 297,
+            "end": 309,
+            "field_hint": "sbp"
+          },
+          "dbp": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 71,
+              "unit": "mmHg",
+              "evidence_id": "span-dbp"
+            },
+            "source_id": "q005",
+            "source": "121/71 mm Hg",
+            "start": 297,
+            "end": 309,
+            "field_hint": "dbp"
+          }
+        },
+        "note_sha256": "857e711c656986c856ae6f0276bfbb1603b8b3e16fdc316d5c3fe99ed7452682",
+        "gate_ms": 1.0672089993022382
+      }
+    }
+  },
+  {
+    "case_id": "train-1453",
+    "source_row": "1453",
+    "expected_calculator": "5",
+    "benchmark_answer": "126.66667",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 126.66666666666667,
+        "canonical_inputs": {
+          "sbp": 200.0,
+          "dbp": 90.0
+        },
+        "gate_ms": 0.017477002984378487
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sbp",
+        "gate_ms": 0.019478997273836285
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sbp"
+      }
+    }
+  },
+  {
+    "case_id": "train-2231",
+    "source_row": "2231",
+    "expected_calculator": "6",
+    "benchmark_answer": "18.69605",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 18.696051423324146,
+        "canonical_inputs": {
+          "height": 1.6500000000000001,
+          "weight": 50.9
+        },
+        "gate_ms": 0.012137999874539673
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.014060999092180282
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 18.696051423324146,
+        "call": {
+          "calculator_id": "6",
+          "formula_version": "kg-over-m2",
+          "arguments": {
+            "height": {
+              "value": 165.0,
+              "unit": "cm",
+              "evidence_id": "q002"
+            },
+            "weight": {
+              "value": 50.9,
+              "unit": "kg",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.6500000000000001,
+          "weight": 50.9
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 165,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q002",
+            "source": "165 cm",
+            "start": 186,
+            "end": 192,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 50.9,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q003",
+            "source": "50.9 kg",
+            "start": 197,
+            "end": 204,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "26ea107819c5aa85fdfbcf2b3509252c7937509f9ce851402b6e86ab0b27c9eb",
+        "gate_ms": 2.589584000816103
+      }
+    }
+  },
+  {
+    "case_id": "train-2118",
+    "source_row": "2118",
+    "expected_calculator": "6",
+    "benchmark_answer": "24.8877",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 0.002488770275156626,
+        "canonical_inputs": {
+          "height": 162.6,
+          "weight": 65.8
+        },
+        "gate_ms": 0.015613004507031292
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.015682999219279736
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 24.887702751566263,
+        "call": {
+          "calculator_id": "6",
+          "formula_version": "kg-over-m2",
+          "arguments": {
+            "height": {
+              "value": 162.6,
+              "unit": "cm",
+              "evidence_id": "q003"
+            },
+            "weight": {
+              "value": 65.8,
+              "unit": "kg",
+              "evidence_id": "q005"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.626,
+          "weight": 65.8
+        },
+        "evidence": {
+          "height": {
+            "action": "source_unit_repair",
+            "proposal": {
+              "value": 162.6,
+              "unit": "m",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q003",
+            "source": "162.6 cm",
+            "start": 207,
+            "end": 215,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 65.8,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q005",
+            "source": "65.8 kg",
+            "start": 279,
+            "end": 286,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "5c7ebdc6e4091539dd83794dd6c2742f33716c7d98412e0001a6f1ba2c42f050",
+        "gate_ms": 0.9404270022059791
+      }
+    }
+  },
+  {
+    "case_id": "train-2146",
+    "source_row": "2146",
+    "expected_calculator": "6",
+    "benchmark_answer": "18.37849",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 18.378491913463556,
+        "canonical_inputs": {
+          "height": 1.3800000000000001,
+          "weight": 35.0
+        },
+        "gate_ms": 0.015483994502574205
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.014671997632831335
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 18.378491913463556,
+        "call": {
+          "calculator_id": "6",
+          "formula_version": "kg-over-m2",
+          "arguments": {
+            "height": {
+              "value": 138.0,
+              "unit": "cm",
+              "evidence_id": "q007"
+            },
+            "weight": {
+              "value": 35.0,
+              "unit": "kg",
+              "evidence_id": "q008"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.3800000000000001,
+          "weight": 35.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 138,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q007",
+            "source": "138 cm",
+            "start": 441,
+            "end": 447,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 35,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q008",
+            "source": "35 kg",
+            "start": 471,
+            "end": 476,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "5e298c7fee791f19571dc265b33885a19b01246c72f1678587b48fcdb359f504",
+        "gate_ms": 0.5678259985870682
+      }
+    }
+  },
+  {
+    "case_id": "train-2431",
+    "source_row": "2431",
+    "expected_calculator": "6",
+    "benchmark_answer": "23.24341",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 23.243408017070564,
+        "canonical_inputs": {
+          "height": 1.62,
+          "weight": 61.0
+        },
+        "gate_ms": 0.01709500065771863
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.015233003068715334
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 23.243408017070564,
+        "call": {
+          "calculator_id": "6",
+          "formula_version": "kg-over-m2",
+          "arguments": {
+            "height": {
+              "value": 162.0,
+              "unit": "cm",
+              "evidence_id": "q003"
+            },
+            "weight": {
+              "value": 61.0,
+              "unit": "kg",
+              "evidence_id": "q002"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.62,
+          "weight": 61.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 162,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q003",
+            "source": "162 cm",
+            "start": 288,
+            "end": 294,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 61,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q002",
+            "source": "61 kg",
+            "start": 262,
+            "end": 267,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "a1a0b53ace0272b7b161fb8abd4b940056835a7d1ea6a6e5a170640e003e8d70",
+        "gate_ms": 0.5951569983153604
+      }
+    }
+  },
+  {
+    "case_id": "train-2248",
+    "source_row": "2248",
+    "expected_calculator": "6",
+    "benchmark_answer": "30.35925",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 30.35925113847192,
+        "canonical_inputs": {
+          "height": 1.54,
+          "weight": 72.0
+        },
+        "gate_ms": 0.01572399924043566
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.016034995496738702
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 30.35925113847192,
+        "call": {
+          "calculator_id": "6",
+          "formula_version": "kg-over-m2",
+          "arguments": {
+            "height": {
+              "value": 154.0,
+              "unit": "cm",
+              "evidence_id": "q002"
+            },
+            "weight": {
+              "value": 72.0,
+              "unit": "kg",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.54,
+          "weight": 72.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 154,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q002",
+            "source": "154 cm",
+            "start": 162,
+            "end": 168,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 72,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q003",
+            "source": "72 kg",
+            "start": 183,
+            "end": 188,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "3ca9da4b752912803f137f17ea159f0159c454df9a553591e1a30ddf51925e58",
+        "gate_ms": 1.2114960045437329
+      }
+    }
+  },
+  {
+    "case_id": "train-2638",
+    "source_row": "2638",
+    "expected_calculator": "7",
+    "benchmark_answer": "8.94",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 8.94,
+        "canonical_inputs": {
+          "albumin": 2.7,
+          "calcium": 7.9
+        },
+        "gate_ms": 0.02654000127222389
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.020070001482963562
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 8.94,
+        "call": {
+          "calculator_id": "7",
+          "formula_version": "0.8-coefficient",
+          "arguments": {
+            "albumin": {
+              "value": 2.7,
+              "unit": "g/dl",
+              "evidence_id": "q005"
+            },
+            "calcium": {
+              "value": 7.9,
+              "unit": "mg/dl",
+              "evidence_id": "q006"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "albumin": 2.7,
+          "calcium": 7.9
+        },
+        "evidence": {
+          "albumin": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 2.7,
+              "unit": "g/dL",
+              "evidence_id": "span-albumin"
+            },
+            "source_id": "q005",
+            "source": "2.7 g/dL",
+            "start": 588,
+            "end": 596,
+            "field_hint": "albumin"
+          },
+          "calcium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 7.9,
+              "unit": "mg/dL",
+              "evidence_id": "span-calcium"
+            },
+            "source_id": "q006",
+            "source": "7.9 mg/dL",
+            "start": 612,
+            "end": 621,
+            "field_hint": "calcium"
+          }
+        },
+        "note_sha256": "65037bb146e63220a90ddc971fa571d54cc30a465fe47b15f8f76c386936898c",
+        "gate_ms": 1.6582489988650195
+      }
+    }
+  },
+  {
+    "case_id": "train-2640",
+    "source_row": "2640",
+    "expected_calculator": "7",
+    "benchmark_answer": "9.1",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 9.1,
+        "canonical_inputs": {
+          "albumin": 4.0,
+          "calcium": 9.1
+        },
+        "gate_ms": 0.02936399687314406
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.01886900281533599
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 9.1,
+        "call": {
+          "calculator_id": "7",
+          "formula_version": "0.8-coefficient",
+          "arguments": {
+            "albumin": {
+              "value": 4.0,
+              "unit": "g/dl",
+              "evidence_id": "q009"
+            },
+            "calcium": {
+              "value": 9.1,
+              "unit": "mg/dl",
+              "evidence_id": "q008"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "albumin": 4.0,
+          "calcium": 9.1
+        },
+        "evidence": {
+          "albumin": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 4.0,
+              "unit": "g/dL",
+              "evidence_id": "span-albumin"
+            },
+            "source_id": "q009",
+            "source": "4.0 g/dl",
+            "start": 1512,
+            "end": 1520,
+            "field_hint": "albumin"
+          },
+          "calcium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 9.1,
+              "unit": "mg/dL",
+              "evidence_id": "span-calcium"
+            },
+            "source_id": "q008",
+            "source": "9.1 mg/dl",
+            "start": 1490,
+            "end": 1499,
+            "field_hint": "calcium"
+          }
+        },
+        "note_sha256": "fe076594d5a6adc4e095c0b98289bb23fe338603dae7739a92d2a3767cab6196",
+        "gate_ms": 1.1861769962706603
+      }
+    }
+  },
+  {
+    "case_id": "train-2675",
+    "source_row": "2675",
+    "expected_calculator": "7",
+    "benchmark_answer": "12.22",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 12.22,
+        "canonical_inputs": {
+          "albumin": 4.1,
+          "calcium": 12.3
+        },
+        "gate_ms": 0.057946999731939286
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:albumin",
+        "gate_ms": 0.021903004380874336
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 12.22,
+        "call": {
+          "calculator_id": "7",
+          "formula_version": "0.8-coefficient",
+          "arguments": {
+            "albumin": {
+              "value": 4.1,
+              "unit": "g/dl",
+              "evidence_id": "q007"
+            },
+            "calcium": {
+              "value": 12.3,
+              "unit": "mg/dl",
+              "evidence_id": "q005"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "albumin": 4.1,
+          "calcium": 12.3
+        },
+        "evidence": {
+          "albumin": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 4.1,
+              "unit": "g/dL",
+              "evidence_id": "span-albumin"
+            },
+            "source_id": "q007",
+            "source": "4.1 g/dL",
+            "start": 565,
+            "end": 573,
+            "field_hint": "albumin"
+          },
+          "calcium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 12.3,
+              "unit": "mg/dL",
+              "evidence_id": "span-calcium"
+            },
+            "source_id": "q005",
+            "source": "12.3 mg/dL",
+            "start": 475,
+            "end": 485,
+            "field_hint": "calcium"
+          }
+        },
+        "note_sha256": "1db73e33c0fcae847ee9b06b44cce0faf8efd19b35a64f290c5a33fbc195e874",
+        "gate_ms": 1.2579670001287013
+      }
+    }
+  },
+  {
+    "case_id": "train-2571",
+    "source_row": "2571",
+    "expected_calculator": "7",
+    "benchmark_answer": "6.96",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 69.75999999999999,
+        "canonical_inputs": {
+          "albumin": 2.8,
+          "calcium": 68.8
+        },
+        "gate_ms": 0.02689000393729657
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:calcium",
+        "gate_ms": 0.034673001209739596
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:albumin"
+      }
+    }
+  },
+  {
+    "case_id": "train-2572",
+    "source_row": "2572",
+    "expected_calculator": "7",
+    "benchmark_answer": "14.298",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 12.3,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 11.1
+        },
+        "gate_ms": 0.029724003979936242
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": true,
+        "result": 12.3,
+        "canonical_inputs": {
+          "albumin": 2.5,
+          "calcium": 11.1
+        },
+        "gate_ms": 0.04465699748834595
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 14.298,
+        "call": {
+          "calculator_id": "7",
+          "formula_version": "0.8-coefficient",
+          "arguments": {
+            "albumin": {
+              "value": 2.5,
+              "unit": "mg/dl",
+              "evidence_id": "q017"
+            },
+            "calcium": {
+              "value": 11.1,
+              "unit": "mg/dl",
+              "evidence_id": "q013"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "albumin": 0.0025,
+          "calcium": 11.1
+        },
+        "evidence": {
+          "albumin": {
+            "action": "source_unit_repair",
+            "proposal": {
+              "value": 2.5,
+              "unit": "g/dL",
+              "evidence_id": "span-albumin"
+            },
+            "source_id": "q017",
+            "source": "2.5 mg/dL",
+            "start": 1201,
+            "end": 1210,
+            "field_hint": "albumin"
+          },
+          "calcium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 11.1,
+              "unit": "mg/dL",
+              "evidence_id": "span-calcium"
+            },
+            "source_id": "q013",
+            "source": "11.1 mg/dL",
+            "start": 1142,
+            "end": 1152,
+            "field_hint": "calcium"
+          }
+        },
+        "note_sha256": "24164be963e3a9e4554b7b9b62749b02c1d91324f66e67078141b641b9b7dcc7",
+        "gate_ms": 2.1340270031942055
+      }
+    }
+  },
+  {
+    "case_id": "train-4075",
+    "source_row": "4075",
+    "expected_calculator": "11",
+    "benchmark_answer": "226.75759",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 226.75713880713877,
+        "canonical_inputs": {
+          "heart_rate": 72.0,
+          "qt": 207.0
+        },
+        "gate_ms": 0.018437996914144605
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:heart_rate",
+        "gate_ms": 0.01934899773914367
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 226.75713880713877,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 72.0,
+              "unit": "bpm",
+              "evidence_id": "q000"
+            },
+            "qt": {
+              "value": 207.0,
+              "unit": "ms",
+              "evidence_id": "q001"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 72.0,
+          "qt": 207.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 72,
+              "unit": "bpm",
+              "evidence_id": "span-heart_rate"
+            },
+            "source_id": "q000",
+            "source": "72 bpm",
+            "start": 30,
+            "end": 36,
+            "field_hint": "heart_rate"
+          },
+          "qt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 207,
+              "unit": "ms",
+              "evidence_id": "span-qt"
+            },
+            "source_id": "q001",
+            "source": "207 msec",
+            "start": 58,
+            "end": 66,
+            "field_hint": "qt"
+          }
+        },
+        "note_sha256": "b205502ef6f5391e0ba111445ab366692fae339d6d8b042c8f628b97ad45153d",
+        "gate_ms": 0.18783300038194284
+      }
+    }
+  },
+  {
+    "case_id": "train-4038",
+    "source_row": "4038",
+    "expected_calculator": "11",
+    "benchmark_answer": "433.90267",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 433.9032150145929,
+        "canonical_inputs": {
+          "heart_rate": 105.0,
+          "qt": 328.0
+        },
+        "gate_ms": 0.015222998626995832
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 433.9032150145929,
+        "canonical_inputs": {
+          "heart_rate": 105.0,
+          "qt": 328.0
+        },
+        "gate_ms": 0.03019599535036832
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 433.9032150145929,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 105.0,
+              "unit": "bpm",
+              "evidence_id": "q000"
+            },
+            "qt": {
+              "value": 328.0,
+              "unit": "ms",
+              "evidence_id": "q001"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 105.0,
+          "qt": 328.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 105,
+              "unit": "bpm",
+              "evidence_id": "span-heart_rate"
+            },
+            "source_id": "q000",
+            "source": "105 bpm",
+            "start": 30,
+            "end": 37,
+            "field_hint": "heart_rate"
+          },
+          "qt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 328,
+              "unit": "ms",
+              "evidence_id": "span-qt"
+            },
+            "source_id": "q001",
+            "source": "328 msec",
+            "start": 59,
+            "end": 67,
+            "field_hint": "qt"
+          }
+        },
+        "note_sha256": "092118c32d17b585d8981126d958d78db686f2faf50d7527c9c9889ebad4cc79",
+        "gate_ms": 0.14968599862186238
+      }
+    }
+  },
+  {
+    "case_id": "train-4054",
+    "source_row": "4054",
+    "expected_calculator": "11",
+    "benchmark_answer": "491.3808",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 491.38055517083706,
+        "canonical_inputs": {
+          "heart_rate": 91.0,
+          "qt": 399.0
+        },
+        "gate_ms": 0.01708500349195674
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:heart_rate",
+        "gate_ms": 0.013921002391725779
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 491.38055517083706,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 91.0,
+              "unit": "bpm",
+              "evidence_id": "q000"
+            },
+            "qt": {
+              "value": 399.0,
+              "unit": "ms",
+              "evidence_id": "q001"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 91.0,
+          "qt": 399.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 91,
+              "unit": "bpm",
+              "evidence_id": "span-heart_rate"
+            },
+            "source_id": "q000",
+            "source": "91 bpm",
+            "start": 30,
+            "end": 36,
+            "field_hint": "heart_rate"
+          },
+          "qt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 399,
+              "unit": "ms",
+              "evidence_id": "span-qt"
+            },
+            "source_id": "q001",
+            "source": "399 msec",
+            "start": 58,
+            "end": 66,
+            "field_hint": "qt"
+          }
+        },
+        "note_sha256": "f2bf5251301c1bbf039d43e93841f026e90e532d2c4ecf2e6b950fdfcb01e593",
+        "gate_ms": 0.673405003908556
+      }
+    }
+  },
+  {
+    "case_id": "train-4072",
+    "source_row": "4072",
+    "expected_calculator": "11",
+    "benchmark_answer": "313.84701",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 313.84677790284866,
+        "canonical_inputs": {
+          "heart_rate": 57.0,
+          "qt": 322.0
+        },
+        "gate_ms": 0.01578400406287983
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 313.84677790284866,
+        "canonical_inputs": {
+          "heart_rate": 57.0,
+          "qt": 322.0
+        },
+        "gate_ms": 0.025638997612986714
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 313.84677790284866,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 57.0,
+              "unit": "bpm",
+              "evidence_id": "q000"
+            },
+            "qt": {
+              "value": 322.0,
+              "unit": "ms",
+              "evidence_id": "q001"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 57.0,
+          "qt": 322.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 57,
+              "unit": "bpm",
+              "evidence_id": "span-heart_rate"
+            },
+            "source_id": "q000",
+            "source": "57 bpm",
+            "start": 30,
+            "end": 36,
+            "field_hint": "heart_rate"
+          },
+          "qt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 322,
+              "unit": "ms",
+              "evidence_id": "span-qt"
+            },
+            "source_id": "q001",
+            "source": "322 msec",
+            "start": 58,
+            "end": 66,
+            "field_hint": "qt"
+          }
+        },
+        "note_sha256": "a18f00f2f668b6483d94e21442283e4b0741e8294171828b0af9e0950a79be87",
+        "gate_ms": 0.19544400129234418
+      }
+    }
+  },
+  {
+    "case_id": "train-4069",
+    "source_row": "4069",
+    "expected_calculator": "11",
+    "benchmark_answer": "588.46539",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 588.4624457006581,
+        "canonical_inputs": {
+          "heart_rate": 123.0,
+          "qt": 411.0
+        },
+        "gate_ms": 0.01781600440153852
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 588.4624457006581,
+        "canonical_inputs": {
+          "heart_rate": 123.0,
+          "qt": 411.0
+        },
+        "gate_ms": 0.03556299634510651
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 588.4624457006581,
+        "call": {
+          "calculator_id": "11",
+          "formula_version": "Bazett",
+          "arguments": {
+            "heart_rate": {
+              "value": 123.0,
+              "unit": "bpm",
+              "evidence_id": "q000"
+            },
+            "qt": {
+              "value": 411.0,
+              "unit": "ms",
+              "evidence_id": "q001"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "heart_rate": 123.0,
+          "qt": 411.0
+        },
+        "evidence": {
+          "heart_rate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 123,
+              "unit": "bpm",
+              "evidence_id": "span-heart_rate"
+            },
+            "source_id": "q000",
+            "source": "123 bpm",
+            "start": 30,
+            "end": 37,
+            "field_hint": "heart_rate"
+          },
+          "qt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 411,
+              "unit": "ms",
+              "evidence_id": "span-qt"
+            },
+            "source_id": "q001",
+            "source": "411 msec",
+            "start": 59,
+            "end": 67,
+            "field_hint": "qt"
+          }
+        },
+        "note_sha256": "925b29d12fb122b1920b060d732d41f2276c4c8e1f04b4d82620c4e0526e1f06",
+        "gate_ms": 0.2002120018005371
+      }
+    }
+  },
+  {
+    "case_id": "train-4315",
+    "source_row": "4315",
+    "expected_calculator": "19",
+    "benchmark_answer": "5.82519",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 0.005825192815237053,
+        "canonical_inputs": {
+          "age": 48.0,
+          "ast": 442.0,
+          "alt": 414.0,
+          "platelets": 179000.0
+        },
+        "gate_ms": 0.020940999092999846
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:platelets",
+        "gate_ms": 0.049764996219892055
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:platelets"
+      }
+    }
+  },
+  {
+    "case_id": "train-4286",
+    "source_row": "4286",
+    "expected_calculator": "19",
+    "benchmark_answer": "11.85315",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 11.853146249979025,
+        "canonical_inputs": {
+          "age": 90.0,
+          "ast": 310.0,
+          "alt": 171.0,
+          "platelets": 180.0
+        },
+        "gate_ms": 0.02109100023517385
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.022054002329241484
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 11.853146249979025,
+        "call": {
+          "calculator_id": "19",
+          "formula_version": "age-AST-platelets-sqrtALT",
+          "arguments": {
+            "age": {
+              "value": 90.0,
+              "unit": "years",
+              "evidence_id": "q000"
+            },
+            "ast": {
+              "value": 310.0,
+              "unit": "u/l",
+              "evidence_id": "q018"
+            },
+            "alt": {
+              "value": 171.0,
+              "unit": "u/l",
+              "evidence_id": "q019"
+            },
+            "platelets": {
+              "value": 180000.0,
+              "unit": "uL",
+              "evidence_id": "q007"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "age": 90.0,
+          "ast": 310.0,
+          "alt": 171.0,
+          "platelets": 180.0
+        },
+        "evidence": {
+          "age": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 90,
+              "unit": "years",
+              "evidence_id": "span-age"
+            },
+            "source_id": "q000",
+            "source": "90-year-old",
+            "start": 2,
+            "end": 13,
+            "field_hint": "age"
+          },
+          "ast": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 310,
+              "unit": "U/L",
+              "evidence_id": "span-ast"
+            },
+            "source_id": "q018",
+            "source": "310 U/L",
+            "start": 1953,
+            "end": 1960,
+            "field_hint": "ast"
+          },
+          "alt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 171,
+              "unit": "U/L",
+              "evidence_id": "span-alt"
+            },
+            "source_id": "q019",
+            "source": "171 U/L",
+            "start": 1970,
+            "end": 1977,
+            "field_hint": "alt"
+          },
+          "platelets": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 180,
+              "unit": "10^9/L",
+              "evidence_id": "span-platelets"
+            },
+            "source_id": "q007",
+            "source": "180 \u00d7 103/\u00b5L",
+            "start": 1572,
+            "end": 1584,
+            "field_hint": "platelets"
+          }
+        },
+        "note_sha256": "4973541faf4d7e9784562dc62178e3f824e6d23c0ed51c7e7d672d5b6e9a5b65",
+        "gate_ms": 3.414467995753512
+      }
+    }
+  },
+  {
+    "case_id": "train-4309",
+    "source_row": "4309",
+    "expected_calculator": "19",
+    "benchmark_answer": "2273.48119",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 2.2734811940855155,
+        "canonical_inputs": {
+          "age": 41.0,
+          "ast": 69.0,
+          "alt": 79.0,
+          "platelets": 140.0
+        },
+        "gate_ms": 0.054331998398993164
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": true,
+        "result": 2.2734811940855155,
+        "canonical_inputs": {
+          "age": 41.0,
+          "ast": 69.0,
+          "alt": 79.0,
+          "platelets": 140.0
+        },
+        "gate_ms": 0.053681003919336945
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:ast"
+      }
+    }
+  },
+  {
+    "case_id": "train-4314",
+    "source_row": "4314",
+    "expected_calculator": "19",
+    "benchmark_answer": "4.20819",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 0.004208187824901768,
+        "canonical_inputs": {
+          "age": 43.0,
+          "ast": 268.0,
+          "alt": 127.0,
+          "platelets": 243000.0
+        },
+        "gate_ms": 0.02363599924137816
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:alt",
+        "gate_ms": 0.07067700062179938
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 4.208187824901768,
+        "call": {
+          "calculator_id": "19",
+          "formula_version": "age-AST-platelets-sqrtALT",
+          "arguments": {
+            "age": {
+              "value": 43.0,
+              "unit": "years",
+              "evidence_id": "q000"
+            },
+            "ast": {
+              "value": 268.0,
+              "unit": "u/l",
+              "evidence_id": "q006"
+            },
+            "alt": {
+              "value": 127.0,
+              "unit": "u/l",
+              "evidence_id": "q005"
+            },
+            "platelets": {
+              "value": 243000.0,
+              "unit": "uL",
+              "evidence_id": "q004"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "age": 43.0,
+          "ast": 268.0,
+          "alt": 127.0,
+          "platelets": 243.0
+        },
+        "evidence": {
+          "age": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 43,
+              "unit": "years",
+              "evidence_id": "span-age"
+            },
+            "source_id": "q000",
+            "source": "43-year-old",
+            "start": 2,
+            "end": 13,
+            "field_hint": "age"
+          },
+          "ast": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 268,
+              "unit": "U/L",
+              "evidence_id": "span-ast"
+            },
+            "source_id": "q006",
+            "source": "268 U/L",
+            "start": 924,
+            "end": 931,
+            "field_hint": "ast"
+          },
+          "alt": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 127,
+              "unit": "U/L",
+              "evidence_id": "span-alt"
+            },
+            "source_id": "q005",
+            "source": "127 U/L",
+            "start": 911,
+            "end": 918,
+            "field_hint": "alt"
+          },
+          "platelets": {
+            "action": "source_unit_repair",
+            "proposal": {
+              "value": 243000,
+              "unit": "10^9/L",
+              "evidence_id": "span-platelets"
+            },
+            "source_id": "q004",
+            "source": "243,000/\u03bcL",
+            "start": 887,
+            "end": 897,
+            "field_hint": "platelets"
+          }
+        },
+        "note_sha256": "46ecb46fc30c781886e828b92b16c988045142b37e4418d2a46b4e600d968e5e",
+        "gate_ms": 3.606819002015982
+      }
+    }
+  },
+  {
+    "case_id": "train-4329",
+    "source_row": "4329",
+    "expected_calculator": "19",
+    "benchmark_answer": "5.00388",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 0.0004955272698416127,
+        "canonical_inputs": {
+          "age": 27.0,
+          "ast": 77.0,
+          "alt": 595.0,
+          "platelets": 172000.0
+        },
+        "gate_ms": 0.01943900133483112
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:age",
+        "gate_ms": 0.01848700048867613
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:platelets"
+      }
+    }
+  },
+  {
+    "case_id": "train-5511",
+    "source_row": "5511",
+    "expected_calculator": "26",
+    "benchmark_answer": "139.88",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 139.88,
+        "canonical_inputs": {
+          "sodium": 140.0,
+          "glucose": 95.0
+        },
+        "gate_ms": 0.029524002457037568
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.01829700340749696
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 139.88,
+        "call": {
+          "calculator_id": "26",
+          "formula_version": "Hillier-2.4",
+          "arguments": {
+            "sodium": {
+              "value": 140.0,
+              "unit": "meq/l",
+              "evidence_id": "q012"
+            },
+            "glucose": {
+              "value": 95.0,
+              "unit": "mg/dl",
+              "evidence_id": "q009"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 140.0,
+          "glucose": 95.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 140,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q012",
+            "source": "140 mEq/L",
+            "start": 952,
+            "end": 961,
+            "field_hint": "sodium"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 95,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q009",
+            "source": "95 mg/dL",
+            "start": 877,
+            "end": 885,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "381c81467fa9f730b66c47afd80ebd746700865167f519bc5899938978d052d7",
+        "gate_ms": 1.4937020023353398
+      }
+    }
+  },
+  {
+    "case_id": "train-5378",
+    "source_row": "5378",
+    "expected_calculator": "26",
+    "benchmark_answer": "175.784",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 175.784,
+        "canonical_inputs": {
+          "sodium": 149.0,
+          "glucose": 1216.0
+        },
+        "gate_ms": 0.031648000003769994
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.018717997591011226
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 175.784,
+        "call": {
+          "calculator_id": "26",
+          "formula_version": "Hillier-2.4",
+          "arguments": {
+            "sodium": {
+              "value": 149.0,
+              "unit": "meq/l",
+              "evidence_id": "q020"
+            },
+            "glucose": {
+              "value": 1216.0,
+              "unit": "mg/dl",
+              "evidence_id": "q017"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 149.0,
+          "glucose": 1216.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 149,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q020",
+            "source": "149 mEq/L",
+            "start": 2979,
+            "end": 2988,
+            "field_hint": "sodium"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 1216,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q017",
+            "source": "1,216 mg/dL",
+            "start": 2840,
+            "end": 2851,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "02aae353bfdf9810568f93cb9fdce3ddbc9b420dc8c72dd1434537460b954b4d",
+        "gate_ms": 4.6835519970045425
+      }
+    }
+  },
+  {
+    "case_id": "train-5458",
+    "source_row": "5458",
+    "expected_calculator": "26",
+    "benchmark_answer": "135.016",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 135.016,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "glucose": 309.0
+        },
+        "gate_ms": 0.03154799924232066
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.019708997569978237
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 135.016,
+        "call": {
+          "calculator_id": "26",
+          "formula_version": "Hillier-2.4",
+          "arguments": {
+            "sodium": {
+              "value": 130.0,
+              "unit": "meq/l",
+              "evidence_id": "q005"
+            },
+            "glucose": {
+              "value": 309.0,
+              "unit": "mg/dl",
+              "evidence_id": "q002"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "glucose": 309.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 130,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q005",
+            "source": "130 mEq/L",
+            "start": 1180,
+            "end": 1189,
+            "field_hint": "sodium"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 309,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q002",
+            "source": "309 mg/dL",
+            "start": 857,
+            "end": 866,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "029c489d178a1cbb20666db6b8cb14f6d4ec4f37edc900d5f1bf06f03f03b842",
+        "gate_ms": 1.9057340032304637
+      }
+    }
+  },
+  {
+    "case_id": "train-5465",
+    "source_row": "5465",
+    "expected_calculator": "26",
+    "benchmark_answer": "132.152",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 132.152,
+        "canonical_inputs": {
+          "sodium": 128.0,
+          "glucose": 273.0
+        },
+        "gate_ms": 0.02944400330306962
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 132.152,
+        "canonical_inputs": {
+          "sodium": 128.0,
+          "glucose": 273.0
+        },
+        "gate_ms": 0.06819299596827477
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 132.152,
+        "call": {
+          "calculator_id": "26",
+          "formula_version": "Hillier-2.4",
+          "arguments": {
+            "sodium": {
+              "value": 128.0,
+              "unit": "mmol/l",
+              "evidence_id": "q003"
+            },
+            "glucose": {
+              "value": 273.0,
+              "unit": "mg/dl",
+              "evidence_id": "q007"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 128.0,
+          "glucose": 273.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 128,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q003",
+            "source": "128 mmol/l",
+            "start": 1087,
+            "end": 1097,
+            "field_hint": "sodium"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 273,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q007",
+            "source": "273 mg/dl",
+            "start": 1172,
+            "end": 1181,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "20eb8a724992b39770cdf1165f07e14a408630de3f55a82b070f8b5878ed56f0",
+        "gate_ms": 0.750892999349162
+      }
+    }
+  },
+  {
+    "case_id": "train-5495",
+    "source_row": "5495",
+    "expected_calculator": "26",
+    "benchmark_answer": "132.672",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 132.672,
+        "canonical_inputs": {
+          "sodium": 132.0,
+          "glucose": 128.0
+        },
+        "gate_ms": 0.044105996494181454
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "VALUE_NOT_IN_QUOTE:glucose",
+        "gate_ms": 0.04099199577467516
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 132.672,
+        "call": {
+          "calculator_id": "26",
+          "formula_version": "Hillier-2.4",
+          "arguments": {
+            "sodium": {
+              "value": 132.0,
+              "unit": "meq/l",
+              "evidence_id": "q017"
+            },
+            "glucose": {
+              "value": 128.0,
+              "unit": "mg/dl",
+              "evidence_id": "q012"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 132.0,
+          "glucose": 128.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 132,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q017",
+            "source": "132 mEq/L",
+            "start": 3486,
+            "end": 3495,
+            "field_hint": "sodium"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 128,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q012",
+            "source": "128 mg/dl",
+            "start": 3217,
+            "end": 3226,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "6e584621e0a74632a8df061959c6ee2d4072da4a814be5898cc777bbdaa308ec",
+        "gate_ms": 6.226247998711187
+      }
+    }
+  },
+  {
+    "case_id": "train-5789",
+    "source_row": "5789",
+    "expected_calculator": "30",
+    "benchmark_answer": "306.71429",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 306.7142857142857,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 65.0,
+          "glucose": 99.0
+        },
+        "gate_ms": 0.030965995392762125
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 306.7142857142857,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 65.0,
+          "glucose": 99.0
+        },
+        "gate_ms": 0.03456199920037761
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 306.7142857142857,
+        "call": {
+          "calculator_id": "30",
+          "formula_version": "2Na-BUN2.8-glucose18",
+          "arguments": {
+            "sodium": {
+              "value": 139.0,
+              "unit": "meq/l",
+              "evidence_id": "q007"
+            },
+            "bun": {
+              "value": 65.0,
+              "unit": "mg/dl",
+              "evidence_id": "q010"
+            },
+            "glucose": {
+              "value": 99.0,
+              "unit": "mg/dl",
+              "evidence_id": "q011"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 65.0,
+          "glucose": 99.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 139,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q007",
+            "source": "139 mEq/L",
+            "start": 639,
+            "end": 648,
+            "field_hint": "sodium"
+          },
+          "bun": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 65,
+              "unit": "mg/dL",
+              "evidence_id": "span-bun"
+            },
+            "source_id": "q010",
+            "source": "65 mg/dL",
+            "start": 683,
+            "end": 691,
+            "field_hint": "bun"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 99,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q011",
+            "source": "99 mg/dL",
+            "start": 701,
+            "end": 709,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "6c0d9732bba6817144576b0dde6cb98dcedb89e3d149c85e399dbda0820801f5",
+        "gate_ms": 1.6967809933703393
+      }
+    }
+  },
+  {
+    "case_id": "train-5778",
+    "source_row": "5778",
+    "expected_calculator": "30",
+    "benchmark_answer": "285.9127",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 285.9126984126984,
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 8.0,
+          "glucose": 91.0
+        },
+        "gate_ms": 0.03717700019478798
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.028813003154937178
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 285.9126984126984,
+        "call": {
+          "calculator_id": "30",
+          "formula_version": "2Na-BUN2.8-glucose18",
+          "arguments": {
+            "sodium": {
+              "value": 139.0,
+              "unit": "meq/l",
+              "evidence_id": "q008"
+            },
+            "bun": {
+              "value": 8.0,
+              "unit": "mg/dl",
+              "evidence_id": "q011"
+            },
+            "glucose": {
+              "value": 91.0,
+              "unit": "mg/dl",
+              "evidence_id": "q013"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 139.0,
+          "bun": 8.0,
+          "glucose": 91.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 139,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q008",
+            "source": "139 mEq/L",
+            "start": 650,
+            "end": 659,
+            "field_hint": "sodium"
+          },
+          "bun": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 8.0,
+              "unit": "mg/dL",
+              "evidence_id": "span-bun"
+            },
+            "source_id": "q011",
+            "source": "8.0 mg/dL",
+            "start": 721,
+            "end": 730,
+            "field_hint": "bun"
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 91,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q013",
+            "source": "91 mg/dL",
+            "start": 762,
+            "end": 770,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "ab2d7f46c2439f04f130383e0542e383c233d21031c693cc22abed876820c688",
+        "gate_ms": 2.5888439995469525
+      }
+    }
+  },
+  {
+    "case_id": "train-5714",
+    "source_row": "5714",
+    "expected_calculator": "30",
+    "benchmark_answer": "310.21032",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 310.21031746031747,
+        "canonical_inputs": {
+          "sodium": 149.0,
+          "bun": 17.7,
+          "glucose": 106.0
+        },
+        "gate_ms": 0.08547899778932333
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.02415599738014862
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:sodium"
+      }
+    }
+  },
+  {
+    "case_id": "train-5730",
+    "source_row": "5730",
+    "expected_calculator": "30",
+    "benchmark_answer": "279.22222",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 295.6507936507937,
+        "canonical_inputs": {
+          "sodium": 134.0,
+          "bun": 67.0,
+          "glucose": 67.0
+        },
+        "gate_ms": 0.031436997232958674
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:bun",
+        "gate_ms": 0.03693599865073338
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bun"
+      }
+    }
+  },
+  {
+    "case_id": "train-5780",
+    "source_row": "5780",
+    "expected_calculator": "30",
+    "benchmark_answer": "286.90476",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 286.90476190476187,
+        "canonical_inputs": {
+          "sodium": 137.0,
+          "bun": 17.0,
+          "glucose": 123.0
+        },
+        "gate_ms": 0.03209800343029201
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 286.90476190476187,
+        "canonical_inputs": {
+          "sodium": 137.0,
+          "bun": 17.0,
+          "glucose": 123.0
+        },
+        "gate_ms": 0.03570399712771177
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 286.90476190476187,
+        "call": {
+          "calculator_id": "30",
+          "formula_version": "2Na-BUN2.8-glucose18",
+          "arguments": {
+            "sodium": {
+              "value": 137.0,
+              "unit": "meq/l",
+              "evidence_id": "q012"
+            },
+            "bun": {
+              "value": 17.0,
+              "unit": "mg/dl",
+              "evidence_id": "q015"
+            },
+            "glucose": {
+              "value": 123.0,
+              "unit": "mg/dl",
+              "evidence_id": "q016"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 137.0,
+          "bun": 17.0,
+          "glucose": 123.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 137,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q012",
+            "source": "137 mEq/L",
+            "start": 848,
+            "end": 857,
+            "field_hint": "sodium"
+          },
+          "bun": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 17,
+              "unit": "mg/dL",
+              "evidence_id": "span-bun"
+            },
+            "source_id": "q015",
+            "source": "17 mg/dL",
+            "start": 898,
+            "end": 906,
+            "field_hint": null
+          },
+          "glucose": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 123,
+              "unit": "mg/dL",
+              "evidence_id": "span-glucose"
+            },
+            "source_id": "q016",
+            "source": "123 mg/dL",
+            "start": 915,
+            "end": 924,
+            "field_hint": "glucose"
+          }
+        },
+        "note_sha256": "9e662ee1ecd182da84097a4d3982ff8ded53c1a6866d3a1c1a1f9b72d1e21eae",
+        "gate_ms": 1.190995993965771
+      }
+    }
+  },
+  {
+    "case_id": "train-6201",
+    "source_row": "6201",
+    "expected_calculator": "39",
+    "benchmark_answer": "84.796",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 0.8000000000000007,
+        "canonical_inputs": {
+          "sodium": 136.0,
+          "chloride": 117.0,
+          "bicarbonate": 18.2
+        },
+        "gate_ms": 0.033650001569185406
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.021842999558430165
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 84.79576868829336,
+        "call": {
+          "calculator_id": "39",
+          "formula_version": "Na-minus-Cl-HCO3",
+          "arguments": {
+            "sodium": {
+              "value": 136.0,
+              "unit": "mmol/l",
+              "evidence_id": "q019"
+            },
+            "chloride": {
+              "value": 117.0,
+              "unit": "mg/dl",
+              "evidence_id": "q022"
+            },
+            "bicarbonate": {
+              "value": 18.2,
+              "unit": "mmol/l",
+              "evidence_id": "q016"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 136.0,
+          "chloride": 33.00423131170663,
+          "bicarbonate": 18.2
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 136,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q019",
+            "source": "136 mmol/L",
+            "start": 3068,
+            "end": 3078,
+            "field_hint": "sodium"
+          },
+          "chloride": {
+            "action": "source_unit_repair",
+            "proposal": {
+              "value": 117,
+              "unit": "mEq/L",
+              "evidence_id": "span-chloride"
+            },
+            "source_id": "q022",
+            "source": "117 mg/dl",
+            "start": 3119,
+            "end": 3128,
+            "field_hint": "chloride"
+          },
+          "bicarbonate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 18.2,
+              "unit": "mEq/L",
+              "evidence_id": "span-bicarbonate"
+            },
+            "source_id": "q016",
+            "source": "18.2 mmol/L",
+            "start": 2887,
+            "end": 2898,
+            "field_hint": "bicarbonate"
+          }
+        },
+        "note_sha256": "4673b3bf50b438a1786e701e80f5407ae096fdcd7945988249840233856f623f",
+        "gate_ms": 2.143161997082643
+      }
+    }
+  },
+  {
+    "case_id": "train-6277",
+    "source_row": "6277",
+    "expected_calculator": "39",
+    "benchmark_answer": "13.0",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 13.0,
+        "canonical_inputs": {
+          "sodium": 117.0,
+          "chloride": 92.0,
+          "bicarbonate": 12.0
+        },
+        "gate_ms": 0.03363100404385477
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:sodium",
+        "gate_ms": 0.03028599894605577
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 13.0,
+        "call": {
+          "calculator_id": "39",
+          "formula_version": "Na-minus-Cl-HCO3",
+          "arguments": {
+            "sodium": {
+              "value": 117.0,
+              "unit": "meq/l",
+              "evidence_id": "q006"
+            },
+            "chloride": {
+              "value": 92.0,
+              "unit": "meq/l",
+              "evidence_id": "q007"
+            },
+            "bicarbonate": {
+              "value": 12.0,
+              "unit": "meq/l",
+              "evidence_id": "q008"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 117.0,
+          "chloride": 92.0,
+          "bicarbonate": 12.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 117,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q006",
+            "source": "117 meq/L",
+            "start": 738,
+            "end": 747,
+            "field_hint": "sodium"
+          },
+          "chloride": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 92,
+              "unit": "mEq/L",
+              "evidence_id": "span-chloride"
+            },
+            "source_id": "q007",
+            "source": "92 meq/L",
+            "start": 761,
+            "end": 769,
+            "field_hint": "chloride"
+          },
+          "bicarbonate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 12,
+              "unit": "mEq/L",
+              "evidence_id": "span-bicarbonate"
+            },
+            "source_id": "q008",
+            "source": "12 meq/L",
+            "start": 786,
+            "end": 794,
+            "field_hint": "bicarbonate"
+          }
+        },
+        "note_sha256": "ad75028ff9a52ed89e32bd51fbbaf7019024faf3b50cd318c5be402258ec906b",
+        "gate_ms": 1.7968289976124652
+      }
+    }
+  },
+  {
+    "case_id": "train-6339",
+    "source_row": "6339",
+    "expected_calculator": "39",
+    "benchmark_answer": "10.0",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 10.0,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 99.0,
+          "bicarbonate": 21.0
+        },
+        "gate_ms": 0.034812001104000956
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 10.0,
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 99.0,
+          "bicarbonate": 21.0
+        },
+        "gate_ms": 0.09440199937671423
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 10.0,
+        "call": {
+          "calculator_id": "39",
+          "formula_version": "Na-minus-Cl-HCO3",
+          "arguments": {
+            "sodium": {
+              "value": 130.0,
+              "unit": "mmol/l",
+              "evidence_id": "q007"
+            },
+            "chloride": {
+              "value": 99.0,
+              "unit": "mmol/l",
+              "evidence_id": "q009"
+            },
+            "bicarbonate": {
+              "value": 21.0,
+              "unit": "mmol/l",
+              "evidence_id": "q010"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 130.0,
+          "chloride": 99.0,
+          "bicarbonate": 21.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 130,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q007",
+            "source": "130 mmol/L",
+            "start": 708,
+            "end": 718,
+            "field_hint": "sodium"
+          },
+          "chloride": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 99,
+              "unit": "mEq/L",
+              "evidence_id": "span-chloride"
+            },
+            "source_id": "q009",
+            "source": "99 mmol/L",
+            "start": 797,
+            "end": 806,
+            "field_hint": "chloride"
+          },
+          "bicarbonate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 21,
+              "unit": "mEq/L",
+              "evidence_id": "span-bicarbonate"
+            },
+            "source_id": "q010",
+            "source": "21 mmol/L",
+            "start": 833,
+            "end": 842,
+            "field_hint": "bicarbonate"
+          }
+        },
+        "note_sha256": "05ed069e4c38195c2db7f6da30176fe60c1bee0a508c25ccae5f0dde61e3cc48",
+        "gate_ms": 2.8460309986257926
+      }
+    }
+  },
+  {
+    "case_id": "train-6257",
+    "source_row": "6257",
+    "expected_calculator": "39",
+    "benchmark_answer": "42.0",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 42.0,
+        "canonical_inputs": {
+          "sodium": 158.0,
+          "chloride": 111.0,
+          "bicarbonate": 5.0
+        },
+        "gate_ms": 0.03302000550320372
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:bicarbonate",
+        "gate_ms": 0.041683000745251775
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 42.0,
+        "call": {
+          "calculator_id": "39",
+          "formula_version": "Na-minus-Cl-HCO3",
+          "arguments": {
+            "sodium": {
+              "value": 158.0,
+              "unit": "mmol/l",
+              "evidence_id": "q006"
+            },
+            "chloride": {
+              "value": 111.0,
+              "unit": "mmol/l",
+              "evidence_id": "q007"
+            },
+            "bicarbonate": {
+              "value": 5.0,
+              "unit": "mmol/l",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "sodium": 158.0,
+          "chloride": 111.0,
+          "bicarbonate": 5.0
+        },
+        "evidence": {
+          "sodium": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 158,
+              "unit": "mEq/L",
+              "evidence_id": "span-sodium"
+            },
+            "source_id": "q006",
+            "source": "158 mmol/L",
+            "start": 591,
+            "end": 601,
+            "field_hint": "sodium"
+          },
+          "chloride": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 111,
+              "unit": "mEq/L",
+              "evidence_id": "span-chloride"
+            },
+            "source_id": "q007",
+            "source": "111 mmol/L",
+            "start": 612,
+            "end": 622,
+            "field_hint": "chloride"
+          },
+          "bicarbonate": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 5,
+              "unit": "mEq/L",
+              "evidence_id": "span-bicarbonate"
+            },
+            "source_id": "q003",
+            "source": "5 mmol/L",
+            "start": 518,
+            "end": 526,
+            "field_hint": null
+          }
+        },
+        "note_sha256": "cf5e92e72b29c029538e33a344b9acdb5e3f2243c558a69c53eada67c5fd58fe",
+        "gate_ms": 2.941635000752285
+      }
+    }
+  },
+  {
+    "case_id": "train-6196",
+    "source_row": "6196",
+    "expected_calculator": "39",
+    "benchmark_answer": "16.8",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false,
+        "released": true,
+        "result": 13.7,
+        "canonical_inputs": {
+          "sodium": 125.0,
+          "chloride": 88.0,
+          "bicarbonate": 23.3
+        },
+        "gate_ms": 0.035303004551678896
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:bicarbonate",
+        "gate_ms": 0.046129003749229014
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:bicarbonate"
+      }
+    }
+  },
+  {
+    "case_id": "train-7663",
+    "source_row": "7663",
+    "expected_calculator": "60",
+    "benchmark_answer": "2.15155",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 2.151549828999242,
+        "canonical_inputs": {
+          "height": 1.6500000000000001,
+          "weight": 101.0
+        },
+        "gate_ms": 0.01549299486214295
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.016385005437768996
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 2.151549828999242,
+        "call": {
+          "calculator_id": "60",
+          "formula_version": "Mosteller",
+          "arguments": {
+            "height": {
+              "value": 165.0,
+              "unit": "cm",
+              "evidence_id": "q002"
+            },
+            "weight": {
+              "value": 101.0,
+              "unit": "kg",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.6500000000000001,
+          "weight": 101.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 165,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q002",
+            "source": "165 cm",
+            "start": 49,
+            "end": 55,
+            "field_hint": null
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 101,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q003",
+            "source": "101 kg",
+            "start": 71,
+            "end": 77,
+            "field_hint": null
+          }
+        },
+        "note_sha256": "7af3a03cc735e661cccfaadce1755f4593de0f7d7d86e772a055d3dbdd5e932e",
+        "gate_ms": 0.7560800004284829
+      }
+    }
+  },
+  {
+    "case_id": "train-7995",
+    "source_row": "7995",
+    "expected_calculator": "60",
+    "benchmark_answer": "2.22711",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 2.227105745132009,
+        "canonical_inputs": {
+          "height": 1.92,
+          "weight": 93.0
+        },
+        "gate_ms": 0.01628500467631966
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 2.227105745132009,
+        "canonical_inputs": {
+          "height": 1.92,
+          "weight": 93.0
+        },
+        "gate_ms": 0.034110998967662454
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 2.227105745132009,
+        "call": {
+          "calculator_id": "60",
+          "formula_version": "Mosteller",
+          "arguments": {
+            "height": {
+              "value": 1.92,
+              "unit": "m",
+              "evidence_id": "q001"
+            },
+            "weight": {
+              "value": 93.0,
+              "unit": "kg",
+              "evidence_id": "q002"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.92,
+          "weight": 93.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 1.92,
+              "unit": "m",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q001",
+            "source": "1.92 m",
+            "start": 15,
+            "end": 21,
+            "field_hint": null
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 93,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q002",
+            "source": "93 kg",
+            "start": 23,
+            "end": 28,
+            "field_hint": null
+          }
+        },
+        "note_sha256": "005c80c0c3bd8c312f2fb3eb1e5f6ea1f64d6285e1cd36df3024aa888d0c14e5",
+        "gate_ms": 0.6899100044392981
+      }
+    }
+  },
+  {
+    "case_id": "train-7628",
+    "source_row": "7628",
+    "expected_calculator": "60",
+    "benchmark_answer": "1.23305",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 1.2330517696620311,
+        "canonical_inputs": {
+          "height": 1.335,
+          "weight": 41.0
+        },
+        "gate_ms": 0.015182995412033051
+      },
+      "L3_literal_span": {
+        "matched": true,
+        "released": true,
+        "result": 1.2330517696620311,
+        "canonical_inputs": {
+          "height": 1.335,
+          "weight": 41.0
+        },
+        "gate_ms": 0.0321789993904531
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 1.2330517696620311,
+        "call": {
+          "calculator_id": "60",
+          "formula_version": "Mosteller",
+          "arguments": {
+            "height": {
+              "value": 133.5,
+              "unit": "cm",
+              "evidence_id": "q009"
+            },
+            "weight": {
+              "value": 41.0,
+              "unit": "kg",
+              "evidence_id": "q008"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.335,
+          "weight": 41.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 133.5,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q009",
+            "source": "133.5 cm",
+            "start": 951,
+            "end": 959,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 41,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q008",
+            "source": "41 kg",
+            "start": 899,
+            "end": 904,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "c84bad934344c8d444c070ab9cd785e0e93b5ba8f854d7f54939241b9f688459",
+        "gate_ms": 1.8350980026298203
+      }
+    }
+  },
+  {
+    "case_id": "train-7486",
+    "source_row": "7486",
+    "expected_calculator": "60",
+    "benchmark_answer": "1.97484",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": false
+      },
+      "L3_literal_span": {
+        "matched": false
+      },
+      "source_bound": {
+        "matched": false,
+        "released": false,
+        "reason": "ValueError: BASELINE_EXTRACTION_FAILED"
+      }
+    }
+  },
+  {
+    "case_id": "train-7403",
+    "source_row": "7403",
+    "expected_calculator": "60",
+    "benchmark_answer": "0.87924",
+    "methods": {
+      "L2_unit_domain": {
+        "matched": true,
+        "released": true,
+        "result": 0.8792357792739987,
+        "canonical_inputs": {
+          "height": 1.21,
+          "weight": 23.0
+        },
+        "gate_ms": 0.01591399632161483
+      },
+      "L3_literal_span": {
+        "matched": false,
+        "released": false,
+        "stage": "validation",
+        "reason": "QUOTE_NOT_EXACT:height",
+        "gate_ms": 0.012999000318814069
+      },
+      "source_bound": {
+        "matched": true,
+        "released": true,
+        "result": 0.8792357792739987,
+        "call": {
+          "calculator_id": "60",
+          "formula_version": "Mosteller",
+          "arguments": {
+            "height": {
+              "value": 121.0,
+              "unit": "cm",
+              "evidence_id": "q004"
+            },
+            "weight": {
+              "value": 23.0,
+              "unit": "kg",
+              "evidence_id": "q003"
+            }
+          }
+        },
+        "canonical_inputs": {
+          "height": 1.21,
+          "weight": 23.0
+        },
+        "evidence": {
+          "height": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 121,
+              "unit": "cm",
+              "evidence_id": "span-height"
+            },
+            "source_id": "q004",
+            "source": "121 cm",
+            "start": 437,
+            "end": 443,
+            "field_hint": "height"
+          },
+          "weight": {
+            "action": "canonical_source_match",
+            "proposal": {
+              "value": 23,
+              "unit": "kg",
+              "evidence_id": "span-weight"
+            },
+            "source_id": "q003",
+            "source": "23 kg",
+            "start": 420,
+            "end": 425,
+            "field_hint": "weight"
+          }
+        },
+        "note_sha256": "5708a61bb5172f962de85f9c3dd96cee6e84b9bcf5c991de004a6d91e986f403",
+        "gate_ms": 1.6163370019057766
+      }
+    }
+  }
+]

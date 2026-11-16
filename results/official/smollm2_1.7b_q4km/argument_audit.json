@@ -1,0 +1,48 @@
+{
+  "model": "smollm2_1.7b_q4km",
+  "cases": 44,
+  "cohort": "initial",
+  "methods": {
+    "L2_unit_domain": {
+      "counts": {
+        "released": 42,
+        "annotation_comparable_released": 42,
+        "expected_fields_in_comparable_releases": 102,
+        "matching_fields_in_comparable_releases": 58,
+        "all_fields_match": 21,
+        "numeric_match_with_argument_discrepancy": 1
+      },
+      "matching_answers_with_argument_discrepancies": [
+        {
+          "case_id": "official-299",
+          "mismatched_fields": [
+            "alt",
+            "ast",
+            "platelets"
+          ]
+        }
+      ],
+      "unavailable_reference_fields": []
+    },
+    "source_bound": {
+      "counts": {
+        "released": 27,
+        "annotation_comparable_released": 27,
+        "expected_fields_in_comparable_releases": 64,
+        "matching_fields_in_comparable_releases": 58,
+        "all_fields_match": 23,
+        "numeric_match_with_argument_discrepancy": 1
+      },
+      "matching_answers_with_argument_discrepancies": [
+        {
+          "case_id": "official-33",
+          "mismatched_fields": [
+            "creatinine"
+          ]
+        }
+      ],
+      "unavailable_reference_fields": []
+    }
+  },
+  "scope": "Secondary descriptive audit after the primary outcome lock. Evaluation of annotated fields uses the original registry and strict canonical tolerance. Non-comparable field annotations are explicitly counted. Source annotation quality is not independently adjudicated."
+}

@@ -1,0 +1,968 @@
+{
+  "first": {
+    "baseline": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 3,
+      "unanswered": 3,
+      "coverage": 0.9318181818181818,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.02519783063390993,
+        0.19427448537719041
+      ],
+      "paired_gains": 0,
+      "paired_losses": 0,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "matching": 5
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "unanswered": 2,
+          "nonmatching": 3
+        },
+        "26": {
+          "matching": 5
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 5
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 37,
+        "individual_matches": 93,
+        "required_fields_among_releases": 97
+      },
+      "case_ids": {
+        "answer_in_tolerance_despite_field_disagreement": [
+          "official-21"
+        ],
+        "disagreements": [
+          "official-287",
+          "official-291",
+          "official-281"
+        ]
+      }
+    },
+    "source_repair": {
+      "cases": 44,
+      "matched": 37,
+      "nonmatching": 2,
+      "unanswered": 5,
+      "coverage": 0.8863636363636364,
+      "agreement": 0.8409090909090909,
+      "agreement_wilson95": [
+        0.7063379493775939,
+        0.9207332298779876
+      ],
+      "error_among_released_wilson95": [
+        0.014177955415274113,
+        0.16885640047613612
+      ],
+      "paired_gains": 3,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 2,
+          "matching": 3
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 37,
+        "individual_matches": 91,
+        "required_fields_among_releases": 93
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "note_only": {
+      "cases": 44,
+      "matched": 28,
+      "nonmatching": 2,
+      "unanswered": 14,
+      "coverage": 0.6818181818181818,
+      "agreement": 0.6363636363636364,
+      "agreement_wilson95": [
+        0.4886637687904344,
+        0.762164702911798
+      ],
+      "error_among_released_wilson95": [
+        0.018477023791270378,
+        0.2132345836261692
+      ],
+      "paired_gains": 4,
+      "paired_losses": 14,
+      "paired_exact_p_unadjusted": 0.0308837890625,
+      "by_calculator": {
+        "3": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "7": {
+          "nonmatching": 1,
+          "unanswered": 2,
+          "matching": 2
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 2,
+          "unanswered": 2,
+          "nonmatching": 1
+        },
+        "30": {
+          "unanswered": 1,
+          "matching": 3
+        },
+        "60": {
+          "unanswered": 3,
+          "matching": 2
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 28,
+        "individual_matches": 70,
+        "required_fields_among_releases": 72
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "combined": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 2,
+      "unanswered": 4,
+      "coverage": 0.9090909090909091,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 38,
+        "individual_matches": 93,
+        "required_fields_among_releases": 95
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "reviewed": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 1,
+      "unanswered": 5,
+      "coverage": 0.8863636363636364,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.004540703100990098,
+        0.13180990169850076
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 38,
+        "individual_matches": 92,
+        "required_fields_among_releases": 93
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-397"
+        ]
+      }
+    }
+  },
+  "all": {
+    "baseline": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 3,
+      "unanswered": 3,
+      "coverage": 0.9318181818181818,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.02519783063390993,
+        0.19427448537719041
+      ],
+      "paired_gains": 0,
+      "paired_losses": 0,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "matching": 5
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "unanswered": 2,
+          "nonmatching": 3
+        },
+        "26": {
+          "matching": 5
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 5
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 37,
+        "individual_matches": 93,
+        "required_fields_among_releases": 97
+      },
+      "case_ids": {
+        "answer_in_tolerance_despite_field_disagreement": [
+          "official-21"
+        ],
+        "disagreements": [
+          "official-287",
+          "official-291",
+          "official-281"
+        ]
+      }
+    },
+    "source_repair": {
+      "cases": 44,
+      "matched": 37,
+      "nonmatching": 2,
+      "unanswered": 5,
+      "coverage": 0.8863636363636364,
+      "agreement": 0.8409090909090909,
+      "agreement_wilson95": [
+        0.7063379493775939,
+        0.9207332298779876
+      ],
+      "error_among_released_wilson95": [
+        0.014177955415274113,
+        0.16885640047613612
+      ],
+      "paired_gains": 3,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 2,
+          "matching": 3
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 37,
+        "individual_matches": 91,
+        "required_fields_among_releases": 93
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "note_only": {
+      "cases": 44,
+      "matched": 28,
+      "nonmatching": 2,
+      "unanswered": 14,
+      "coverage": 0.6818181818181818,
+      "agreement": 0.6363636363636364,
+      "agreement_wilson95": [
+        0.4886637687904344,
+        0.762164702911798
+      ],
+      "error_among_released_wilson95": [
+        0.018477023791270378,
+        0.2132345836261692
+      ],
+      "paired_gains": 4,
+      "paired_losses": 14,
+      "paired_exact_p_unadjusted": 0.0308837890625,
+      "by_calculator": {
+        "3": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "7": {
+          "nonmatching": 1,
+          "unanswered": 2,
+          "matching": 2
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 2,
+          "unanswered": 2,
+          "nonmatching": 1
+        },
+        "30": {
+          "unanswered": 1,
+          "matching": 3
+        },
+        "60": {
+          "unanswered": 3,
+          "matching": 2
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 28,
+        "individual_matches": 70,
+        "required_fields_among_releases": 72
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "combined": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 2,
+      "unanswered": 4,
+      "coverage": 0.9090909090909091,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.013820667386148344,
+        0.16503877369140962
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 38,
+        "individual_matches": 93,
+        "required_fields_among_releases": 95
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "reviewed": {
+      "cases": 44,
+      "matched": 38,
+      "nonmatching": 1,
+      "unanswered": 5,
+      "coverage": 0.8863636363636364,
+      "agreement": 0.8636363636363636,
+      "agreement_wilson95": [
+        0.7329054695148456,
+        0.9359704550244412
+      ],
+      "error_among_released_wilson95": [
+        0.004540703100990098,
+        0.13180990169850076
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "11": {
+          "matching": 5
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 38,
+        "individual_matches": 92,
+        "required_fields_among_releases": 93
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-397"
+        ]
+      }
+    }
+  },
+  "extracted_source_notes": {
+    "baseline": {
+      "cases": 39,
+      "matched": 33,
+      "nonmatching": 3,
+      "unanswered": 3,
+      "coverage": 0.9230769230769231,
+      "agreement": 0.8461538461538461,
+      "agreement_wilson95": [
+        0.7027053635107331,
+        0.927525276230179
+      ],
+      "error_among_released_wilson95": [
+        0.02874861133599338,
+        0.2182669124927263
+      ],
+      "paired_gains": 0,
+      "paired_losses": 0,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "matching": 5
+        },
+        "19": {
+          "unanswered": 2,
+          "nonmatching": 3
+        },
+        "26": {
+          "matching": 5
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 5
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 32,
+        "individual_matches": 83,
+        "required_fields_among_releases": 87
+      },
+      "case_ids": {
+        "answer_in_tolerance_despite_field_disagreement": [
+          "official-21"
+        ],
+        "disagreements": [
+          "official-287",
+          "official-291",
+          "official-281"
+        ]
+      }
+    },
+    "source_repair": {
+      "cases": 39,
+      "matched": 32,
+      "nonmatching": 2,
+      "unanswered": 5,
+      "coverage": 0.8717948717948718,
+      "agreement": 0.8205128205128205,
+      "agreement_wilson95": [
+        0.6733195433811838,
+        0.9102273452678089
+      ],
+      "error_among_released_wilson95": [
+        0.016282655210122746,
+        0.19093606904280996
+      ],
+      "paired_gains": 3,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 2,
+          "matching": 3
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 32,
+        "individual_matches": 81,
+        "required_fields_among_releases": 83
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "note_only": {
+      "cases": 39,
+      "matched": 23,
+      "nonmatching": 2,
+      "unanswered": 14,
+      "coverage": 0.6410256410256411,
+      "agreement": 0.5897435897435898,
+      "agreement_wilson95": [
+        0.43418622882896973,
+        0.7292068999927483
+      ],
+      "error_among_released_wilson95": [
+        0.022220401284847563,
+        0.24966108950395313
+      ],
+      "paired_gains": 4,
+      "paired_losses": 14,
+      "paired_exact_p_unadjusted": 0.0308837890625,
+      "by_calculator": {
+        "3": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 4,
+          "unanswered": 1
+        },
+        "7": {
+          "nonmatching": 1,
+          "unanswered": 2,
+          "matching": 2
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 2,
+          "unanswered": 2,
+          "nonmatching": 1
+        },
+        "30": {
+          "unanswered": 1,
+          "matching": 3
+        },
+        "60": {
+          "unanswered": 3,
+          "matching": 2
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 23,
+        "individual_matches": 60,
+        "required_fields_among_releases": 62
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "combined": {
+      "cases": 39,
+      "matched": 33,
+      "nonmatching": 2,
+      "unanswered": 4,
+      "coverage": 0.8974358974358975,
+      "agreement": 0.8461538461538461,
+      "agreement_wilson95": [
+        0.7027053635107331,
+        0.927525276230179
+      ],
+      "error_among_released_wilson95": [
+        0.015813161857108654,
+        0.1860705742016492
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "nonmatching": 1,
+          "matching": 4
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 33,
+        "individual_matches": 83,
+        "required_fields_among_releases": 85
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-105",
+          "official-397"
+        ]
+      }
+    },
+    "reviewed": {
+      "cases": 39,
+      "matched": 33,
+      "nonmatching": 1,
+      "unanswered": 5,
+      "coverage": 0.8717948717948718,
+      "agreement": 0.8461538461538461,
+      "agreement_wilson95": [
+        0.7027053635107331,
+        0.927525276230179
+      ],
+      "error_among_released_wilson95": [
+        0.0052109062762689395,
+        0.1491557329268593
+      ],
+      "paired_gains": 4,
+      "paired_losses": 4,
+      "paired_exact_p_unadjusted": 1,
+      "by_calculator": {
+        "3": {
+          "matching": 5
+        },
+        "5": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "6": {
+          "matching": 5
+        },
+        "7": {
+          "unanswered": 1,
+          "matching": 4
+        },
+        "19": {
+          "matching": 3,
+          "unanswered": 2
+        },
+        "26": {
+          "matching": 4,
+          "nonmatching": 1
+        },
+        "30": {
+          "matching": 4
+        },
+        "60": {
+          "matching": 4,
+          "unanswered": 1
+        }
+      },
+      "field_checks": {
+        "all_annotated_inputs_matched": 33,
+        "individual_matches": 82,
+        "required_fields_among_releases": 83
+      },
+      "case_ids": {
+        "disagreements": [
+          "official-397"
+        ]
+      }
+    }
+  }
+}

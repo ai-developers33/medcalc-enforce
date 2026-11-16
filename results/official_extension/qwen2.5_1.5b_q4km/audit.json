@@ -1,0 +1,31 @@
+{
+  "model": "qwen2.5_1.5b_q4km",
+  "locked_utc": "2026-11-13T23:19:16Z",
+  "requests_verified": 160,
+  "complete_unique_cases": 80,
+  "tool_selected_matches": 80,
+  "finish_reasons": {
+    "stop": 158,
+    "length": 2
+  },
+  "paired_transitions_L2_to_repair": {
+    "matched to matched": 62,
+    "matched to blocked_or_failed": 3,
+    "blocked_or_failed to blocked_or_failed": 5,
+    "nonmatching_released to matched": 8,
+    "nonmatching_released to blocked_or_failed": 1,
+    "blocked_or_failed to matched": 1
+  },
+  "source_repair_failure_reasons": {
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:creatinine": 1,
+    "Rejected: ADULT_EQUATION:age": 1,
+    "Rejected: EXTRACTION_SCHEMA:sbp": 1,
+    "Rejected: EXTRACTION_SCHEMA:age": 1,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:platelets": 2,
+    "ValueError: Generation did not finish: length": 2,
+    "Rejected: AMBIGUOUS_OR_UNSUPPORTED_SOURCE:height": 1
+  },
+  "all_logged_proposals_and_decisions_reproduced": true,
+  "all_reported_outcome_counts_reproduced": true,
+  "unique_source_keys_and_normalized_notes": 80
+}

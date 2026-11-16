@@ -1,0 +1,43 @@
+{
+  "cli": "checked_calculator.py",
+  "route": "no proposed model call",
+  "cases": [
+    {
+      "id": "same_clause_patient_control",
+      "expected": "return",
+      "released": true,
+      "result": 27.777777777777775,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    },
+    {
+      "id": "wrong_subject_prior_sentence",
+      "expected": "abstain",
+      "released": true,
+      "result": 27.777777777777775,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": false
+    },
+    {
+      "id": "wrong_time_prior_sentence",
+      "expected": "abstain",
+      "released": true,
+      "result": 27.777777777777775,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": false
+    },
+    {
+      "id": "header_admission_control",
+      "expected": "return",
+      "released": true,
+      "result": 27.777777777777775,
+      "reason": null,
+      "route": "named_measurements",
+      "meets_expected_behavior": true
+    }
+  ],
+  "repeat_and_span_checks": "passed"
+}

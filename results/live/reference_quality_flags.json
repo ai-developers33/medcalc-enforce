@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "train-4318",
+    "source_note_id": "pmc-7346448-1",
+    "calculator_id": "19",
+    "status": "source-supported annotation discrepancy; independent adjudication pending",
+    "benchmark_platelets": {"value": 213000000, "unit": "L"},
+    "source_platelets": {"value": 213, "unit": "10^9/L"},
+    "benchmark_reference_answer": 1691.60545,
+    "source_based_admission_calculation": 1.691605453556174,
+    "source_admission_inputs": {"age": 42, "ast": 117, "alt": 186, "platelets": 213},
+    "model_qwen_result": 1.3208998428543066,
+    "model_qwen_additional_error": "Selected later AST 83.4 and ALT 155 instead of admission AST 117 and ALT 186.",
+    "primary_source": "https://link.springer.com/article/10.1186/s13256-020-02428-3",
+    "doi": "10.1186/s13256-020-02428-3",
+    "primary_source_attribution": "Wickramasinghe W, Karunathilaka C, Jayasinghe S, Gooneratne L. Journal of Medical Case Reports 14, 93 (2020). CC BY 4.0.",
+    "detected_during": "Post-run inspection of Qwen schema mismatches",
+    "handling": "No case removed and no gold reference changed in primary metrics. Flag retained for independent review and a future versioned reference correction."
+  }
+]

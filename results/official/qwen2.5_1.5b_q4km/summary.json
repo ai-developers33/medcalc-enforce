@@ -1,0 +1,73 @@
+{
+  "cases": 44,
+  "independent_sources": 44,
+  "paid_api_calls": 0,
+  "recorded_requests": 88,
+  "methods": {
+    "L1_schema_only": {
+      "matched": 25,
+      "nonmatching_released": 16,
+      "blocked_or_failed": 3,
+      "released": 41,
+      "agreement": 0.5681818181818182,
+      "coverage": 0.9318181818181818,
+      "disagreement_among_released": 0.3902439024390244,
+      "conditional_error_Wilson95": [
+        0.2565614506012352,
+        0.5427314306587621
+      ]
+    },
+    "L2_unit_domain": {
+      "matched": 33,
+      "nonmatching_released": 7,
+      "blocked_or_failed": 4,
+      "released": 40,
+      "agreement": 0.75,
+      "coverage": 0.9090909090909091,
+      "disagreement_among_released": 0.175,
+      "conditional_error_Wilson95": [
+        0.0874541374603592,
+        0.31949990331787714
+      ]
+    },
+    "L3_literal_span": {
+      "matched": 8,
+      "nonmatching_released": 1,
+      "blocked_or_failed": 35,
+      "released": 9,
+      "agreement": 0.18181818181818182,
+      "coverage": 0.20454545454545456,
+      "disagreement_among_released": 0.1111111111111111,
+      "conditional_error_Wilson95": [
+        0.019890887638544907,
+        0.434999705576656
+      ]
+    },
+    "source_bound": {
+      "matched": 35,
+      "nonmatching_released": 3,
+      "blocked_or_failed": 6,
+      "released": 38,
+      "agreement": 0.7954545454545454,
+      "coverage": 0.8636363636363636,
+      "disagreement_among_released": 0.07894736842105263,
+      "conditional_error_Wilson95": [
+        0.027214595506987724,
+        0.20799371457771454
+      ]
+    }
+  },
+  "paired_vs_unit_domain": {
+    "from": "L2_unit_domain",
+    "to": "source_bound",
+    "gained_matching_answers": 6,
+    "lost_matching_answers": 4,
+    "agreement_delta": 0.045454545454545456,
+    "stratified_bootstrap95": [
+      -0.06818181818181818,
+      0.18181818181818182
+    ],
+    "paired_exact_mcnemar_p": 0.75390625,
+    "scope": "Exploratory; bootstrap stratified by calculator, not clinical population inference."
+  }
+}

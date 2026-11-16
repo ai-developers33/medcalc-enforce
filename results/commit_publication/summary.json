@@ -1,0 +1,176 @@
+{
+  "fixture": "synthetic BMI measurements",
+  "repeats_per_schedule": 12,
+  "schedules": {
+    "stable": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "changed_before_check": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "changed_after_check": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 12,
+        "numerically_outdated": 12
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "change_then_restore": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 12,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "irrelevant_addendum": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 12,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "other_encounter": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "other_patient": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "changed_after_publish": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 12,
+        "withheld": 0,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    },
+    "wrong_destination": {
+      "read_then_write": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      },
+      "atomic_publish": {
+        "trials": 12,
+        "released": 0,
+        "withheld": 12,
+        "stale_revision": 0,
+        "numerically_outdated": 0
+      }
+    }
+  },
+  "total": {
+    "read_then_write": {
+      "trials": 108,
+      "released": 84,
+      "withheld": 24,
+      "stale_revision": 36,
+      "numerically_outdated": 12
+    },
+    "atomic_publish": {
+      "trials": 108,
+      "released": 48,
+      "withheld": 60,
+      "stale_revision": 0,
+      "numerically_outdated": 0
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "code_sha256": {
+    "medcalc/commit_store.py": "9f09fdbb390dca97c1285c865e8a3f8012bb5822742790ad1456bdbf9d7bbc06",
+    "medcalc/source_repair.py": "6d7e085133ecfe85b3b93dbafb95e999cfe00dc71d55129fc5363f2b97f281b4",
+    "run_commit_experiment.py": "f9b3ddbc19296767bc24b33fceab4688ebb8537100e2f217bc14f2823b6cdf76"
+  },
+  "scope": "Deterministically ordered local SQLite operations, not sampled workload rates."
+}

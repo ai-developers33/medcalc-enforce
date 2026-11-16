@@ -1,0 +1,19 @@
+{
+  "upload_type": "software",
+  "license": "MIT",
+  "title": "MedCalc-Enforce: Discourse-Stateful Runtime Verification and Field-Projected Snapshot Commit for Clinical Calculator Tool Calls",
+  "version": "0.6.0",
+  "description": "Official research software and replication materials for the paper MedCalc-Enforce: Discourse-Stateful Runtime Verification and Field-Projected Snapshot Commit for Clinical Calculator Tool Calls. Dataset-derived material retains the licensing and attribution documented in SOURCE_NOTES.md.",
+  "creators": [
+    {
+      "name": "Thadishetti, Ravi Shanker",
+      "orcid": "0009-0000-7088-0531",
+      "affiliation": "Department of Information Technology, University of the Cumberlands"
+    },
+    {
+      "name": "Nair, Aishwarya",
+      "orcid": "0009-0004-2879-564X",
+      "affiliation": "Department of Information Technology, University of the Cumberlands"
+    }
+  ]
+}

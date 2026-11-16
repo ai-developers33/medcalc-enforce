@@ -1,0 +1,79 @@
+{
+  "verified_version": "v1.0.8",
+  "verified_commit": "801592132bfd833f049b517a4e013e00a5fc40fa",
+  "train_rows": 10538,
+  "test_rows": 1100,
+  "one_shot_rows": 55,
+  "test_calculators": 55,
+  "test_note_types": {
+    "Extracted": 676,
+    "Template": 220,
+    "Synthetic": 204
+  },
+  "train_test_shared_exact_normalized_notes": 159,
+  "train_test_shared_public_case_ids": 199,
+  "test_unique_normalized_notes": 1074,
+  "overlap_scope": "Exact normalized text and explicit PMC patient-case identifiers only; no near-duplicate or patient identity guarantee.",
+  "medcalc_pro_commit": "751a514644d22bc6f7066087205fbbb61b7b40f5",
+  "medcalc_pro": {
+    "simple": {
+      "rows": 1048,
+      "exact_note_overlap_rows_with_verified_test": 833,
+      "public_case_id_overlap_rows_with_verified_test": 569,
+      "exact_note_overlap_rows_with_verified_train": 186,
+      "public_case_id_overlap_rows_with_verified_train": 239
+    },
+    "nest": {
+      "rows": 62,
+      "exact_note_overlap_rows_with_verified_test": 0,
+      "public_case_id_overlap_rows_with_verified_test": 0,
+      "exact_note_overlap_rows_with_verified_train": 0,
+      "public_case_id_overlap_rows_with_verified_train": 0
+    },
+    "multi": {
+      "rows": 1158,
+      "exact_note_overlap_rows_with_verified_test": 67,
+      "public_case_id_overlap_rows_with_verified_test": 78,
+      "exact_note_overlap_rows_with_verified_train": 1065,
+      "public_case_id_overlap_rows_with_verified_train": 913
+    }
+  },
+  "development_selection": {
+    "seed": 731,
+    "rows": 200,
+    "source": "official train only",
+    "rows_per_calculator": {
+      "3": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "11": 20,
+      "19": 20,
+      "26": 20,
+      "30": 20,
+      "39": 20,
+      "60": 20
+    },
+    "unique_source_groups": 199,
+    "eligible_pool_sizes": {
+      "3": 442,
+      "5": 918,
+      "6": 479,
+      "7": 174,
+      "11": 80,
+      "19": 88,
+      "26": 229,
+      "30": 306,
+      "39": 150,
+      "60": 877
+    },
+    "excluded_rows": 208,
+    "exclusion_reasons": {
+      "outside_adult_CKD_contract": 25,
+      "shared_with_official_test": 180,
+      "unsupported_annotation:unsupported composite quantity age": 2,
+      "unsupported_annotation:unsupported unit 's mm hg' for sbp": 1
+    },
+    "selected_on_output_accuracy": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": "repair_v2",
+  "frozen_utc": "2026-11-09T06:58:09Z",
+  "code_hashes": {
+    "medcalc/source_binding.py": "e6dca72676a64a7ed1789d823ffa2c99fe181532f145c8c04173a91021ae357e",
+    "medcalc/source_repair.py": "6d7e085133ecfe85b3b93dbafb95e999cfe00dc71d55129fc5363f2b97f281b4",
+    "medcalc/live.py": "a63376b70e28b2aa17b4fdadbdf329e01cd5dffe2a31a99b7883433c78023178",
+    "medcalc/registry.py": "860971cef9b50b3a9e30edb5b67132de271fee4efdb86efc9acb6df2223f766d",
+    "medcalc/enforcement.py": "f136e8b086aa1319f56b160d7db5d2faca3cc396528e412685a7e281d7c09117",
+    "run_source_repair.py": "2d0d0af2b85ae543b38a46a9b2dd364ca54ae4617fccc9a66e0b57abfd0a0103"
+  },
+  "input_sha256": "5b42a556166e9f0ce5340e06505d870034de9a11ccea14b57dfafec0254b4170",
+  "cases": 50,
+  "source_groups": 50,
+  "source_articles": 50,
+  "excluded_for_source_overlap": [
+    "2536"
+  ],
+  "development_overlap_by_article_or_normalized_text": 0,
+  "selection": "First five eligible remaining rows per calculator in previously seeded order; no accuracy or parser-coverage filtering."
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the replication package."
+type: software
+version: "0.6.0"
+license: MIT
+title: "MedCalc-Enforce: Discourse-Stateful Runtime Verification and Field-Projected Snapshot Commit for Clinical Calculator Tool Calls"
+repository-code: "https://github.com/ai-developers33/medcalc-enforce"
+authors:
+  - family-names: "Thadishetti"
+    given-names: "Ravi Shanker"
+    affiliation: "Department of Information Technology, University of the Cumberlands"
+    email: "thadishetti.ravishanker@gmail.com"
+    orcid: "https://orcid.org/0009-0000-7088-0531"
+  - family-names: "Nair"
+    given-names: "Aishwarya"
+    affiliation: "Department of Information Technology, University of the Cumberlands"
+    email: "aishwaryanairc@gmail.com"
+    orcid: "https://orcid.org/0009-0004-2879-564X"

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "llama-b12211-bin-ubuntu-x64.tar.gz",
+    "sha256": "962924b5431bc1237a9e5d26ba072d37b6fe05f79b495206e7ff6134887624c5",
+    "bytes": 23109987
+  },
+  {
+    "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "bytes": 1117320736
+  },
+  {
+    "file": "smollm2-1.7b-instruct-q4_k_m.gguf",
+    "sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+    "bytes": 1055609536
+  }
+]
